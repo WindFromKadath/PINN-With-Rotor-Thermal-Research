@@ -1,0 +1,96 @@
+{
+  "run_id": "DOC20261004_05",
+  "status": "passed",
+  "base_commit": "9853df16f76da0673463994c2b43b5bb5b03c437",
+  "mathjax_check": {
+    "version": "3.2.2",
+    "output": "SVG",
+    "expressions_typeset": 72,
+    "errors": 0
+  },
+  "format": "GitHub protected inline math and fenced math blocks",
+  "formula_content_comparison": "Identical after delimiter/outer whitespace normalization and the equivalent greater-than escape",
+  "browser_visual_check": "Unavailable: the browser control interface timed out twice. GitHub server markup and local MathJax SVG previews were checked instead.",
+  "limits": "Rendering verification does not establish mathematical proofs, physical validity, model accuracy, or layout compatibility with other Markdown renderers.",
+  "project": "Pinn-Ring-Rib-2.5D",
+  "math_files_checked": 9,
+  "expressions_checked": 72,
+  "github_math_elements": 72,
+  "tex_content_mismatches": 0,
+  "files": [
+    {
+      "path": "docs/theory/model_and_derivations.md",
+      "expected": 21,
+      "recognized": 21,
+      "same_tex": true,
+      "tables": 1,
+      "sha256": "a1b5674a9c34adfc26989870b993ef4cf497a07e95d8f57542b1bed0156c0fa6"
+    },
+    {
+      "path": "docs/theory/notes/M0031.md",
+      "expected": 9,
+      "recognized": 9,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "1c7ed9d7668635c12dcdfb6d7ed61a62f2d4d19ad0b130a63727d18e4a340211"
+    },
+    {
+      "path": "docs/theory/notes/M0037.md",
+      "expected": 1,
+      "recognized": 1,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "19c64980f4918286e140c0058460b6eaabc6da9e355d9f122f761e47af7916c2"
+    },
+    {
+      "path": "docs/theory/notes/M0038.md",
+      "expected": 18,
+      "recognized": 18,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "39f7a1c4858075a4e9f2bc13dc755788b06be113f587c11ff5e7f09677c5656d"
+    },
+    {
+      "path": "docs/theory/notes/M0039.md",
+      "expected": 4,
+      "recognized": 4,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "9e04af6c4b88c64e0d4caf89b6bda679adb99e117aa0c701ef99b7faa1b30a21"
+    },
+    {
+      "path": "docs/theory/notes/M0053.md",
+      "expected": 8,
+      "recognized": 8,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "56f085a7dc8b449c7209638d2ca0dca73a7f14a51b247adb76804f881cf4cc4a"
+    },
+    {
+      "path": "docs/theory/notes/M0054.md",
+      "expected": 3,
+      "recognized": 3,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "2261c035de6d85fb57bce7ce934b43c2a888e284feef304ab83fcc9256171ddc"
+    },
+    {
+      "path": "docs/theory/notes/M0174.md",
+      "expected": 6,
+      "recognized": 6,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "70209df5413142fcc306186b1aacd2e8c8b311f3269edc5e98133437c6c47be8"
+    },
+    {
+      "path": "docs/theory/notes/M0175.md",
+      "expected": 2,
+      "recognized": 2,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "84759bd1e76c2f5e2668335f1527354723031aa383362837627acb82b3c77307"
+    }
+  ],
+  "inline_expressions": 62,
+  "display_expressions": 10
+}

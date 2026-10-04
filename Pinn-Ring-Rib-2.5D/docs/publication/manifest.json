@@ -85,6 +85,11 @@
     "sha256": "d351f9e9d9452d4dcfee1c15db3b6b69faf5ce223138e816ee8b1b587223086c"
   },
   {
+    "path": "docs/publication/math_rendering.json",
+    "bytes": 3046,
+    "sha256": "a1dfc43d123cdb4ac04f6b10865e602e76b3f04a6dd96265bc80ce12d9617218"
+  },
+  {
     "path": "docs/publication/relocation.json",
     "bytes": 1028,
     "sha256": "01db2bd17cd50ef56dcb5e222dc0bb87e0c8728e7363b19fd5c5ef7f953736b2"
@@ -136,8 +141,8 @@
   },
   {
     "path": "docs/theory/README.md",
-    "bytes": 963,
-    "sha256": "b6c72efc67175feffafff389ac7f72206c7d39b74939c12e9705dbce3f5cd9a7"
+    "bytes": 1265,
+    "sha256": "0bea0bfb9fff761fec46bc98d39484a313b3cdfccdd39781c5430886bbdffca7"
   },
   {
     "path": "docs/theory/derivation_gaps.json",
@@ -151,48 +156,48 @@
   },
   {
     "path": "docs/theory/model_and_derivations.md",
-    "bytes": 6634,
-    "sha256": "ddbe379e7a11f98a17e60a4b65c68c2a73e137595a6bf643abfdbaf732ac9a3f"
+    "bytes": 6664,
+    "sha256": "a1b5674a9c34adfc26989870b993ef4cf497a07e95d8f57542b1bed0156c0fa6"
   },
   {
     "path": "docs/theory/notes/M0031.md",
-    "bytes": 1363,
-    "sha256": "a2e9445dc2e47f8265242297214ad4a4cb85679df546f3e94d24d4c2d1b1b54a"
+    "bytes": 1381,
+    "sha256": "1c7ed9d7668635c12dcdfb6d7ed61a62f2d4d19ad0b130a63727d18e4a340211"
   },
   {
     "path": "docs/theory/notes/M0037.md",
-    "bytes": 1097,
-    "sha256": "aec443735fad9a7126733b50a2d6433516763c3d7a32e09ff043249ff8b52d53"
+    "bytes": 1099,
+    "sha256": "19c64980f4918286e140c0058460b6eaabc6da9e355d9f122f761e47af7916c2"
   },
   {
     "path": "docs/theory/notes/M0038.md",
-    "bytes": 2430,
-    "sha256": "fbcbcdc925e2cb4d8d9f86be4d8af3fae8c2cdb59355a34da49bf34d451726b2"
+    "bytes": 2482,
+    "sha256": "39f7a1c4858075a4e9f2bc13dc755788b06be113f587c11ff5e7f09677c5656d"
   },
   {
     "path": "docs/theory/notes/M0039.md",
-    "bytes": 1075,
-    "sha256": "acfe49197f40298fb3ca25df6eeb08bc890bdec45102fd4ecff87b7d9c87e58f"
+    "bytes": 1086,
+    "sha256": "9e04af6c4b88c64e0d4caf89b6bda679adb99e117aa0c701ef99b7faa1b30a21"
   },
   {
     "path": "docs/theory/notes/M0053.md",
-    "bytes": 1304,
-    "sha256": "34a57856bab5244d8b191a05dac60990fc438175be9aa59012a0c54a2b70df93"
+    "bytes": 1336,
+    "sha256": "56f085a7dc8b449c7209638d2ca0dca73a7f14a51b247adb76804f881cf4cc4a"
   },
   {
     "path": "docs/theory/notes/M0054.md",
-    "bytes": 1395,
-    "sha256": "ae660a06ee3778958aeefac698a8c2e5839c38776deb70f8cf9fbc9339748ebd"
+    "bytes": 1401,
+    "sha256": "2261c035de6d85fb57bce7ce934b43c2a888e284feef304ab83fcc9256171ddc"
   },
   {
     "path": "docs/theory/notes/M0174.md",
-    "bytes": 1946,
-    "sha256": "1d59e326be77331c0b7dad5b38207d65abc9c02ea495e58e08f79cf72ae4362d"
+    "bytes": 1966,
+    "sha256": "70209df5413142fcc306186b1aacd2e8c8b311f3269edc5e98133437c6c47be8"
   },
   {
     "path": "docs/theory/notes/M0175.md",
-    "bytes": 1332,
-    "sha256": "a644bb270f46e88fa0cef10b0e9d8a3a47defe9bdf4cc591d796c6801295ae3c"
+    "bytes": 1336,
+    "sha256": "84759bd1e76c2f5e2668335f1527354723031aa383362837627acb82b3c77307"
   },
   {
     "path": "docs/theory/notes/M0177.md",
@@ -301,8 +306,8 @@
   },
   {
     "path": "experiments.csv",
-    "bytes": 12881,
-    "sha256": "7d1ddf5fa300c95d1fbc42ba6df403d4fc50d423149a85bc313058fa9757a9be"
+    "bytes": 13613,
+    "sha256": "0ff20220bbc84444da259641f23bb6565d5f7588da129161bf557db646a4d938"
   },
   {
     "path": "hypotheses.csv",

@@ -1,0 +1,60 @@
+{
+  "run_id": "DOC20261004_05",
+  "status": "passed",
+  "scope": "All 98 tracked Markdown documents at the base commit; 21 contain math",
+  "base_commit": "9853df16f76da0673463994c2b43b5bb5b03c437",
+  "markdown_files_checked": 98,
+  "math_files_checked": 21,
+  "expressions_checked": 200,
+  "inline_expressions": 161,
+  "display_expressions": 39,
+  "unsupported_original_delimiters": 84,
+  "github_render_service": {
+    "mode": "gfm",
+    "before_recognized_math_elements": 65,
+    "after_recognized_math_elements": 200,
+    "tex_content_mismatches": 0
+  },
+  "mathjax_check": {
+    "version": "3.2.2",
+    "output": "SVG",
+    "expressions_typeset": 200,
+    "errors": 0
+  },
+  "visual_review": {
+    "engine": "MathJax SVG previews",
+    "display_formulas_reviewed": 39,
+    "additional_inline_formulas_reviewed": 7,
+    "clipping_or_missing_symbols_observed": false
+  },
+  "format": "GitHub protected inline math and fenced math blocks",
+  "equivalent_symbol_escape": {
+    "file": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0039.md",
+    "literal_greater_than_to_TeX_gt": 1
+  },
+  "formula_content_comparison": "Identical after delimiter/outer whitespace normalization and the equivalent greater-than escape",
+  "browser_visual_check": "Unavailable: the browser control interface timed out twice. GitHub server markup and local MathJax SVG previews were checked instead.",
+  "limits": "Rendering verification does not establish mathematical proofs, physical validity, model accuracy, or layout compatibility with other Markdown renderers.",
+  "projects": {
+    "Neural-Operator-Reference": {
+      "math_files": 2,
+      "expressions": 28,
+      "report": "Neural-Operator-Reference/docs/publication/math_rendering.json"
+    },
+    "Pinn-Inverse-Rotor-Thickness": {
+      "math_files": 5,
+      "expressions": 60,
+      "report": "Pinn-Inverse-Rotor-Thickness/docs/publication/math_rendering.json"
+    },
+    "Pinn-Ring-Rib-2.5D": {
+      "math_files": 9,
+      "expressions": 72,
+      "report": "Pinn-Ring-Rib-2.5D/docs/publication/math_rendering.json"
+    },
+    "Pinn-3D-Thermo-Mechanical-Rotor": {
+      "math_files": 5,
+      "expressions": 40,
+      "report": "Pinn-3D-Thermo-Mechanical-Rotor/docs/publication/math_rendering.json"
+    }
+  }
+}

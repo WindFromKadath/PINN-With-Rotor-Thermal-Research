@@ -25,6 +25,11 @@
     "sha256": "9369c8143f0800c2129d31f51e72439e6c4ea899f69a1f0960cc2fdf931baf1f"
   },
   {
+    "path": "docs/publication/math_rendering.json",
+    "bytes": 2311,
+    "sha256": "3ce6478b31b7c20010ef412d3efdbb1e3969188d2eebaf6930a172b3a5ca2d0f"
+  },
+  {
     "path": "docs/publication/README.md",
     "bytes": 2284,
     "sha256": "b5a96a62f5745b899c6e26468751c87efb37a65b2debaa2e5a7c8ea767d70f5b"
@@ -41,8 +46,8 @@
   },
   {
     "path": "docs/research.md",
-    "bytes": 956,
-    "sha256": "5b45f5aee4ceee190902ced733642e85454fa4362e1939a98783b6ad8558c8e0"
+    "bytes": 1374,
+    "sha256": "2fcd31ac020874013ffccf79b929874c124fcd00fa078ab86a91b3f5cb80b56b"
   },
   {
     "path": "LICENSE",
@@ -161,8 +166,13 @@
   },
   {
     "path": "Neural-Operator-Reference/docs/publication/manifest.json",
-    "bytes": 18940,
-    "sha256": "740ca3b6386196990ce6d5a522791485e23f36dcc3abcad98791e90833c12c0f"
+    "bytes": 18500,
+    "sha256": "313fcb29323031d20e595929635984fdd3a45b94c87f2e75cdbafa2e9bd6e1f9"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/publication/math_rendering.json",
+    "bytes": 1463,
+    "sha256": "c029628fb9cd0b27b1b649c1379c913bafaad7e9808529e5d836350e4a2db707"
   },
   {
     "path": "Neural-Operator-Reference/docs/publication/README.md",
@@ -206,13 +216,13 @@
   },
   {
     "path": "Neural-Operator-Reference/docs/theory/model_and_derivations.md",
-    "bytes": 4822,
-    "sha256": "7294f7d70a42a8d013823ba3c78dee49746c8d90139f93d6755545d844444b8f"
+    "bytes": 4846,
+    "sha256": "b514f15de8055411210d278da72cc630ebbce6464a3a93f11c66f2e42c4f6bd5"
   },
   {
     "path": "Neural-Operator-Reference/docs/theory/notes/M0013.md",
-    "bytes": 1596,
-    "sha256": "10590f4df5b0389885743fa7e0a30815d521db067523c1527d00bf16cfe04232"
+    "bytes": 1638,
+    "sha256": "f29ca5031a0ed0e83f9bbaaef37520c70cb2aeb1c59143e1c92bc3becd0fad5d"
   },
   {
     "path": "Neural-Operator-Reference/docs/theory/notes/M0182.md",
@@ -231,8 +241,8 @@
   },
   {
     "path": "Neural-Operator-Reference/docs/theory/README.md",
-    "bytes": 957,
-    "sha256": "32cddce4bd26af364ebd1bcbcb3c6b65f35938459bdacb66f9b6c5c68e344215"
+    "bytes": 1259,
+    "sha256": "9b5ddac4dd01ae6d2bc0acb2c85eac1a9a760e7aa74c786b409b4c7de36172e0"
   },
   {
     "path": "Neural-Operator-Reference/docs/theory/source_catalog.json",
@@ -276,8 +286,8 @@
   },
   {
     "path": "Neural-Operator-Reference/experiments.csv",
-    "bytes": 7516,
-    "sha256": "21e93c8229241dddea7977973ace8d05c16c806ce01591b523c40b26fb381f7d"
+    "bytes": 8248,
+    "sha256": "3f82afb47f5af09ef909b07e003039fb8bc2a4ee54988757056bf835ea904914"
   },
   {
     "path": "Neural-Operator-Reference/hypotheses.csv",
@@ -826,8 +836,13 @@
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/publication/manifest.json",
-    "bytes": 19065,
-    "sha256": "dee6f20adce1241cde9d3882dbcde8f6a2e60cd1ea008e2edb19a526d9f558df"
+    "bytes": 18620,
+    "sha256": "f979306c8cb02ac139ae34f1e7cc4384ec719535d8286777fb45a6229a7de167"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/publication/math_rendering.json",
+    "bytes": 2151,
+    "sha256": "c538c4ff0e229a20d5954ef5babc9051a3f56c838df9ee1971aa4f353fcc91ad"
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/publication/README.md",
@@ -881,23 +896,23 @@
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/model_and_derivations.md",
-    "bytes": 7199,
-    "sha256": "06d4d41eae950697a680d461ff39df179c8b0d032fc23e9bc56f29020ea79c1c"
+    "bytes": 7241,
+    "sha256": "4ba127da28282efec7ac63a6a7533f7bb434d81b1cfbc40ef1f6cc09e59b8410"
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0060.md",
-    "bytes": 1930,
-    "sha256": "e1722bc20a4fc9300f7ed567bc50f45e76a1e0f3a21c73ec335a8589cf532be5"
+    "bytes": 1978,
+    "sha256": "92bbe938704f21243516d78c61fcff65d4a27e7218777a95423817b6a5d46d8e"
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0063.md",
-    "bytes": 1312,
-    "sha256": "d35bffb7b8d349b1a645e6bc58147fdb270f1e3150b5e2fdb4aa1339a48fbcf5"
+    "bytes": 1316,
+    "sha256": "8c5ce549f246104337534c97017109d8e7aa3f8e3186a4d72e2c4c34b9f4b042"
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0070.md",
-    "bytes": 1464,
-    "sha256": "d504d87a325bf42b33aedb0df5ebd0fdf24e9292f3d6508380080891dfc828af"
+    "bytes": 1476,
+    "sha256": "30cfb1920c425f2dae3a709ede3a63980eb263fb3c6e49d9d2b716798b663861"
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0086.md",
@@ -921,13 +936,13 @@
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0137.md",
-    "bytes": 1884,
-    "sha256": "b0bc024b742e4df60d540082b6a565bea90f6ce142272314974727e24ac08a27"
+    "bytes": 1914,
+    "sha256": "5cb8fc81d4d2b32849a67a42d57579df53053245625fce46566243ca3fa8e168"
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/README.md",
-    "bytes": 982,
-    "sha256": "8b769dac3f742f40891a8c1abc9b5264caa3f9e6310abdadb4884befe8fe8d8b"
+    "bytes": 1284,
+    "sha256": "dafee15124ce9bc20189a04a3c7a1a33e496d776f3e7e7ddd707b71e2ca1f1d6"
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/source_catalog.json",
@@ -981,8 +996,8 @@
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/experiments.csv",
-    "bytes": 8609,
-    "sha256": "6fafce436cd8f1f72a64f29869b1cdce92bc90886695ff27a1c215b08d250fa4"
+    "bytes": 9341,
+    "sha256": "00835728b34b93a046a5bc16346581a350f0d421e414d5147db9f83dc9845fc3"
   },
   {
     "path": "Pinn-3D-Thermo-Mechanical-Rotor/hypotheses.csv",
@@ -1336,8 +1351,13 @@
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/docs/publication/manifest.json",
-    "bytes": 11042,
-    "sha256": "118ce2358e4dc2a0bf646afd3167fc5265953125066a8b6cad1818a16044e1f2"
+    "bytes": 10847,
+    "sha256": "dac95d3a3786f8aa13d90473bae22605a0f99a52b014c4107f44445d980130fe"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/publication/math_rendering.json",
+    "bytes": 2137,
+    "sha256": "7c3fe64d151f4ab7d548eea794f96f0509e6f4eaf05fc8dc9ac3cddf4454c1eb"
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/docs/publication/README.md",
@@ -1396,13 +1416,13 @@
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/model_and_derivations.md",
-    "bytes": 4474,
-    "sha256": "9fb3124df36c21362ed67e8eff5253d7ca08d1c3fad676380adfa5ad0ed898a7"
+    "bytes": 4504,
+    "sha256": "263771d0ec34fcbd16f3ae1bbb284da6921003547e2826f19bcec9061d05822e"
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/notes/M0016.md",
-    "bytes": 1284,
-    "sha256": "780af6ddfe2402ddc10d8cfbac1bd735d009101b84c83860d283d80086d1233f"
+    "bytes": 1286,
+    "sha256": "3929536b6bc3b1576119bcf5ab87e4ce6776f31aa4936f2008fe872594a2ad95"
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/notes/M0028.md",
@@ -1411,13 +1431,13 @@
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/notes/M0174.md",
-    "bytes": 1946,
-    "sha256": "1d59e326be77331c0b7dad5b38207d65abc9c02ea495e58e08f79cf72ae4362d"
+    "bytes": 1966,
+    "sha256": "70209df5413142fcc306186b1aacd2e8c8b311f3269edc5e98133437c6c47be8"
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/notes/M0175.md",
-    "bytes": 1332,
-    "sha256": "a644bb270f46e88fa0cef10b0e9d8a3a47defe9bdf4cc591d796c6801295ae3c"
+    "bytes": 1336,
+    "sha256": "84759bd1e76c2f5e2668335f1527354723031aa383362837627acb82b3c77307"
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/notes/M0204.md",
@@ -1426,8 +1446,8 @@
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/README.md",
-    "bytes": 958,
-    "sha256": "18bc7b6af0c02432baf5f454758efbc68361fa573db2d49c152b45f221550f38"
+    "bytes": 1260,
+    "sha256": "0a4a4dd65ffb4dfde1a58ea3d4968a733341ffd45b385f7a021d6a1310b7ca5b"
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/source_catalog.json",
@@ -1471,8 +1491,8 @@
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/experiments.csv",
-    "bytes": 6984,
-    "sha256": "ae2fc208ab16f24515122cb458412afdccaf83266f8c9bea0855f9fdb9b343c2"
+    "bytes": 7716,
+    "sha256": "fc115e5eb424a5eedcaf9bf4bd420b3e3f88e5bc7e82833b71bc0b0fb7da452c"
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/hypotheses.csv",
@@ -1496,8 +1516,8 @@
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/README.zh-CN.md",
-    "bytes": 26623,
-    "sha256": "058b8083b14d3bd4fcbccac811511f43f28d661ea971f8f149de1da045eab82e"
+    "bytes": 26713,
+    "sha256": "930b6185c2adebbf83bdbb048c8b896723e75e0adf96d22ee9393bd01d63aae5"
   },
   {
     "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/__init__.py",
@@ -1706,8 +1726,13 @@
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/publication/manifest.json",
-    "bytes": 14903,
-    "sha256": "2699a9f4b15fcf54e323c2dec372825eb64930619e98cab203e9c6daf03c2e2f"
+    "bytes": 14603,
+    "sha256": "2a301514bfa22e03da8c69c38cc9b2c26e3b053b368a8a75eb749ec816e77db9"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/publication/math_rendering.json",
+    "bytes": 3046,
+    "sha256": "a1dfc43d123cdb4ac04f6b10865e602e76b3f04a6dd96265bc80ce12d9617218"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/publication/README.md",
@@ -1781,48 +1806,48 @@
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/model_and_derivations.md",
-    "bytes": 6634,
-    "sha256": "ddbe379e7a11f98a17e60a4b65c68c2a73e137595a6bf643abfdbaf732ac9a3f"
+    "bytes": 6664,
+    "sha256": "a1b5674a9c34adfc26989870b993ef4cf497a07e95d8f57542b1bed0156c0fa6"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0031.md",
-    "bytes": 1363,
-    "sha256": "a2e9445dc2e47f8265242297214ad4a4cb85679df546f3e94d24d4c2d1b1b54a"
+    "bytes": 1381,
+    "sha256": "1c7ed9d7668635c12dcdfb6d7ed61a62f2d4d19ad0b130a63727d18e4a340211"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0037.md",
-    "bytes": 1097,
-    "sha256": "aec443735fad9a7126733b50a2d6433516763c3d7a32e09ff043249ff8b52d53"
+    "bytes": 1099,
+    "sha256": "19c64980f4918286e140c0058460b6eaabc6da9e355d9f122f761e47af7916c2"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0038.md",
-    "bytes": 2430,
-    "sha256": "fbcbcdc925e2cb4d8d9f86be4d8af3fae8c2cdb59355a34da49bf34d451726b2"
+    "bytes": 2482,
+    "sha256": "39f7a1c4858075a4e9f2bc13dc755788b06be113f587c11ff5e7f09677c5656d"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0039.md",
-    "bytes": 1075,
-    "sha256": "acfe49197f40298fb3ca25df6eeb08bc890bdec45102fd4ecff87b7d9c87e58f"
+    "bytes": 1086,
+    "sha256": "9e04af6c4b88c64e0d4caf89b6bda679adb99e117aa0c701ef99b7faa1b30a21"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0053.md",
-    "bytes": 1304,
-    "sha256": "34a57856bab5244d8b191a05dac60990fc438175be9aa59012a0c54a2b70df93"
+    "bytes": 1336,
+    "sha256": "56f085a7dc8b449c7209638d2ca0dca73a7f14a51b247adb76804f881cf4cc4a"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0054.md",
-    "bytes": 1395,
-    "sha256": "ae660a06ee3778958aeefac698a8c2e5839c38776deb70f8cf9fbc9339748ebd"
+    "bytes": 1401,
+    "sha256": "2261c035de6d85fb57bce7ce934b43c2a888e284feef304ab83fcc9256171ddc"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0174.md",
-    "bytes": 1946,
-    "sha256": "1d59e326be77331c0b7dad5b38207d65abc9c02ea495e58e08f79cf72ae4362d"
+    "bytes": 1966,
+    "sha256": "70209df5413142fcc306186b1aacd2e8c8b311f3269edc5e98133437c6c47be8"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0175.md",
-    "bytes": 1332,
-    "sha256": "a644bb270f46e88fa0cef10b0e9d8a3a47defe9bdf4cc591d796c6801295ae3c"
+    "bytes": 1336,
+    "sha256": "84759bd1e76c2f5e2668335f1527354723031aa383362837627acb82b3c77307"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0177.md",
@@ -1836,8 +1861,8 @@
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/README.md",
-    "bytes": 963,
-    "sha256": "b6c72efc67175feffafff389ac7f72206c7d39b74939c12e9705dbce3f5cd9a7"
+    "bytes": 1265,
+    "sha256": "0bea0bfb9fff761fec46bc98d39484a313b3cdfccdd39781c5430886bbdffca7"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/docs/theory/source_catalog.json",
@@ -1936,8 +1961,8 @@
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/experiments.csv",
-    "bytes": 12881,
-    "sha256": "7d1ddf5fa300c95d1fbc42ba6df403d4fc50d423149a85bc313058fa9757a9be"
+    "bytes": 13613,
+    "sha256": "0ff20220bbc84444da259641f23bb6565d5f7588da129161bf557db646a4d938"
   },
   {
     "path": "Pinn-Ring-Rib-2.5D/hypotheses.csv",

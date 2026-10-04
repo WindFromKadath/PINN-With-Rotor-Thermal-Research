@@ -96,68 +96,68 @@ thickness = "H (mm)"
 
 按实际导出头设置映射和 `skip_rows`，不猜测单位。输入为 `preprocess.upper_input/lower_input/rib_input`，输出为 `data.upper_csv/lower_csv/rib_csv`。先验证三表再写新文件；禁止覆盖任何输入；已有输出需显式 `--overwrite`。缺列、空表、非有限值、非正厚度、非法半径/肋编号立即报错。
 
-角度按 $2\pi$ 归一化；肋表没有编号时按解析曲线的圆周角距离分配最近肋，恢复真实数据时应核查映射。按 `(r,theta[,rib_id])` 空间位置分组，坐标取 10 位小数、种子 42，默认 70%/15%/15%；同一位置全部时间记录同区。分组数量取整使比例近似，至少需要三个空间组。预训练与温度观测仅使用 train，验证/测试指标另行计算。DeepXDE 控制台的 `Test loss` 是配点损失，不是空间测试集误差。
+角度按 $`2\pi`$ 归一化；肋表没有编号时按解析曲线的圆周角距离分配最近肋，恢复真实数据时应核查映射。按 `(r,theta[,rib_id])` 空间位置分组，坐标取 10 位小数、种子 42，默认 70%/15%/15%；同一位置全部时间记录同区。分组数量取整使比例近似，至少需要三个空间组。预训练与温度观测仅使用 train，验证/测试指标另行计算。DeepXDE 控制台的 `Test loss` 是配点损失，不是空间测试集误差。
 
 demo 在运行目录生成两圆环各 128 个空间位置、13 条肋各 10 个位置、9 个时刻（0–1200 s）的合成数据。标签为平滑函数，**没有假设满足本 PDE**，因此其 RMSE 只描述短流程拟合，不验证求解精度。历史权重及温度表已在同级 `PINN_Inverse_fin_pls` 目录找到，见下文历史模型复用；新全长接触实现尚未使用这些数据完成研究训练。
 
 ## 模型、几何与适用范围
 
-解析肋曲线：$\theta_i(r)=1.2209+6.4105(r-0.123)+2\pi i/13$，$r\in[0.123,0.225]$ m。
+解析肋曲线：$`\theta_i(r)=1.2209+6.4105(r-0.123)+2\pi i/13`$，$`r\in[0.123,0.225]`$ m。
 
-\[
+```math
 s(r)=\int_{0.123}^{r}\sqrt{1+(6.4105\xi)^2}\,d\xi,
 \qquad L=0.15334921214568\ \mathrm m.
-\]
+```
 
-上/下圆环内半径 0.084/0.103 m，外半径 0.225 m；肋宽 $w=0.016$ m、高 $h_b=0.0094$ m，截面积 $A=wh_b$ 恒定。历史拟合 CSV 不自动覆盖此参考几何。
+上/下圆环内半径 0.084/0.103 m，外半径 0.225 m；肋宽 $`w=0.016`$ m、高 $`h_b=0.0094`$ m，截面积 $`A=wh_b`$ 恒定。历史拟合 CSV 不自动覆盖此参考几何。
 
 圆环能量残差（物理坐标，W/m²）：
 
-\[
+```math
 \rho c(T_j)H_j\partial_tT_j
 -\frac1r\partial_r(r k(T_j)H_j\partial_rT_j)
 -\frac1{r^2}\partial_\theta(k(T_j)H_j\partial_\theta T_j)
 -H_j Q_j+f_j\ell(T_j)+S_j=0.
-\]
+```
 
 肋残差（W/m）：
 
-\[
+```math
 \rho c(T_b)A\partial_tT_b
 -\partial_s(k(T_b)A\partial_sT_b)-A Q_b
 +P_{\mathrm{exposed}}\ell(T_b)-q'_u-q'_l=0.
-\]
+```
 
-$\ell(T)=h_c(T-T_\infty)+\varepsilon\sigma(T^4-T_\infty^4)$。每个圆环一个端面暴露，$f_j=1$；肋两个侧面暴露，$P_{exposed}=2h_b$；肋两端绝热。圆环内外径边缘为对流/辐射 Robin 边界。假设保存在 `physics.exposed_ring_faces/rib_exposed_sides/rib_end_condition/ring_radial_boundary`；不额外计算接触面的环境散热。
+$`\ell(T)=h_c(T-T_\infty)+\varepsilon\sigma(T^4-T_\infty^4)`$。每个圆环一个端面暴露，$`f_j=1`$；肋两个侧面暴露，$`P_{exposed}=2h_b`$；肋两端绝热。圆环内外径边缘为对流/辐射 Robin 边界。假设保存在 `physics.exposed_ring_faces/rib_exposed_sides/rib_end_condition/ring_radial_boundary`；不额外计算接触面的环境散热。
 
-默认 $T_\infty=293.15$ K，$h_c=10$ W/(m² K)，$\varepsilon=0.3$，密度 7850 kg/m³。上环体热源 $Q_u=Q_0e^{-(r-r_{in,u})/d}$，限于内缘三倍衰减长度以内；下环使用自身内缘和倍率 0.3；肋体热源零。研究设置 $Q_0=10^8$ W/m³、$d=0.005$ m；demo 较小热源。k、c 温度节点见 `config.Physics`，区间内线性插值，外部截断到端值。完整默认值保存在运行快照；真实研究需确认物性和工况。
+默认 $`T_\infty=293.15`$ K，$`h_c=10`$ W/(m² K)，$`\varepsilon=0.3`$，密度 7850 kg/m³。上环体热源 $`Q_u=Q_0e^{-(r-r_{in,u})/d}`$，限于内缘三倍衰减长度以内；下环使用自身内缘和倍率 0.3；肋体热源零。研究设置 $`Q_0=10^8`$ W/m³、$`d=0.005`$ m；demo 较小热源。k、c 温度节点见 `config.Physics`，区间内线性插值，外部截断到端值。完整默认值保存在运行快照；真实研究需确认物性和工况。
 
-网络坐标：圆环 `[r/R,theta,t/t_max]`，肋 `[s/R,rib_id,t/t_max]`。肋只采整数编号，时间在第三列。内部角度使用 sin/cos 特征，保证圆环周期一致；时间使用平滑变换。$T=T_\infty+T_{scale}u$，输出变换强制 $u(0)=0$，因此仅支持初始均匀环境温度。
+网络坐标：圆环 `[r/R,theta,t/t_max]`，肋 `[s/R,rib_id,t/t_max]`。肋只采整数编号，时间在第三列。内部角度使用 sin/cos 特征，保证圆环周期一致；时间使用平滑变换。$`T=T_\infty+T_{scale}u`$，输出变换强制 $`u(0)=0`$，因此仅支持初始均匀环境温度。
 
 厚度为 `minimum_thickness + scale * softplus(network)`，输出 m，尺度随权重保存。冻结参数保留对输入坐标的求导，扩散残差保留 H 和 k 的空间梯度。厚度先验静态，同一位置重复时刻不应给矛盾厚度；首版不从温度反演 H。
 
 ## 全长接触与守恒
 
-两侧默认 $R_{contact,j}=0$，平均温度之间仍有半厚度降维热阻：
+两侧默认 $`R_{contact,j}=0`$，平均温度之间仍有半厚度降维热阻：
 
-\[
+```math
 R_{eff,j}=\frac{\overline H_j}{2k(\overline T_j)}+\frac{h_b}{2k(T_b)}+R_{contact,j},
 \qquad q'_j=\frac{w}{R_{eff,j}}(\overline T_j-T_b).
-\]
+```
 
-$R_{eff}$ 单位 m² K/W，$q'$ 单位 W/m；正值表示圆环向肋传热。温差/热阻关系参照 COMSOL 接触换热定义（定义与操作已写入本页），半厚度串联阻力和高斯平均是本参考模型的降维假设。零界面热阻不强制降维域平均温度相等。
+$`R_{eff}`$ 单位 m² K/W，$`q'`$ 单位 W/m；正值表示圆环向肋传热。温差/热阻关系参照 COMSOL 接触换热定义（定义与操作已写入本页），半厚度串联阻力和高斯平均是本参考模型的降维假设。零界面热阻不强制降维域平均温度相等。
 
-肋全长用 Gauss–Legendre 弧长节点，圆环用径向 Gauss–Legendre、等间隔角度及物理面积权重 $\omega_i=r\,dr\,d\theta$。核 $K_{ia}$ 由 $\exp(-|x_i-x_a|^2/\sigma_G^2)$ 除以同一面积求积的积分归一化；同一核用于圆环平均与投影：
+肋全长用 Gauss–Legendre 弧长节点，圆环用径向 Gauss–Legendre、等间隔角度及物理面积权重 $`\omega_i=r\,dr\,d\theta`$。核 $`K_{ia}`$ 由 $`\exp(-|x_i-x_a|^2/\sigma_G^2)`$ 除以同一面积求积的积分归一化；同一核用于圆环平均与投影：
 
-\[
+```math
 \overline T_{j,a}=\sum_i\omega_iK_{j,ia}T_{j,i},
 \quad S_{j,i}=\sum_aK_{j,ia}\lambda_aq'_{j,a},
 \quad\sum_i\omega_iS_{j,i}=\sum_a\lambda_aq'_{j,a}.
-\]
+```
 
-$\lambda_a$ 为弧长积分权重，求和含全部肋；H 使用同样平均。圆环物理源 $-S_j$，肋物理源 $q'_u+q'_l$。诊断以 $\sum_a\lambda_a|q'_a|$ 归一化以防正负抵消。守恒是同一离散求积网格上的关系，不保证连续积分、PDE 损失或三维真解同样精确；真实研究应进行核宽、面积和弧长网格加密检查。
+$`\lambda_a`$ 为弧长积分权重，求和含全部肋；H 使用同样平均。圆环物理源 $`-S_j`$，肋物理源 $`q'_u+q'_l`$。诊断以 $`\sum_a\lambda_a|q'_a|`$ 归一化以防正负抵消。守恒是同一离散求积网格上的关系，不保证连续积分、PDE 损失或三维真解同样精确；真实研究应进行核宽、面积和弧长网格加密检查。
 
-显式 `CouplingState` 保存时间网格和两侧线功率。先独立训练温度，按当前三域温度更新全长接触功率，默认松弛 $q'_{new}=0.5q'_{calculated}+0.5q'_{old}$，再交替训练三域。每轮使用同一份冻结功率；时间/弧长查询线性插值，肋端超出 Gauss 节点时取端值。最终状态为最后一轮训练用的滞后功率，有限预算和离散功率守恒不能证明耦合固定点收敛。
+显式 `CouplingState` 保存时间网格和两侧线功率。先独立训练温度，按当前三域温度更新全长接触功率，默认松弛 $`q'_{new}=0.5q'_{calculated}+0.5q'_{old}`$，再交替训练三域。每轮使用同一份冻结功率；时间/弧长查询线性插值，肋端超出 Gauss 节点时取端值。最终状态为最后一轮训练用的滞后功率，有限预算和离散功率守恒不能证明耦合固定点收敛。
 
 该模型忽略厚度方向温度细节、真实三维接触区域与局部接触压力，仅适用于降维、边界和初温假设合理的场景。
 
@@ -165,9 +165,9 @@ $\lambda_a$ 为弧长积分权重，求和含全部肋；H 使用同样平均。
 
 每次保留配置、manifest、环境、控制台日志、输入快照、损失、厚度/温度权重、`coupling.npz`、守恒/重载诊断、三域预测、指标及 `figures/`。独立厚度运行仅生成预训练产物。manifest 记录包源码 SHA256、数据快照/原输入 SHA256、配置/权重/uv.lock 哈希和种子；失败保留 `failure.txt`。配置与权重内嵌配置不一致、权重/输入哈希不符时拒绝评估。
 
-四指标：RMSE、MAE、最大绝对误差单位 K；$L2=\|\widehat T_K-T_K\|_2/\|T_K\|_2$ 的分母使用绝对 Kelvin 温度。不能与温升分母混用。总体按所有样本聚合；各域及 train/validation/test 分别报告。损失记录厚度采样步与 DeepXDE 展示步；各域残差先按物理尺度归一化，观测再加权，原始 W/m² 和 W/m 不能直接比较。
+四指标：RMSE、MAE、最大绝对误差单位 K；$`L2=\|\widehat T_K-T_K\|_2/\|T_K\|_2`$ 的分母使用绝对 Kelvin 温度。不能与温升分母混用。总体按所有样本聚合；各域及 train/validation/test 分别报告。损失记录厚度采样步与 DeepXDE 展示步；各域残差先按物理尺度归一化，观测再加权，原始 W/m² 和 W/m 不能直接比较。
 
-验收产物见 [experiments.csv](experiments.csv)。`tools/verify.py` 检查 float64 相对误差小于 $10^{-6}$；pytest 覆盖数据、几何、导数、功率、模型重载、L-BFGS 小流程和错误处理。真实 COMSOL 精度与基线比较仍待验证。
+验收产物见 [experiments.csv](experiments.csv)。`tools/verify.py` 检查 float64 相对误差小于 $`10^{-6}`$；pytest 覆盖数据、几何、导数、功率、模型重载、L-BFGS 小流程和错误处理。真实 COMSOL 精度与基线比较仍待验证。
 
 2026-10-03 的实际验收：
 

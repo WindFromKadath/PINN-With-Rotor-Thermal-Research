@@ -190,6 +190,11 @@
     "sha256": "997ca8da39da5e299db6e6e7aebaac2b3aa23c1d8270fddd0b889c78bad08b65"
   },
   {
+    "path": "docs/publication/math_rendering.json",
+    "bytes": 2151,
+    "sha256": "c538c4ff0e229a20d5954ef5babc9051a3f56c838df9ee1971aa4f353fcc91ad"
+  },
+  {
     "path": "docs/publication/relocation.json",
     "bytes": 1326,
     "sha256": "f41edb1f268725b8fbd516c9a8a4c9ced50681cc4e4b728ebabacc384788a8f5"
@@ -216,8 +221,8 @@
   },
   {
     "path": "docs/theory/README.md",
-    "bytes": 982,
-    "sha256": "8b769dac3f742f40891a8c1abc9b5264caa3f9e6310abdadb4884befe8fe8d8b"
+    "bytes": 1284,
+    "sha256": "dafee15124ce9bc20189a04a3c7a1a33e496d776f3e7e7ddd707b71e2ca1f1d6"
   },
   {
     "path": "docs/theory/arithmetic_checks.json",
@@ -236,23 +241,23 @@
   },
   {
     "path": "docs/theory/model_and_derivations.md",
-    "bytes": 7199,
-    "sha256": "06d4d41eae950697a680d461ff39df179c8b0d032fc23e9bc56f29020ea79c1c"
+    "bytes": 7241,
+    "sha256": "4ba127da28282efec7ac63a6a7533f7bb434d81b1cfbc40ef1f6cc09e59b8410"
   },
   {
     "path": "docs/theory/notes/M0060.md",
-    "bytes": 1930,
-    "sha256": "e1722bc20a4fc9300f7ed567bc50f45e76a1e0f3a21c73ec335a8589cf532be5"
+    "bytes": 1978,
+    "sha256": "92bbe938704f21243516d78c61fcff65d4a27e7218777a95423817b6a5d46d8e"
   },
   {
     "path": "docs/theory/notes/M0063.md",
-    "bytes": 1312,
-    "sha256": "d35bffb7b8d349b1a645e6bc58147fdb270f1e3150b5e2fdb4aa1339a48fbcf5"
+    "bytes": 1316,
+    "sha256": "8c5ce549f246104337534c97017109d8e7aa3f8e3186a4d72e2c4c34b9f4b042"
   },
   {
     "path": "docs/theory/notes/M0070.md",
-    "bytes": 1464,
-    "sha256": "d504d87a325bf42b33aedb0df5ebd0fdf24e9292f3d6508380080891dfc828af"
+    "bytes": 1476,
+    "sha256": "30cfb1920c425f2dae3a709ede3a63980eb263fb3c6e49d9d2b716798b663861"
   },
   {
     "path": "docs/theory/notes/M0086.md",
@@ -276,8 +281,8 @@
   },
   {
     "path": "docs/theory/notes/M0137.md",
-    "bytes": 1884,
-    "sha256": "b0bc024b742e4df60d540082b6a565bea90f6ce142272314974727e24ac08a27"
+    "bytes": 1914,
+    "sha256": "5cb8fc81d4d2b32849a67a42d57579df53053245625fce46566243ca3fa8e168"
   },
   {
     "path": "docs/theory/source_catalog.json",
@@ -331,8 +336,8 @@
   },
   {
     "path": "experiments.csv",
-    "bytes": 8609,
-    "sha256": "6fafce436cd8f1f72a64f29869b1cdce92bc90886695ff27a1c215b08d250fa4"
+    "bytes": 9341,
+    "sha256": "00835728b34b93a046a5bc16346581a350f0d421e414d5147db9f83dc9845fc3"
   },
   {
     "path": "hypotheses.csv",

@@ -14,21 +14,21 @@
 
 常物性、无体热源主线：
 
-\[
+```math
 \rho c_pT_t=k\left(T_{rr}+\frac1rT_r+\frac1{r^2}T_{\theta\theta}+T_{zz}\right).
-\]
+```
 
 [M0060](notes/M0060.md) 第 1、2 节，以及 [M0137](notes/M0137.md) 第 2.2.1 节，给出了坐标替换、导数尺度和除去共同系数的步骤：
 
-\[
+```math
 r^*=r/L,\ z^*=z/L,\ t^*=t/\tau,\ u=(T-T_0)/\Delta T,
 \qquad u_{t^*}=Fo\,\nabla^{*2}u,
 \quad Fo=\frac{k\tau}{\rho c_pL^2}.
-\]
+```
 
-热流和对流参数为 \(q^*=qL/(k\Delta T)\)、\(Bi=hL/k\)。主线 L=0.225 m、DeltaT=300 K、tau=200 s、T0=293.15 K，rho=7870、cp=440、k=76.2。原始公式汇总采用约 0.0866 的 Fo，最终论文表 2.3 写 0.104；按绑定参数算得 **约 0.08693**。本轮记录这个矛盾，不改原件。
+热流和对流参数为 $`q^*=qL/(k\Delta T)`$、$`Bi=hL/k`$。主线 L=0.225 m、DeltaT=300 K、tau=200 s、T0=293.15 K，rho=7870、cp=440、k=76.2。原始公式汇总采用约 0.0866 的 Fo，最终论文表 2.3 写 0.104；按绑定参数算得 **约 0.08693**。本轮记录这个矛盾，不改原件。
 
-热网输入为 \([r^*,z^*,t^*,\sin\theta,\cos\theta]\)。[M0060](notes/M0060.md) §7.1 给出角度链式求导；网络的 sin/cos 依赖也必须参与二阶导数。初温通过损失施加，当前主线没有硬初值输出变换。
+热网输入为 $`[r^*,z^*,t^*,\sin\theta,\cos\theta]`$。[M0060](notes/M0060.md) §7.1 给出角度链式求导；网络的 sin/cos 依赖也必须参与二阶导数。初温通过损失施加，当前主线没有硬初值输出变换。
 
 热边界的法向符号由 STL 和 `normal_flip` 决定。源码保留 Neumann 残差 `dT_dn + qstar`，Robin 残差 `-dT_dn - Bi*(u-u_amb)`。公式汇总的热流正负号与“法向向内/向外”的文字存在不一致，需要一起核查，不能只看一行 boxed 公式。
 
@@ -38,37 +38,37 @@ r^*=r/L,\ z^*=z/L,\ t^*=t/\tau,\ u=(T-T_0)/\Delta T,
 
 源码采用：
 
-\[
+```math
 U=\alpha_L\Delta T L,\quad
 \Sigma=E\alpha_L\Delta T,\quad
 u_r^*=u_r/U,\ u_z^*=u_z/U,\quad \sigma^*=\sigma/\Sigma.
-\]
+```
 
 主线 U=8.235e-4 m，Sigma=**732 MPa**。最终论文表 2.4 的 73.2 MPa 与其参数相差十倍；公式汇总 §1.2 的位移除以 L 与实际除以 U 又不同。该汇总不能直接用作模型加载尺度。
 
-当前配置及原机械 YAML 定义 \(\lambda^*=\lambda/E\)、\(\mu^*=\mu/E\)、\(\beta^*=(3\lambda+2\mu)/E\)，并保存来源的舍入常量 0.5354、0.3876、2.3810。它们与公式汇总中的 3.558、3.571、41.54 不是同一配置。源舍入量也没有严格满足 beta=3lambda+2mu；本轮保留兼容行为。
+当前配置及原机械 YAML 定义 $`\lambda^*=\lambda/E`$、$`\mu^*=\mu/E`$、$`\beta^*=(3\lambda+2\mu)/E`$，并保存来源的舍入常量 0.5354、0.3876、2.3810。它们与公式汇总中的 3.558、3.571、41.54 不是同一配置。源舍入量也没有严格满足 beta=3lambda+2mu；本轮保留兼容行为。
 
 [M0060](notes/M0060.md) §3 列出轴对称应变、本构、平衡和牵引：
 
-\[
+```math
 \varepsilon^*_{rr}=u^*_{r,r^*},\quad
 \varepsilon^*_{\theta\theta}=u_r^*/r^*,\quad
 \varepsilon^*_{zz}=u^*_{z,z^*},\quad
 \varepsilon^*_{rz}=\tfrac12(u^*_{r,z^*}+u^*_{z,r^*}).
-\]
+```
 
-\[
+```math
 \sigma^*_{jj}=\lambda^*\operatorname{tr}\varepsilon^*+2\mu^*\varepsilon^*_{jj}-\beta^*u_T,
 \qquad \sigma^*_{rz}=2\mu^*\varepsilon^*_{rz}.
-\]
+```
 
-\[
+```math
 \sigma^*_{rr,r^*}+\sigma^*_{rz,z^*}+(\sigma^*_{rr}-\sigma^*_{\theta\theta})/r^*=0,
 \quad
 \sigma^*_{rz,r^*}+\sigma^*_{zz,z^*}+\sigma^*_{rz}/r^*=0.
-\]
+```
 
-自由表面牵引为 \(\sigma\cdot n=0\)。这部分有方程与无量纲形式，论文给出热应变分解和轴对称退化步骤；尚未形成所选几何/边界下存在、唯一性及热学误差传递的证明。
+自由表面牵引为 $`\sigma\cdot n=0`$。这部分有方程与无量纲形式，论文给出热应变分解和轴对称退化步骤；尚未形成所选几何/边界下存在、唯一性及热学误差传递的证明。
 
 当前主线通过 COMSOL 位移锚点确定参考系，不能照抄公式汇总中另一版本的单点刚体约束损失。准静态条件、轴对称、各向同性、小变形和线弹性都是适用前提。
 
@@ -82,10 +82,10 @@ u_r^*=u_r/U,\ u_z^*=u_z/U,\quad \sigma^*=\sigma/\Sigma.
 
 [M0070](notes/M0070.md) 列出轴向加权平均投影：
 
-\[
+```math
 c_B=\frac{\sum_{i\in B}r_i u_{z,i}}{\sum_{i\in B}r_i},\qquad
 u^{proj}_z=u^{raw}_z-\operatorname{detach}(c_B).
-\]
+```
 
 这是训练批内的投影。单次固定常量轴向平移不改变应变导数，但不同批次重算均值，会让导出的位移值依赖查询集合。当前新预测保存固定全局对齐量，便于分批和保存重载；它不等同于原训练阶段的批内投影。
 

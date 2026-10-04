@@ -1,0 +1,64 @@
+{
+  "run_id": "DOC20261004_05",
+  "status": "passed",
+  "base_commit": "9853df16f76da0673463994c2b43b5bb5b03c437",
+  "mathjax_check": {
+    "version": "3.2.2",
+    "output": "SVG",
+    "expressions_typeset": 60,
+    "errors": 0
+  },
+  "format": "GitHub protected inline math and fenced math blocks",
+  "formula_content_comparison": "Identical after delimiter/outer whitespace normalization and the equivalent greater-than escape",
+  "browser_visual_check": "Unavailable: the browser control interface timed out twice. GitHub server markup and local MathJax SVG previews were checked instead.",
+  "limits": "Rendering verification does not establish mathematical proofs, physical validity, model accuracy, or layout compatibility with other Markdown renderers.",
+  "project": "Pinn-Inverse-Rotor-Thickness",
+  "math_files_checked": 5,
+  "expressions_checked": 60,
+  "github_math_elements": 60,
+  "tex_content_mismatches": 0,
+  "files": [
+    {
+      "path": "README.zh-CN.md",
+      "expected": 35,
+      "recognized": 35,
+      "same_tex": true,
+      "tables": 7,
+      "sha256": "930b6185c2adebbf83bdbb048c8b896723e75e0adf96d22ee9393bd01d63aae5"
+    },
+    {
+      "path": "docs/theory/model_and_derivations.md",
+      "expected": 16,
+      "recognized": 16,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "263771d0ec34fcbd16f3ae1bbb284da6921003547e2826f19bcec9061d05822e"
+    },
+    {
+      "path": "docs/theory/notes/M0016.md",
+      "expected": 1,
+      "recognized": 1,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "3929536b6bc3b1576119bcf5ab87e4ce6776f31aa4936f2008fe872594a2ad95"
+    },
+    {
+      "path": "docs/theory/notes/M0174.md",
+      "expected": 6,
+      "recognized": 6,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "70209df5413142fcc306186b1aacd2e8c8b311f3269edc5e98133437c6c47be8"
+    },
+    {
+      "path": "docs/theory/notes/M0175.md",
+      "expected": 2,
+      "recognized": 2,
+      "same_tex": true,
+      "tables": 0,
+      "sha256": "84759bd1e76c2f5e2668335f1527354723031aa383362837627acb82b3c77307"
+    }
+  ],
+  "inline_expressions": 49,
+  "display_expressions": 11
+}

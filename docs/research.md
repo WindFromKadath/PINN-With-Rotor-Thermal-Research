@@ -10,3 +10,7 @@ Necessary text and existing derivations are embedded in each subproject. No new 
 | Transient thermal-mechanical / 3D 瞬态热力 | [Reading](../Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/README.md) | 12 |
 
 Historical AI-generated suggestions are source material, not current instructions or established conclusions. Numerical checks and mathematical validity remain distinct.
+
+Math rendering was checked for all four directions: 200 expressions passed GitHub Markdown recognition, TeX content comparison and MathJax validation. See the [rendering check](publication/math_rendering.json) for coverage and limitations.
+
+四个方向的公式显示已核对：200 个表达式通过 GitHub Markdown 识别、LaTeX 内容对照和 MathJax 校验。覆盖范围与检查限制见上述记录。
