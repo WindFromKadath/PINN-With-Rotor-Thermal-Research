@@ -1,0 +1,57 @@
+{
+  "format": "retained-source-predict/1",
+  "version": "cooling_with_data",
+  "case": "cooling",
+  "factory": "hard_initial",
+  "weights": {
+    "upper": "weights/upper.pth",
+    "lower": "weights/lower.pth",
+    "rib": "weights/rib.pth"
+  },
+  "output_heads": {
+    "upper": [
+      "T_star",
+      "h_multiplier",
+      "emissivity_multiplier"
+    ],
+    "lower": [
+      "T_star",
+      "h_multiplier",
+      "emissivity_multiplier"
+    ],
+    "rib": [
+      "T_star",
+      "contact_resistance_multiplier"
+    ]
+  },
+  "clip_rib_radius": true,
+  "files_sha256": {
+    "source.py": "7316db337f356143400891fb7eca4868b9f1f2e7f383cf45ac960543475372ac",
+    "training_source.py": "8bbe9fa5d41749a31c613947694aef2e83eb2c4abb1b398794884975ed2e431b",
+    "rib_models.json": "d4d9ee8c68c9b17d27ee80697a54866a4103cd082858678cee3913bf799f98e9",
+    "weights/upper.pth": "e6098afc06ca83a271f99c283da30570d436384dabf096368c30681efbaf9eb5",
+    "weights/lower.pth": "43109e8686b0e96f3f1363429a80cb7f71d06161f8f0041892f7f7c05c8f7f3d",
+    "weights/rib.pth": "545b7ffa0b756914d2e59a8d86b3b98026aa1121f5aca488670e250a4e5693b8",
+    "weights/upper_thickness.pth": "f987f1ee7761208f0c3fb2e976b59da30e3e38d6995845b387cf6022d5c37aa8",
+    "weights/lower_thickness.pth": "51e1d7b3da8c344c2390550550d3440a6ccfac51f07dacff60b44a67818fa518"
+  },
+  "source_files": {
+    "source.py": "Re-PINN/pinn_mse_learnable_colding.py",
+    "training_source.py": "Re-PINN/pinn_v6_colding_with_data.py",
+    "rib_models.json": "Re-PINN/Dataset/rib_models.json",
+    "weights/upper.pth": "Re-PINN/models_learnable_colding/upper_learnable_colding_final.pth",
+    "weights/lower.pth": "Re-PINN/models_learnable_colding/lower_learnable_colding_final.pth",
+    "weights/rib.pth": "Re-PINN/models_learnable_colding/rib_learnable_colding_final.pth",
+    "weights/upper_thickness.pth": "Re-PINN/ring_thickness/upper_thickness_oscillation_reg.pth",
+    "weights/lower_thickness.pth": "Re-PINN/ring_thickness/lower_thickness_oscillation_reg.pth"
+  },
+  "scope": "original model inference; additional versions are not retrained",
+  "use": "tools/predict_reference.py --bundle this_folder --domain upper/lower/rib --input file.csv --output prediction.csv",
+  "selection": {
+    "run_id": "R121_local_selection",
+    "sample_per_domain": 512,
+    "seed": 42,
+    "rmse_K": 5.07941493500776,
+    "criterion": "top two usable versions per case among six complete mature candidates"
+  }
+}

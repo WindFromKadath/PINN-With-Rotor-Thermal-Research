@@ -1,0 +1,20 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "packages": {
+      "deepxde": "1.15.0",
+      "torch": "2.12.1+cpu",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2"
+    }
+  },
+  "migration": {
+    "source_files": 726,
+    "copied_targets_hash_match": 214,
+    "regenerated_processed_csvs": 0,
+    "original_source_checked": true
+  },
+  "cpu_tests_exit_code": 0
+}

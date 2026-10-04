@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "status": "passed",
+  "scope": "this project only; code/configuration/locks/tests/necessary text and metadata",
+  "file_count": 122,
+  "bytes": 682146,
+  "max_file_bytes": 151134,
+  "markdown_links_checked": 92,
+  "python_files_parsed": 68,
+  "issues": [],
+  "excluded": "data contents, checkpoints, historical originals, run artifacts, environments and caches",
+  "git_actions": [],
+  "limits": "Candidate check only; actual staged changes and later additions need their own review.",
+  "run_id": "MOVE20261004_01",
+  "license": "MIT",
+  "git_ignore_checks": {
+    "method": "read-only git check-ignore --no-index with original git-dir and new work-tree",
+    "included_candidates": 425,
+    "excluded_probes": 48,
+    "status": "passed"
+  },
+  "scope_notes": "Subproject candidate check within collection; derived reports excluded from manifest."
+}

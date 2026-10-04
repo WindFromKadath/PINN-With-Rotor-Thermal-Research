@@ -1,0 +1,50 @@
+{
+  "format": "retained-source-predict/1",
+  "version": "cooling_hardconstraint",
+  "case": "cooling",
+  "factory": "hard_initial",
+  "weights": {
+    "upper": "weights/upper.pth",
+    "lower": "weights/lower.pth",
+    "rib": "weights/rib.pth"
+  },
+  "output_heads": {
+    "upper": [
+      "T_star"
+    ],
+    "lower": [
+      "T_star"
+    ],
+    "rib": [
+      "T_star"
+    ]
+  },
+  "clip_rib_radius": true,
+  "files_sha256": {
+    "source.py": "4b69180f627391ef2a3f50c1e98a1bc2ef7617f0522bfef9f62b07e9eb63694f",
+    "rib_models.json": "d4d9ee8c68c9b17d27ee80697a54866a4103cd082858678cee3913bf799f98e9",
+    "weights/upper.pth": "dc57d42ff6dbd8980c1a34f19ad03b24860361a312f0da13819aebe35c7cb342",
+    "weights/lower.pth": "e7ddbc0a2c3943abec1fe0f30db04dfd413acd4a75aaf75c0139adfe85e090d3",
+    "weights/rib.pth": "ecbc6d320110872c27f794d5266316d4779eab484563a23cba9006875f48cb5f",
+    "weights/upper_thickness.pth": "f987f1ee7761208f0c3fb2e976b59da30e3e38d6995845b387cf6022d5c37aa8",
+    "weights/lower_thickness.pth": "51e1d7b3da8c344c2390550550d3440a6ccfac51f07dacff60b44a67818fa518"
+  },
+  "source_files": {
+    "source.py": "Re-PINN/pinn_v6_colding_hardcore.py",
+    "rib_models.json": "Re-PINN/Dataset/rib_models.json",
+    "weights/upper.pth": "Re-PINN/models_colding_linux/upper_ring_hardconstraint.pth",
+    "weights/lower.pth": "Re-PINN/models_colding_linux/lower_ring_hardconstraint.pth",
+    "weights/rib.pth": "Re-PINN/models_colding_linux/rib_hardconstraint.pth",
+    "weights/upper_thickness.pth": "Re-PINN/ring_thickness/upper_thickness_oscillation_reg.pth",
+    "weights/lower_thickness.pth": "Re-PINN/ring_thickness/lower_thickness_oscillation_reg.pth"
+  },
+  "scope": "original model inference; additional versions are not retrained",
+  "use": "tools/predict_reference.py --bundle this_folder --domain upper/lower/rib --input file.csv --output prediction.csv",
+  "selection": {
+    "run_id": "R121_local_selection",
+    "sample_per_domain": 512,
+    "seed": 42,
+    "rmse_K": 4.207650774784171,
+    "criterion": "top two usable versions per case among six complete mature candidates"
+  }
+}

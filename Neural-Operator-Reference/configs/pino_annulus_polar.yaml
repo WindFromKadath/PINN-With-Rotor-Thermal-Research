@@ -1,0 +1,43 @@
+# E108：2D 圆环瞬态 PINO（极坐标，PyTorch + neuralop；档案 datapino_2d_polar_train.py 重写）
+# 数据：COMSOL 极坐标数据集 .pt（未入库，本地归档，由 heatops.data.comsol 管线装配）；
+#       数据缺失时本入口自动进入 dry-run（验证到数据加载步骤为止并明确报告）。
+experiment: E108
+seed: 0
+physics:
+  R_in: 0.05        # m
+  R_out: 0.147      # m
+  k: 50.0           # W/(m·K)
+  rho: 7850.0       # kg/m³
+  cp: 500.0         # J/(kg·K)
+  h: 10.0           # W/(m²·K)
+  T_inf: 20.0       # °C
+  q_base: 1.0e5     # W/m²，归一化参考热流（T_scale = q_base·R_out/k，q* = q/q_base）
+  t_max: 100.0      # s，数据时长；无量纲时间 t* = t/t_max ∈ [0, 1]
+data:
+  path: ../data/processed/annulus_polar_64.pt  # 未入库，本地归档
+  smoke_path: ../data/processed/annulus_polar_smoke.pt
+  nr: 64
+  ntheta: 64        # θ 网格含两端点（0 与 2π 同母线，周期损失显式对齐）
+  nt: 100           # CSV 帧数（原数据含 t=0，不重复补帧）
+  split_ratio: 0.8
+  split_seed: 456
+model:
+  n_modes: [8, 12, 12]   # (t, r, θ) 三维谱模态数（档案约定）
+  hidden_channels: 32
+training:
+  derivative_method: finite_difference
+  epochs: 3000
+  batch_size: 1          # 档案约定：24GB 显存妥协（配合 PDE 点采样）
+  lr: 5.0e-4
+  checkpoint_every: 500
+  log_every: 100
+  pde_sample_rate: 0.2   # PDE 损失仅采样 20% 随机点（档案 24GB 显存妥协，config 化）
+  device: auto
+weights:
+  data: 1.0
+  pde: 0.05
+  ic: 2.0
+  bc_inner: 5.0
+  bc_outer: 2.0
+  periodic: 2.0
+

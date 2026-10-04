@@ -1,0 +1,64 @@
+{
+  "status": "completed",
+  "model_count": 9,
+  "all_finite": true,
+  "source_prediction_checks": true,
+  "source_pde_checks": true,
+  "packages": [
+    {
+      "bundle_id": "little",
+      "path": "packages/little",
+      "selection": "matched source models; bounded COMSOL diagnostic",
+      "reference_frame": "raw",
+      "thermal_bridge": "thermal.pt"
+    },
+    {
+      "bundle_id": "fxx",
+      "path": "packages/fxx",
+      "selection": "matched source models; bounded COMSOL diagnostic",
+      "reference_frame": "raw",
+      "thermal_bridge": "thermal.pt"
+    },
+    {
+      "bundle_id": "fxx_ntk",
+      "path": "packages/fxx_ntk",
+      "selection": "matched source models; bounded COMSOL diagnostic",
+      "reference_frame": "raw",
+      "thermal_bridge": "fxx/thermal.pt"
+    },
+    {
+      "bundle_id": "mlp_1100",
+      "path": "packages/mlp_1100",
+      "selection": "matched source models; bounded COMSOL diagnostic",
+      "reference_frame": "raw",
+      "thermal_bridge": "little/thermal.pt"
+    },
+    {
+      "bundle_id": "mlp_33k",
+      "path": "packages/mlp_33k",
+      "selection": "matched source models; bounded COMSOL diagnostic",
+      "reference_frame": "raw",
+      "thermal_bridge": "little/thermal.pt"
+    },
+    {
+      "bundle_id": "iwg_constraint",
+      "path": "packages/iwg_constraint",
+      "selection": "matched source models; bounded COMSOL diagnostic",
+      "reference_frame": "original evaluation raw",
+      "thermal_bridge": "linear 400K to 300K"
+    },
+    {
+      "bundle_id": "iwg_projection",
+      "path": "packages/iwg_projection",
+      "selection": "matched source models; bounded COMSOL diagnostic",
+      "reference_frame": "saved global shift",
+      "thermal_bridge": "linear 400K to 300K"
+    }
+  ],
+  "limitations": [
+    "bounded diagnostic sample; historical training/test separation uncertain",
+    "IWG constraint evaluation preserves original evaluator's unset constraint anchor",
+    "projection gauge saved globally on the fixed diagnostic points",
+    "not a global-best or full-accuracy claim"
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "completion_criterion": "usable code and models plus retained local references; metric reproduction not required",
+  "seed": 42,
+  "sample_per_domain": 512,
+  "candidates": [
+    {
+      "version": "heating_v65",
+      "case": "heating",
+      "status": "usable",
+      "rmse_K": 2.1211893770082755,
+      "metrics": {
+        "upper": {
+          "count": 512,
+          "mse_K2": 6.931087686075239,
+          "rmse_K": 2.632695896998975,
+          "mae_K": 1.5995619189011463,
+          "max_absolute_K": 12.337818944126866,
+          "relative_l2_kelvin": 0.00739154432672804
+        },
+        "lower": {
+          "count": 512,
+          "mse_K2": 5.062965061238149,
+          "rmse_K": 2.2501033445684553,
+          "mae_K": 1.1317237415720047,
+          "max_absolute_K": 10.133396809626106,
+          "relative_l2_kelvin": 0.00725508798081898
+        },
+        "rib": {
+          "count": 512,
+          "mse_K2": 1.504280372084882,
+          "rmse_K": 1.2264910811273282,
+          "mae_K": 0.490259529360335,
+          "max_absolute_K": 8.223260455522166,
+          "relative_l2_kelvin": 0.004122877417972805
+        },
+        "all_points": {
+          "count": 1536,
+          "mse_K2": 4.499444373132756,
+          "rmse_K": 2.1211893770082755,
+          "mae_K": 1.073848396611162,
+          "max_absolute_K": 12.337818944126866,
+          "relative_l2_kelvin": 0.006582315331760308
+        }
+      }
+    },
+    {
+      "version": "heating_v64",
+      "case": "heating",
+      "status": "usable",
+      "rmse_K": 2.2158691320799817,
+      "metrics": {
+        "upper": {
+          "count": 512,
+          "mse_K2": 6.020072713888929,
+          "rmse_K": 2.453583647216644,
+          "mae_K": 1.5930825565552476,
+          "max_absolute_K": 10.577809178501866,
+          "relative_l2_kelvin": 0.006888669636477933
+        },
+        "lower": {
+          "count": 512,
+          "mse_K2": 7.465736810063035,
+          "rmse_K": 2.732350052621925,
+          "mae_K": 1.3772373647766374,
+          "max_absolute_K": 12.462284044561443,
+          "relative_l2_kelvin": 0.008810013137405183
+        },
+        "rib": {
+          "count": 512,
+          "mse_K2": 1.2444185075627092,
+          "rmse_K": 1.1155350767962025,
+          "mae_K": 0.4806097949865492,
+          "max_absolute_K": 6.745785081343911,
+          "relative_l2_kelvin": 0.003749896308134797
+        },
+        "all_points": {
+          "count": 1536,
+          "mse_K2": 4.910076010504892,
+          "rmse_K": 2.2158691320799817,
+          "mae_K": 1.150309905439478,
+          "max_absolute_K": 12.462284044561443,
+          "relative_l2_kelvin": 0.006876118426463139
+        }
+      }
+    },
+    {
+      "version": "heating_with_data",
+      "case": "heating",
+      "status": "usable",
+      "rmse_K": 1.393256948249589,
+      "metrics": {
+        "upper": {
+          "count": 512,
+          "mse_K2": 0.87010006603226,
+          "rmse_K": 0.9327915447902924,
+          "mae_K": 0.4440244996301671,
+          "max_absolute_K": 6.175709569126866,
+          "relative_l2_kelvin": 0.002618901050734328
+        },
+        "lower": {
+          "count": 512,
+          "mse_K2": 3.519535153130007,
+          "rmse_K": 1.8760424177320745,
+          "mae_K": 0.891348460908531,
+          "max_absolute_K": 8.325443224248943,
+          "relative_l2_kelvin": 0.006048990073833681
+        },
+        "rib": {
+          "count": 512,
+          "mse_K2": 1.4338595523750057,
+          "rmse_K": 1.197438746815471,
+          "mae_K": 0.49130395868053867,
+          "max_absolute_K": 7.246974421989194,
+          "relative_l2_kelvin": 0.004025217341257322
+        },
+        "all_points": {
+          "count": 1536,
+          "mse_K2": 1.9411649238457578,
+          "rmse_K": 1.393256948249589,
+          "mae_K": 0.6088923064064122,
+          "max_absolute_K": 8.325443224248943,
+          "relative_l2_kelvin": 0.004323450169489072
+        }
+      }
+    },
+    {
+      "version": "cooling_hardconstraint",
+      "case": "cooling",
+      "status": "usable",
+      "rmse_K": 4.207650774784171,
+      "metrics": {
+        "upper": {
+          "count": 512,
+          "mse_K2": 5.0257651472008265,
+          "rmse_K": 2.241821836632168,
+          "mae_K": 1.796867595389323,
+          "max_absolute_K": 6.217105107126258,
+          "relative_l2_kelvin": 0.004207390222681722
+        },
+        "lower": {
+          "count": 512,
+          "mse_K2": 15.487730808657785,
+          "rmse_K": 3.935445439674877,
+          "mae_K": 2.562724073072399,
+          "max_absolute_K": 11.434302915800572,
+          "relative_l2_kelvin": 0.007412582186846982
+        },
+        "rib": {
+          "count": 512,
+          "mse_K2": 32.59947917176689,
+          "rmse_K": 5.709595359722691,
+          "mae_K": 4.813720011785506,
+          "max_absolute_K": 12.323073620885907,
+          "relative_l2_kelvin": 0.01173168030206827
+        },
+        "all_points": {
+          "count": 1536,
+          "mse_K2": 17.704325042541832,
+          "rmse_K": 4.207650774784171,
+          "mae_K": 3.057770560082409,
+          "max_absolute_K": 12.323073620885907,
+          "relative_l2_kelvin": 0.008134687580582403
+        }
+      }
+    },
+    {
+      "version": "cooling_raw",
+      "case": "cooling",
+      "status": "usable",
+      "rmse_K": 6.365806300765455,
+      "metrics": {
+        "upper": {
+          "count": 512,
+          "mse_K2": 6.66590085691821,
+          "rmse_K": 2.5818405947924457,
+          "mae_K": 2.0429497174619713,
+          "max_absolute_K": 12.857366130798596,
+          "relative_l2_kelvin": 0.004845528176035355
+        },
+        "lower": {
+          "count": 512,
+          "mse_K2": 37.2678138386774,
+          "rmse_K": 6.104736999959736,
+          "mae_K": 4.193846987374929,
+          "max_absolute_K": 37.45357593386086,
+          "relative_l2_kelvin": 0.011498536934366867
+        },
+        "rib": {
+          "count": 512,
+          "mse_K2": 77.6367548809999,
+          "rmse_K": 8.811172162714783,
+          "mae_K": 7.423965653497294,
+          "max_absolute_K": 19.89138845090099,
+          "relative_l2_kelvin": 0.018104585068962547
+        },
+        "all_points": {
+          "count": 1536,
+          "mse_K2": 40.52348985886517,
+          "rmse_K": 6.365806300765455,
+          "mae_K": 4.553587452778064,
+          "max_absolute_K": 37.45357593386086,
+          "relative_l2_kelvin": 0.012307068297008606
+        }
+      }
+    },
+    {
+      "version": "cooling_with_data",
+      "case": "cooling",
+      "status": "usable",
+      "rmse_K": 5.07941493500776,
+      "metrics": {
+        "upper": {
+          "count": 512,
+          "mse_K2": 6.972881008607011,
+          "rmse_K": 2.6406213300295467,
+          "mae_K": 2.102935490734856,
+          "max_absolute_K": 6.382059285471314,
+          "relative_l2_kelvin": 0.004955846260495694
+        },
+        "lower": {
+          "count": 512,
+          "mse_K2": 28.166461974034256,
+          "rmse_K": 5.307208491668125,
+          "mae_K": 3.7493656932734387,
+          "max_absolute_K": 15.04907207692861,
+          "relative_l2_kelvin": 0.009996357395942512
+        },
+        "rib": {
+          "count": 512,
+          "mse_K2": 42.262025263298405,
+          "rmse_K": 6.500924954442898,
+          "mae_K": 5.442989951420359,
+          "max_absolute_K": 14.075759167760907,
+          "relative_l2_kelvin": 0.013357649435417432
+        },
+        "all_points": {
+          "count": 1536,
+          "mse_K2": 25.80045608197989,
+          "rmse_K": 5.07941493500776,
+          "mae_K": 3.7650970451428845,
+          "max_absolute_K": 15.04907207692861,
+          "relative_l2_kelvin": 0.00982007676018499
+        }
+      }
+    }
+  ],
+  "selected": [
+    {
+      "version": "heating_with_data",
+      "case": "heating",
+      "bundle": "local_reference_versions/selected/heating_with_data",
+      "status": "usable",
+      "selection_run": "R121_local_selection",
+      "sample_rmse_K": 1.393256948249589
+    },
+    {
+      "version": "heating_v65",
+      "case": "heating",
+      "bundle": "local_reference_versions/selected/heating_v65",
+      "status": "usable",
+      "selection_run": "R121_local_selection",
+      "sample_rmse_K": 2.1211893770082755
+    },
+    {
+      "version": "cooling_hardconstraint",
+      "case": "cooling",
+      "bundle": "local_reference_versions/selected/cooling_hardconstraint",
+      "status": "usable",
+      "selection_run": "R121_local_selection",
+      "sample_rmse_K": 4.207650774784171
+    },
+    {
+      "version": "cooling_with_data",
+      "case": "cooling",
+      "bundle": "local_reference_versions/selected/cooling_with_data",
+      "status": "usable",
+      "selection_run": "R121_local_selection",
+      "sample_rmse_K": 5.07941493500776
+    }
+  ],
+  "scope": "bounded sample screening; not a global optimum claim or precision reproduction",
+  "input_sha256": {
+    "heating/upper": "8a0c26fc307a713772e15f49bcb4b8a0ef5c0825b4757a9070d234cfca78e950",
+    "heating/lower": "7264a0e0b359518c42475b8d12c1c43350e69015fd74a9612d7d5e215ac74d23",
+    "heating/rib": "1c75ae553be8679bf0e2f19885a4d2b9c32a7421e1296839d23ec7f237840eeb",
+    "cooling/upper": "856018a43fb641ab4e54a56a8fecf3fcecd0f1c149689cc732e1665746b9e885",
+    "cooling/lower": "cec922e6705653747b7579c549aa3a090ef92548eebcaf8c066da8461a0540b9",
+    "cooling/rib": "3318a1df476ccbd2162c93397a8ea1675be0df90c29ffd98369ad41968ec4aba"
+  }
+}

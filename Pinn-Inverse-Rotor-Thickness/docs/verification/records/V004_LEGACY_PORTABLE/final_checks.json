@@ -1,0 +1,18 @@
+{
+  "cli_prediction_count": 195,
+  "cli_temperature_and_thickness_finite": true,
+  "cli_refuses_existing_output": true,
+  "existing_output_unchanged_sha256": "bcc73ffda27c1c712788e9888c3e23172232400aeefcf26224632475f024ac6a",
+  "cpu_pytest_passed": 37,
+  "cuda_test_skipped": 1,
+  "full_pytest_xml_sha256": "e48324b563768b4e655e52583f3b69e9e2a08a41a6a3b95806558aa57d867a22",
+  "preserved_collection_versions": 3,
+  "preserved_model_count": 15,
+  "original_weight_hashes_rechecked_unchanged": true,
+  "module_import_has_no_data_training_plotting_backend_side_effects": true,
+  "project_git_initialized": false,
+  "git_upload_performed": false,
+  "readme_sha256": "f1383051cfdd4b3ea768a0999f26689c5629c2bf3be01bc1d4b9c8a6817fa0bb",
+  "legacy_module_sha256": "49ba81da3f95ff4fe4858242d7e268a3f6d9637ba8f17eba91383399020518c7",
+  "reuse_cli_sha256": "73220cee7306738e3e091935d9c76d35ffdca82f02bb4c976b12d021f54005a4"
+}

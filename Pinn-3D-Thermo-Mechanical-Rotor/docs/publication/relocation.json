@@ -1,0 +1,43 @@
+{
+  "run_id": "MOVE20261004_01",
+  "status": "passed",
+  "cpu_tests": {
+    "passed": 40,
+    "skipped": 0,
+    "failed": 0
+  },
+  "environment": {
+    "python": "3.13.14",
+    "torch": "2.14.1+cpu",
+    "source_import": "new subproject src",
+    "lock": "unchanged"
+  },
+  "cli_help": "passed",
+  "packaging": {
+    "status": "passed",
+    "license": "MIT",
+    "wheel": "thermo_rotor-0.1.0-py3-none-any.whl",
+    "license_files": [
+      "thermo_rotor-0.1.0.dist-info/licenses/LICENSE"
+    ],
+    "private_assets_in_wheel": false
+  },
+  "source_configs_tests_hypotheses_unchanged": true,
+  "pyproject_change": "MIT license and LICENSE inclusion metadata only; dependencies unchanged",
+  "scope": "software relocation/usability and publication preparation; no historical metric replication or new scientific claim",
+  "local_models": {
+    "selected_models": 10,
+    "device": "CPU",
+    "finite_forward_derivatives_backward_and_reload": true,
+    "frozen_temperature_bridge": "passed"
+  },
+  "cuda": {
+    "status": "passed",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "torch": "2.14.1+cu130",
+    "models_checked": 10,
+    "finite_derivatives_backward_and_reload": true,
+    "frozen_bridge": "passed",
+    "scope": "bounded model checks; no full CUDA training"
+  }
+}

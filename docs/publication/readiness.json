@@ -1,0 +1,237 @@
+{
+  "run_id": "MOVE20261004_01",
+  "status": "passed",
+  "license": "MIT",
+  "projects": {
+    "Neural-Operator-Reference": {
+      "format_version": 1,
+      "status": "passed",
+      "scope": "this project only; code/configuration/locks/tests/necessary text and metadata",
+      "file_count": 122,
+      "bytes": 682146,
+      "max_file_bytes": 151134,
+      "markdown_links_checked": 92,
+      "python_files_parsed": 68,
+      "issues": [],
+      "excluded": "data contents, checkpoints, historical originals, run artifacts, environments and caches",
+      "git_actions": [],
+      "limits": "Candidate check only; actual staged changes and later additions need their own review."
+    },
+    "Pinn-Inverse-Rotor-Thickness": {
+      "format_version": 1,
+      "status": "passed",
+      "scope": "this project only; code/configuration/locks/tests/necessary text and metadata",
+      "file_count": 73,
+      "bytes": 411485,
+      "max_file_bytes": 95246,
+      "markdown_links_checked": 98,
+      "python_files_parsed": 27,
+      "issues": [],
+      "excluded": "data contents, checkpoints, historical originals, run artifacts, environments and caches",
+      "git_actions": [],
+      "limits": "Candidate check only; actual staged changes and later additions need their own review."
+    },
+    "Pinn-Ring-Rib-2.5D": {
+      "format_version": 1,
+      "status": "passed",
+      "scope": "this project only; code/configuration/locks/tests/necessary text and metadata",
+      "file_count": 94,
+      "bytes": 499634,
+      "max_file_bytes": 106187,
+      "markdown_links_checked": 158,
+      "python_files_parsed": 28,
+      "issues": [],
+      "excluded": "data contents, checkpoints, historical originals, run artifacts, environments and caches",
+      "git_actions": [],
+      "limits": "Candidate check only; actual staged changes and later additions need their own review."
+    },
+    "Pinn-3D-Thermo-Mechanical-Rotor": {
+      "format_version": 1,
+      "status": "passed",
+      "scope": "this project only; code/configuration/locks/tests/necessary text and metadata",
+      "file_count": 123,
+      "bytes": 743886,
+      "max_file_bytes": 268691,
+      "markdown_links_checked": 131,
+      "python_files_parsed": 39,
+      "issues": [],
+      "excluded": "data contents, checkpoints, historical originals, run artifacts, environments and caches",
+      "git_actions": [],
+      "limits": "Candidate check only; actual staged changes and later additions need their own review."
+    }
+  },
+  "issues": [],
+  "file_count": 425,
+  "bytes": 2444487,
+  "git_actions": [],
+  "scope": "Candidate text/code scope; actual staging and history must be checked before publication.",
+  "relocation": {
+    "protected_files": 201,
+    "unchanged_hashed_or_sampled_old_files": 3593,
+    "fifth_unchanged": true,
+    "ignore_check": {
+      "method": "read-only git check-ignore --no-index with original git-dir and new work-tree",
+      "included_candidates": 425,
+      "excluded_probes": 48,
+      "status": "passed"
+    },
+    "hash_limits": "Large non-model files checked by size plus first/last 64KiB; other files by full SHA-256."
+  },
+  "verification": {
+    "Neural-Operator-Reference": {
+      "status": "passed",
+      "cpu_tests": {
+        "passed": 92,
+        "skipped": 0,
+        "failed": 0
+      },
+      "environment": {
+        "python": "3.13.14",
+        "torch": "2.14.1+cpu",
+        "source_import": "new subproject src",
+        "lock": "unchanged"
+      },
+      "cli_help": "passed",
+      "packaging": {
+        "status": "passed",
+        "license": "MIT",
+        "wheel": "heatops-0.2.0-py3-none-any.whl",
+        "license_files": [
+          "heatops-0.2.0.dist-info/licenses/LICENSE"
+        ],
+        "private_assets_in_wheel": false
+      },
+      "local_models": {
+        "selected_models": 6,
+        "finite_predictions": true
+      }
+    },
+    "Pinn-Inverse-Rotor-Thickness": {
+      "status": "passed",
+      "cpu_tests": {
+        "passed": 37,
+        "skipped": 1,
+        "failed": 0
+      },
+      "environment": {
+        "python": "3.12.14",
+        "torch": "2.12.1+cpu",
+        "source_import": "new subproject src",
+        "lock": "unchanged"
+      },
+      "cli_help": "passed",
+      "packaging": {
+        "status": "passed",
+        "license": "MIT",
+        "wheel": "rotor_pinn-0.1.0-py3-none-any.whl",
+        "license_files": [
+          "rotor_pinn-0.1.0.dist-info/licenses/LICENSE"
+        ],
+        "private_assets_in_wheel": false
+      },
+      "local_models": {
+        "selected_bundles": 3,
+        "finite_predictions_thickness_derivatives_reload": true,
+        "old_source_unavailable": true
+      }
+    },
+    "Pinn-Ring-Rib-2.5D": {
+      "status": "passed",
+      "cpu_tests": {
+        "passed": 34,
+        "skipped": 0,
+        "failed": 0
+      },
+      "environment": {
+        "python": "3.12.14",
+        "torch": "2.12.1+cpu",
+        "source_import": "new subproject src",
+        "lock": "unchanged"
+      },
+      "cli_help": "passed",
+      "packaging": {
+        "status": "passed",
+        "license": "MIT",
+        "wheel": "ring_rib_pinn-0.1.0-py3-none-any.whl",
+        "license_files": [
+          "ring_rib_pinn-0.1.0.dist-info/licenses/LICENSE"
+        ],
+        "private_assets_in_wheel": false
+      },
+      "local_models": {
+        "selected_source_versions": 4,
+        "main_model_groups": 2,
+        "tests": "full contract/compatibility/local legacy tests",
+        "status": "passed"
+      }
+    },
+    "Pinn-3D-Thermo-Mechanical-Rotor": {
+      "status": "passed",
+      "cpu_tests": {
+        "passed": 40,
+        "skipped": 0,
+        "failed": 0
+      },
+      "environment": {
+        "python": "3.13.14",
+        "torch": "2.14.1+cpu",
+        "source_import": "new subproject src",
+        "lock": "unchanged"
+      },
+      "cli_help": "passed",
+      "packaging": {
+        "status": "passed",
+        "license": "MIT",
+        "wheel": "thermo_rotor-0.1.0-py3-none-any.whl",
+        "license_files": [
+          "thermo_rotor-0.1.0.dist-info/licenses/LICENSE"
+        ],
+        "private_assets_in_wheel": false
+      },
+      "local_models": {
+        "selected_models": 10,
+        "device": "CPU",
+        "finite_forward_derivatives_backward_and_reload": true,
+        "frozen_temperature_bridge": "passed"
+      },
+      "cuda": {
+        "status": "passed",
+        "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "torch": "2.14.1+cu130",
+        "models_checked": 10,
+        "finite_derivatives_backward_and_reload": true,
+        "frozen_bridge": "passed",
+        "scope": "bounded model checks; no full CUDA training"
+      }
+    }
+  },
+  "total_cpu_tests": {
+    "passed": 203,
+    "skipped": 1,
+    "failed": 0
+  },
+  "scope_notes": "Candidate bytes measured before derived report update; root manifest excludes its own two derived files. Actual Git index/history not created or scanned.",
+  "final_private_identifier_scan": {
+    "status": "passed",
+    "scope": "425 public candidate text files; local identifier not recorded"
+  },
+  "first_submission": {
+    "run_id": "PUSH20261004_01",
+    "status": "prepared-for-first-push",
+    "remote": "https://github.com/WindFromKadath/PINN-With-Rotor-Thermal-Research.git",
+    "branch": "main",
+    "license": "MIT",
+    "author": "WindFromKadath",
+    "email": "294740142+WindFromKadath@users.noreply.github.com",
+    "fresh_test": {
+      "target": "Pinn-Inverse-Rotor-Thickness/tests/test_legacy.py",
+      "passed": 9,
+      "failed": 0
+    },
+    "changes": "Preserve file bytes with Git attributes; use a temporary missing-source path in the test instead of a hard-coded drive; remove the obsolete scanner exception.",
+    "scientific_source_and_uv_locks": "unchanged",
+    "excluded": "raw data, meshes, weights, historical source archives, original papers/documents, artifacts, environments and caches",
+    "privacy_scope": "Staged-file and history checks performed separately; this record alone does not claim a completed push."
+  },
+  "current_submission_file_count": 427
+}

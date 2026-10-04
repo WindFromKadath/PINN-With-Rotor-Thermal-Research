@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heatops"
+version = "0.2.0"
+description = "Reusable neural operator and thermal PINN reference implementations"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.13,<3.14"
+dependencies = ["deepxde==1.15.0", "neuraloperator==2.0.0", "numpy==2.5.3", "scipy==1.18.1", "matplotlib==3.11.2", "pandas==3.0.6", "pyyaml==6.0.3", "scikit-learn==1.9.1"]
+
+[project.optional-dependencies]
+cpu = ["torch==2.14.1"]
+cuda = ["torch==2.14.1"]
+
+[dependency-groups]
+dev = ["pytest==9.1.1"]
+
+[project.scripts]
+heatops = "heatops.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv]
+cache-dir = ".cache/uv"
+conflicts = [[{extra = "cpu"}, {extra = "cuda"}]]
+
+[tool.uv.sources]
+torch = [{index = "pytorch-cpu", extra = "cpu"}, {index = "pytorch-cuda", extra = "cuda"}]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cuda"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

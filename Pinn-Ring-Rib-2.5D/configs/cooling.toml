@@ -1,0 +1,39 @@
+# Retained full historical budgets; use demo configs for workflow validation.
+case = "cooling"
+
+[physics]
+source = 0.0
+
+[training]
+seed = 42
+device = "cpu"
+train_thickness = false
+thickness_steps = 60000
+independent_steps = 10000
+rib_steps = 10000
+outer_iterations = 5
+coupling_steps = 2000
+coupling_lr = 0.001
+coupling_decay = 1000
+lbfgs = true
+independent_lbfgs = 5000
+coupling_lbfgs = 2000
+final_lbfgs = 5000
+evaluation_limit = 0
+
+[data]
+upper_csv = "../data/processed/cooling/upper_domain.csv"
+lower_csv = "../data/processed/cooling/lower_domain.csv"
+rib_csv = "../data/processed/cooling/rib_domain.csv"
+upper_raw = "../data/raw/cooling/upper_domain.csv"
+lower_raw = "../data/raw/cooling/lower_domain.csv"
+rib_raw = "../data/raw/cooling/rib_domain.csv"
+rib_json = "../data/processed/rib_models.json"
+upper_thickness_csv = "../data/raw/thickness/upper.csv"
+lower_thickness_csv = "../data/raw/thickness/lower.csv"
+upper_thickness = "../local_reference_versions/cooling_hardconstraint/weights/upper_thickness.pth"
+lower_thickness = "../local_reference_versions/cooling_hardconstraint/weights/lower_thickness.pth"
+
+[output]
+root = "../artifacts"
+

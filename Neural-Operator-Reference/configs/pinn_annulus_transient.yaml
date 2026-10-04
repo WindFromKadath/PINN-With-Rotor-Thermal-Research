@@ -1,0 +1,34 @@
+# E110：圆环瞬态 PINN（极坐标无量纲，档案 Heat_2D_Annulus_Transient 最终版重写）
+# PDE: ∂t*θ - (θ_rr + θ_r/r + θ_φφ/r²) = 0；BC θ_r+1（内）/ θ_r+Bi·θ（外）；IC θ=0
+# 周期特征映射 φ→(sin φ, cos φ)（输入 [r*,φ,t*]→4 维）；周期约束由映射兜底，
+# 省略档案中权重为 0 的 PeriodicBC 占位项（loss_weights 由 [1,5,5,1,0]→[1,5,5,1]）。
+experiment: E110
+seed: 0
+mode: transient
+physics: {}       # 空 = AnnulusParams 钢材基准
+domain:
+  t_final: 3000.0   # s（物理时长；内部按 t_scale=R_out²/alpha 转无量纲）
+collocation:
+  num_domain: 6000
+  num_boundary: 1500
+  num_initial: 1000
+  train_distribution: Hammersley
+model:
+  layer_sizes: [4, 64, 64, 64, 64, 1]   # 首维 4 = 周期映射后的 [r*, sinφ, cosφ, t*]
+  activation: tanh
+  kernel_initializer: Glorot normal
+training:
+  adam_iterations: 15000
+  adam_lr: 1.0e-3
+  adam_decay: null
+  use_lbfgs: false            # 档案瞬态线仅 Adam
+  loss_weights: [1.0, 5.0, 5.0, 1.0]   # [pde, bc_inner, bc_outer, ic]
+  pde_point_resampler_period: 2000     # 0 = 关闭重采样
+  display_every: 1000
+  checkpoint_period: 2500
+  monitor_period: 2500
+eval:
+  n_times: 5        # 评估时刻数（跳过平凡的 t=0）
+  cn_nr: 200        # C-N 参照径向网格
+  cn_nt: 2001       # C-N 参照时间步数（dt = t_final/(cn_nt-1)）
+zip_artifacts: true

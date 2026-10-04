@@ -1,0 +1,1428 @@
+{
+  "selection_scope": {
+    "ranking": "aggregate RMSE_K on exactly the same rows, smaller first; no retraining",
+    "counts": {
+      "upper": 188567,
+      "lower": 265630,
+      "rib": 142511
+    },
+    "rib_common_radius_m": [
+      0.123,
+      0.225
+    ],
+    "scope": "Audited complete upper/lower/rib temperature sets only, no global optimum claim",
+    "held_out": false,
+    "excluded": [
+      {
+        "family": "PINN_Inverse_fin_pls/models_v2 and models_test_v1.1",
+        "reason": "Duplicate temperature weights; training prepare_obs_1d order conflicts with feature/output transforms"
+      },
+      {
+        "family": "InversePINN_Again/models_v1.1",
+        "reason": "Training v2 time square-root transform differs from existing v2 predictor; exact source revision not saved"
+      },
+      {
+        "family": "InversePINN_Again/model_v3.1/*_final",
+        "reason": "Same three state_dict hashes as models_v3.1/*_final; duplicate"
+      },
+      {
+        "family": "remaining two-ring checkpoints",
+        "reason": "Missing a compatible complete rib set"
+      },
+      {
+        "family": "LetsFuckingGo and InversePINN POD/MoE/other inverse models",
+        "reason": "Different simplified domain or inverse task; not comparable to two-ring/13-rib profile"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "version_id": "fin_final",
+      "status": "usable",
+      "metrics": {
+        "regions": {
+          "upper": {
+            "count": 188567,
+            "rmse_k": 4.6539116947158226,
+            "mae_k": 1.8778500379074867,
+            "max_k": 23.497786178112506,
+            "l2_relative_absolute_kelvin": 0.012623313581833256
+          },
+          "lower": {
+            "count": 265630,
+            "rmse_k": 6.7795048478028574,
+            "mae_k": 3.5699650223228345,
+            "max_k": 25.504516818464197,
+            "l2_relative_absolute_kelvin": 0.021314032003937083
+          },
+          "rib": {
+            "count": 142511,
+            "rmse_k": 6.848213564293319,
+            "mae_k": 3.658106356084119,
+            "max_k": 69.6539021154777,
+            "l2_relative_absolute_kelvin": 0.02290370938637524
+          }
+        },
+        "overall": {
+          "count": 596708,
+          "rmse_k": 6.205266566205076,
+          "mae_k": 3.0562867464314536,
+          "max_k": 69.6539021154777,
+          "l2_relative_absolute_kelvin": 0.018765739406501145
+        }
+      },
+      "factory_source": "[local archive]",
+      "weights": {
+        "upper": {
+          "path": "[local archive]",
+          "sha256": "60534dc30b4be90a3861abd8971210b3dc112b1f5c0535e9cc8215adf29b93cd",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "lower": {
+          "path": "[local archive]",
+          "sha256": "09d5717df506e46f0ce6a491efbbbee2786df62c9f8b9bdb23e56861603571ad",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "rib": {
+          "path": "[local archive]",
+          "sha256": "026c8cdc5e3b66c538cef842cefb51a9b6f9a5c8e7d60ede859549f0ebb5e3f5",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              1,
+              64
+            ],
+            "linears.3.bias": [
+              1
+            ]
+          }
+        }
+      },
+      "factory_source_sha256": "f558230b597d2fb0eacce3ee041998a7015411dcd4c94f49f108a1db575e3226"
+    },
+    {
+      "version_id": "fin_v3_1",
+      "status": "usable",
+      "metrics": {
+        "regions": {
+          "upper": {
+            "count": 188567,
+            "rmse_k": 4.65832448284623,
+            "mae_k": 1.8688614849156888,
+            "max_k": 24.097273482800006,
+            "l2_relative_absolute_kelvin": 0.012635282869605425
+          },
+          "lower": {
+            "count": 265630,
+            "rmse_k": 6.70182888705516,
+            "mae_k": 3.5580764534262506,
+            "max_k": 25.985879968113977,
+            "l2_relative_absolute_kelvin": 0.02106982716147731
+          },
+          "rib": {
+            "count": 142511,
+            "rmse_k": 2.3608997145819703,
+            "mae_k": 0.9535991513101714,
+            "max_k": 33.643703699412185,
+            "l2_relative_absolute_kelvin": 0.007895980527695714
+          }
+        },
+        "overall": {
+          "count": 596708,
+          "rmse_k": 5.308743584669984,
+          "mae_k": 2.4022399910878947,
+          "max_k": 33.643703699412185,
+          "l2_relative_absolute_kelvin": 0.016054507509542376
+        }
+      },
+      "factory_source": "[local archive]",
+      "weights": {
+        "upper": {
+          "path": "[local archive]",
+          "sha256": "3043fa54829eff13146b627950da348230797896879725311cc068269403bcbf",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "lower": {
+          "path": "[local archive]",
+          "sha256": "3717ffd9db96f24a8f46bf9dafda88e2909a24b2006e7da26a42ca1c244d113b",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "rib": {
+          "path": "[local archive]",
+          "sha256": "4e1fe2711fc75a6c9bbfb2d348395a6dcfc6c509c781a0bfc912ddd219eee32c",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              1,
+              64
+            ],
+            "linears.3.bias": [
+              1
+            ]
+          }
+        }
+      },
+      "factory_source_sha256": "4f8d9aaf37bb98c2ab7a63376f5e2f3c7e85ba63e2dfa2a3843dad9f44ee9a25"
+    },
+    {
+      "version_id": "fin_v3",
+      "status": "usable",
+      "metrics": {
+        "regions": {
+          "upper": {
+            "count": 188567,
+            "rmse_k": 4.641275702502755,
+            "mae_k": 1.8756850388187096,
+            "max_k": 23.792029900899138,
+            "l2_relative_absolute_kelvin": 0.012589039598443267
+          },
+          "lower": {
+            "count": 265630,
+            "rmse_k": 6.679862529894285,
+            "mae_k": 3.4902350010500216,
+            "max_k": 26.589949934214474,
+            "l2_relative_absolute_kelvin": 0.021000767303855323
+          },
+          "rib": {
+            "count": 142511,
+            "rmse_k": 3.7747288413973017,
+            "mae_k": 1.265999254774911,
+            "max_k": 141.45339595566378,
+            "l2_relative_absolute_kelvin": 0.012624502957459125
+          }
+        },
+        "overall": {
+          "count": 596708,
+          "rmse_k": 5.483938106797461,
+          "mae_k": 2.4488061896959183,
+          "max_k": 141.45339595566378,
+          "l2_relative_absolute_kelvin": 0.01658432435344653
+        }
+      },
+      "factory_source": "[local archive]",
+      "weights": {
+        "upper": {
+          "path": "[local archive]",
+          "sha256": "7b8bc7153c500c45e9a6ad24020abcc7a318d5c42ec33feca8d7153018d01e12",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "lower": {
+          "path": "[local archive]",
+          "sha256": "f8f1b572bf73b5970adc0e7d4a1a0425a8c4e3e3fbd3c1d4d4147e81af1e31df",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "rib": {
+          "path": "[local archive]",
+          "sha256": "e1b6295b08bff2d1290bcdfb324af83369393abd4c506a6d7452d301e5784b95",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              1,
+              64
+            ],
+            "linears.3.bias": [
+              1
+            ]
+          }
+        }
+      },
+      "factory_source_sha256": "40e7c41c076bd804b15acf2b6f5cdf1d02fede2da6c0c8a5be1e192fe35558ce"
+    },
+    {
+      "version_id": "fin_v2_4",
+      "status": "usable",
+      "metrics": {
+        "regions": {
+          "upper": {
+            "count": 188567,
+            "rmse_k": 54.1077809337687,
+            "mae_k": 20.489823524093122,
+            "max_k": 281.63633357158494,
+            "l2_relative_absolute_kelvin": 0.14676245076150018
+          },
+          "lower": {
+            "count": 265630,
+            "rmse_k": 5.971422349985025,
+            "mae_k": 3.370966206830043,
+            "max_k": 20.706086631196627,
+            "l2_relative_absolute_kelvin": 0.018773507790595372
+          },
+          "rib": {
+            "count": 142511,
+            "rmse_k": 7.584724456007145,
+            "mae_k": 2.2418636781409647,
+            "max_k": 118.21216825928991,
+            "l2_relative_absolute_kelvin": 0.025366954912430077
+          }
+        },
+        "overall": {
+          "count": 596708,
+          "rmse_k": 30.89961938717843,
+          "mae_k": 8.511071647478294,
+          "max_k": 281.63633357158494,
+          "l2_relative_absolute_kelvin": 0.09344549488620593
+        }
+      },
+      "factory_source": "[local archive]",
+      "weights": {
+        "upper": {
+          "path": "[local archive]",
+          "sha256": "18faf8fff06b21f01c1fb6c035a1abcbac9fc8862a0d39fb4786167b6c95ffdb",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "lower": {
+          "path": "[local archive]",
+          "sha256": "1e5a035e5349081f619df7a82cbe53d28564dbb551e58e2be42b010a490bdf97",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "rib": {
+          "path": "[local archive]",
+          "sha256": "76e6a55ea3160a9c9fec53f4c18408d5111f90ed5c1358fc0b64b529ba1e37ae",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              1,
+              64
+            ],
+            "linears.3.bias": [
+              1
+            ]
+          }
+        }
+      },
+      "factory_source_sha256": "52414610df19ced8c5f0f521b3dcfed1dff52e33be0484f5e6786b7cd4a49ed7"
+    },
+    {
+      "version_id": "again_fixed_a",
+      "status": "usable",
+      "metrics": {
+        "regions": {
+          "upper": {
+            "count": 188567,
+            "rmse_k": 82.45518151915692,
+            "mae_k": 43.98881933515739,
+            "max_k": 379.81898521877395,
+            "l2_relative_absolute_kelvin": 0.22365220507838976
+          },
+          "lower": {
+            "count": 265630,
+            "rmse_k": 62.98280197472772,
+            "mae_k": 55.5965991943509,
+            "max_k": 146.40364510442595,
+            "l2_relative_absolute_kelvin": 0.19801113608201595
+          },
+          "rib": {
+            "count": 142511,
+            "rmse_k": 41.845682680112915,
+            "mae_k": 24.007400858671737,
+            "max_k": 141.58595961388193,
+            "l2_relative_absolute_kelvin": 0.1399520248867536
+          }
+        },
+        "overall": {
+          "count": 596708,
+          "rmse_k": 65.82246815947221,
+          "mae_k": 44.38399190783134,
+          "max_k": 379.81898521877395,
+          "l2_relative_absolute_kelvin": 0.19905789242004868
+        }
+      },
+      "factory_source": "[local archive]",
+      "weights": {
+        "upper": {
+          "path": "[local archive]",
+          "sha256": "27ad17da3b82fbdcc83ea4349e4ce9f0e4e653c1a1ba7ce9748f85fdba4ffd9c",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "lower": {
+          "path": "[local archive]",
+          "sha256": "01e292e38efcf46f284402d1f6b055f8c9dfce8b237da7b0bd2e686a17c49e6a",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "rib": {
+          "path": "[local archive]",
+          "sha256": "fe4106dafce3735838672f67ea6d176b8c32a61db447ef396c02e7e24af6dc8b",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              32,
+              2
+            ],
+            "linears.0.bias": [
+              32
+            ],
+            "linears.1.weight": [
+              32,
+              32
+            ],
+            "linears.1.bias": [
+              32
+            ],
+            "linears.2.weight": [
+              32,
+              32
+            ],
+            "linears.2.bias": [
+              32
+            ],
+            "linears.3.weight": [
+              1,
+              32
+            ],
+            "linears.3.bias": [
+              1
+            ]
+          }
+        }
+      },
+      "factory_source_sha256": "f13748b60757a421d5989d30ad4dbb9b0ff02a496f87b72028f4ec7efef7566a"
+    },
+    {
+      "version_id": "again_fixed_b",
+      "status": "usable",
+      "metrics": {
+        "regions": {
+          "upper": {
+            "count": 188567,
+            "rmse_k": 83.49615331014995,
+            "mae_k": 44.56600229571431,
+            "max_k": 382.8375856111403,
+            "l2_relative_absolute_kelvin": 0.22647574669446038
+          },
+          "lower": {
+            "count": 265630,
+            "rmse_k": 41.429501826448586,
+            "mae_k": 34.18839964518906,
+            "max_k": 119.94236668765211,
+            "l2_relative_absolute_kelvin": 0.13024988515529606
+          },
+          "rib": {
+            "count": 142511,
+            "rmse_k": 47.772757710626216,
+            "mae_k": 32.519798918700985,
+            "max_k": 137.16330490753222,
+            "l2_relative_absolute_kelvin": 0.15977500539628828
+          }
+        },
+        "overall": {
+          "count": 596708,
+          "rmse_k": 59.264232337844724,
+          "mae_k": 37.069338799463935,
+          "max_k": 382.8375856111403,
+          "l2_relative_absolute_kelvin": 0.17922471634582443
+        }
+      },
+      "factory_source": "[local archive]",
+      "weights": {
+        "upper": {
+          "path": "[local archive]",
+          "sha256": "878f718a20b1ef594e621a8716be3ae28e6f0176856dadc1b79eacb36ec290dc",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "lower": {
+          "path": "[local archive]",
+          "sha256": "775bd2132d62677edda6c454f2a49dee9aeffa708bb3e54b09c9356b7136130d",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              1,
+              64
+            ],
+            "linears.4.bias": [
+              1
+            ]
+          }
+        },
+        "rib": {
+          "path": "[local archive]",
+          "sha256": "38b8a5714e0546e531e07f9cecc384bd746a81454d3f1b76827db37ef2e2ea6e",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              32,
+              2
+            ],
+            "linears.0.bias": [
+              32
+            ],
+            "linears.1.weight": [
+              32,
+              32
+            ],
+            "linears.1.bias": [
+              32
+            ],
+            "linears.2.weight": [
+              32,
+              32
+            ],
+            "linears.2.bias": [
+              32
+            ],
+            "linears.3.weight": [
+              1,
+              32
+            ],
+            "linears.3.bias": [
+              1
+            ]
+          }
+        }
+      },
+      "factory_source_sha256": "f13748b60757a421d5989d30ad4dbb9b0ff02a496f87b72028f4ec7efef7566a"
+    },
+    {
+      "version_id": "again_v3",
+      "status": "usable",
+      "metrics": {
+        "regions": {
+          "upper": {
+            "count": 188567,
+            "rmse_k": 83.84586611157242,
+            "mae_k": 42.99363095798289,
+            "max_k": 385.7932414445721,
+            "l2_relative_absolute_kelvin": 0.22742431096587734
+          },
+          "lower": {
+            "count": 265630,
+            "rmse_k": 57.48809699363397,
+            "mae_k": 50.77565263507319,
+            "max_k": 141.28484017278532,
+            "l2_relative_absolute_kelvin": 0.18073637628046793
+          },
+          "rib": {
+            "count": 142511,
+            "rmse_k": 45.22489859604414,
+            "mae_k": 31.24584508980437,
+            "max_k": 128.00821457550097,
+            "l2_relative_absolute_kelvin": 0.15125374300136518
+          }
+        },
+        "overall": {
+          "count": 596708,
+          "rmse_k": 64.66280878229509,
+          "mae_k": 43.652160265827774,
+          "max_k": 385.7932414445721,
+          "l2_relative_absolute_kelvin": 0.19555089309290774
+        }
+      },
+      "factory_source": "[local archive]",
+      "weights": {
+        "upper": {
+          "path": "[local archive]",
+          "sha256": "d87fd8d808349bb7241e4d5a8919254c8ac7ae3d2ebdaf9ee0fc678296706cf3",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              3,
+              64
+            ],
+            "linears.4.bias": [
+              3
+            ]
+          }
+        },
+        "lower": {
+          "path": "[local archive]",
+          "sha256": "a97ac321351bd995b2d55ca4e6b868e23c683c1bd129e98ad7ca7bb45283af06",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              3,
+              64
+            ],
+            "linears.4.bias": [
+              3
+            ]
+          }
+        },
+        "rib": {
+          "path": "[local archive]",
+          "sha256": "bba9b9e71f72c797623a4da45628290dccc50cde5208a285ae57e87958c24dfb",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              32,
+              2
+            ],
+            "linears.0.bias": [
+              32
+            ],
+            "linears.1.weight": [
+              32,
+              32
+            ],
+            "linears.1.bias": [
+              32
+            ],
+            "linears.2.weight": [
+              32,
+              32
+            ],
+            "linears.2.bias": [
+              32
+            ],
+            "linears.3.weight": [
+              1,
+              32
+            ],
+            "linears.3.bias": [
+              1
+            ]
+          }
+        }
+      },
+      "factory_source_sha256": "fc121593692a9f74821f38f2f90b8fafd40708fdb36879deaae79e4db3ebfec3"
+    },
+    {
+      "version_id": "again_base",
+      "status": "usable",
+      "metrics": {
+        "regions": {
+          "upper": {
+            "count": 188567,
+            "rmse_k": 95.62238826954867,
+            "mae_k": 62.75260576709297,
+            "max_k": 458.29089574475796,
+            "l2_relative_absolute_kelvin": 0.25936705974478796
+          },
+          "lower": {
+            "count": 265630,
+            "rmse_k": 19.36025352845295,
+            "mae_k": 14.02167866574411,
+            "max_k": 73.78115922298417,
+            "l2_relative_absolute_kelvin": 0.06086654889604727
+          },
+          "rib": {
+            "count": 142511,
+            "rmse_k": 23.927141653811542,
+            "mae_k": 17.158213816858144,
+            "max_k": 69.06523751840393,
+            "l2_relative_absolute_kelvin": 0.08002383303916205
+          }
+        },
+        "overall": {
+          "count": 596708,
+          "rmse_k": 56.50741260776588,
+          "mae_k": 30.17034014110637,
+          "max_k": 458.29089574475796,
+          "l2_relative_absolute_kelvin": 0.17088764329772826
+        }
+      },
+      "factory_source": "[local archive]",
+      "weights": {
+        "upper": {
+          "path": "[local archive]",
+          "sha256": "7ebf574addebf28eedd6871e1b6e7393ab845b142fe6c83e6e3990046f5c959b",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              3,
+              64
+            ],
+            "linears.4.bias": [
+              3
+            ]
+          }
+        },
+        "lower": {
+          "path": "[local archive]",
+          "sha256": "5a99e0d2b4801f4e16da0c1a5c613e2483cf58aa9c5b93b4306b1bb1455b1182",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              64,
+              4
+            ],
+            "linears.0.bias": [
+              64
+            ],
+            "linears.1.weight": [
+              64,
+              64
+            ],
+            "linears.1.bias": [
+              64
+            ],
+            "linears.2.weight": [
+              64,
+              64
+            ],
+            "linears.2.bias": [
+              64
+            ],
+            "linears.3.weight": [
+              64,
+              64
+            ],
+            "linears.3.bias": [
+              64
+            ],
+            "linears.4.weight": [
+              3,
+              64
+            ],
+            "linears.4.bias": [
+              3
+            ]
+          }
+        },
+        "rib": {
+          "path": "[local archive]",
+          "sha256": "c820f84c96e7c440e772dac3cc4b94652ff1c4d0313beb0677fd773d3c257d5a",
+          "tensor_shapes": {
+            "linears.0.weight": [
+              32,
+              2
+            ],
+            "linears.0.bias": [
+              32
+            ],
+            "linears.1.weight": [
+              32,
+              32
+            ],
+            "linears.1.bias": [
+              32
+            ],
+            "linears.2.weight": [
+              32,
+              32
+            ],
+            "linears.2.bias": [
+              32
+            ],
+            "linears.3.weight": [
+              1,
+              32
+            ],
+            "linears.3.bias": [
+              1
+            ]
+          }
+        }
+      },
+      "factory_source_sha256": "17de144163dd851b15e58c87b88c716b1311574307b08fa4827760173d4b00a1"
+    }
+  ],
+  "selected": [
+    {
+      "rank": 1,
+      "version_id": "fin_v3_1",
+      "bundle": "fin_v3_1",
+      "profile_sha256": "377ba0e44ae535f9db0f012020adb85eb4c2ee57f0147a55abb30e2cbd8eef0b",
+      "rmse_k": 5.308743584669984,
+      "verification": {
+        "version_id": "fin_v3_1",
+        "device": "cpu",
+        "regions": {
+          "upper": {
+            "count": 195,
+            "finite": true,
+            "example_max_difference_k": 2.2737367544323206e-13,
+            "autograd_finite": true,
+            "reload_max_difference_k": 0.0
+          },
+          "lower": {
+            "count": 195,
+            "finite": true,
+            "example_max_difference_k": 1.1368683772161603e-13,
+            "autograd_finite": true,
+            "reload_max_difference_k": 0.0
+          },
+          "rib": {
+            "count": 195,
+            "finite": true,
+            "example_max_difference_k": 5.684341886080802e-14,
+            "autograd_finite": true,
+            "reload_max_difference_k": 0.0
+          }
+        },
+        "thickness": {
+          "upper": {
+            "min_m": 0.0018363185226917267,
+            "max_m": 0.03494149073958397,
+            "positive_finite": true
+          },
+          "lower": {
+            "min_m": 0.0038591325283050537,
+            "max_m": 0.011364500969648361,
+            "positive_finite": true
+          }
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "version_id": "fin_v3",
+      "bundle": "fin_v3",
+      "profile_sha256": "b37eb2ae3093931de81b96ba1cf4a24a6fbab8bad102c2d1f721fd8e496601ff",
+      "rmse_k": 5.483938106797461,
+      "verification": {
+        "version_id": "fin_v3",
+        "device": "cpu",
+        "regions": {
+          "upper": {
+            "count": 195,
+            "finite": true,
+            "example_max_difference_k": 1.1368683772161603e-13,
+            "autograd_finite": true,
+            "reload_max_difference_k": 0.0
+          },
+          "lower": {
+            "count": 195,
+            "finite": true,
+            "example_max_difference_k": 1.1368683772161603e-13,
+            "autograd_finite": true,
+            "reload_max_difference_k": 0.0
+          },
+          "rib": {
+            "count": 195,
+            "finite": true,
+            "example_max_difference_k": 1.1368683772161603e-13,
+            "autograd_finite": true,
+            "reload_max_difference_k": 0.0
+          }
+        },
+        "thickness": {
+          "upper": {
+            "min_m": 0.0018363185226917267,
+            "max_m": 0.03494149073958397,
+            "positive_finite": true
+          },
+          "lower": {
+            "min_m": 0.0038591325283050537,
+            "max_m": 0.011364500969648361,
+            "positive_finite": true
+          }
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "version_id": "fin_final",
+      "bundle": "fin_final",
+      "profile_sha256": "a7e62291fe0cd389e4320d94f963ad47b14c48848e0279f7df88cff1a7629594",
+      "rmse_k": 6.205266566205076,
+      "verification": {
+        "version_id": "fin_final",
+        "device": "cpu",
+        "regions": {
+          "upper": {
+            "count": 195,
+            "finite": true,
+            "example_max_difference_k": 2.2737367544323206e-13,
+            "autograd_finite": true,
+            "reload_max_difference_k": 0.0
+          },
+          "lower": {
+            "count": 195,
+            "finite": true,
+            "example_max_difference_k": 1.1368683772161603e-13,
+            "autograd_finite": true,
+            "reload_max_difference_k": 0.0
+          },
+          "rib": {
+            "count": 195,
+            "finite": true,
+            "example_max_difference_k": 1.1368683772161603e-13,
+            "autograd_finite": true,
+            "reload_max_difference_k": 0.0
+          }
+        },
+        "thickness": {
+          "upper": {
+            "min_m": 0.0018363185226917267,
+            "max_m": 0.03494149073958397,
+            "positive_finite": true
+          },
+          "lower": {
+            "min_m": 0.0038591325283050537,
+            "max_m": 0.011364500969648361,
+            "positive_finite": true
+          }
+        }
+      }
+    }
+  ]
+}

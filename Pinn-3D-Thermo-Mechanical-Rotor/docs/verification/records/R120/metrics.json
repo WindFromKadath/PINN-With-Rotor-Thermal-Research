@@ -1,0 +1,34 @@
+{
+  "recommended": "iwg_fxx_constraint",
+  "fxx_constraint": {
+    "mae": 7.111095768167854e-06,
+    "rmse": 1.4047197305134944e-05,
+    "max_absolute_error": 2.5106605838368025e-05,
+    "relative_l2": 0.06096742072368366,
+    "count": 512,
+    "units": "m",
+    "relative_l2_denominator": "displacement norm",
+    "component_rmse_m": [
+      4.118879286111423e-06,
+      1.3429764910668858e-05
+    ],
+    "rmse_um": 14.047197305134944
+  },
+  "little_original_evaluator": {
+    "mae": 0.0011993471122379294,
+    "rmse": 0.0022877069290116398,
+    "max_absolute_error": 0.002347300597006045,
+    "relative_l2": 9.92906896684321,
+    "count": 512,
+    "units": "m",
+    "relative_l2_denominator": "displacement norm",
+    "component_rmse_m": [
+      0.0022829415348937544,
+      0.00014758367560411948
+    ],
+    "rmse_um": 2287.7069290116397
+  },
+  "source_max_difference_m": 0.0,
+  "scope": "matching diagnostic protocol with each source evaluator reference frame; no full accuracy claim",
+  "reason": "Little evaluator omits the trained constraint anchor; FXX explicitly restores its anchor"
+}

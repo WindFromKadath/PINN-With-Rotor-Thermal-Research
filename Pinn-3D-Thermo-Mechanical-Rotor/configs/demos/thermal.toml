@@ -1,0 +1,76 @@
+mode = "thermal"
+profile = "../profiles/little_transient.toml"
+
+[runtime]
+seed = 42
+device = "cpu"
+threads = 2
+dtype = "float32"
+
+[paths]
+artifacts = "../../artifacts"
+stl = "../../data/raw/STL/main"
+thermal_eval = "../../data/raw/HeatPINNCheck_long.csv"
+mechanical_train = "../../data/raw/ElsPINNTrain.csv"
+mechanical_eval = "../../data/raw/ElsPINNCheck_long.csv"
+iwg_constraint = "../../data/raw/iwg/constraintCheck.csv"
+iwg_projection = "../../data/raw/iwg/projectionCheck.csv"
+
+[data_units]
+
+[data_units.thermal_eval]
+length_unit = "m"
+displacement_unit = "m"
+temperature_unit = "K"
+time_unit = "s"
+
+[data_units.mechanical_train]
+length_unit = "mm"
+displacement_unit = "mm"
+time_unit = "s"
+
+[data_units.mechanical_eval]
+length_unit = "mm"
+displacement_unit = "mm"
+time_unit = "s"
+
+[data_units.iwg_constraint]
+length_unit = "mm"
+displacement_unit = "mm"
+time_unit = "s"
+
+[data_units.iwg_projection]
+length_unit = "mm"
+displacement_unit = "mm"
+time_unit = "s"
+
+[sampling]
+domain = 128
+boundary = 64
+initial = 64
+times = [0.0, 100.0, 200.0]
+anchors_per_time = 32
+evaluation_per_time = 128
+
+[network]
+thermal = [64, 64, 64, 64, 64]
+mechanical = [128, 128, 128, 128, 128]
+iwg = [64, 64, 64, 64]
+steady = [64, 64, 64]
+fourier_dim = 64
+
+[training]
+adam_steps = 40
+thermal_steps = 40
+mechanical_steps = 40
+stage_steps = 20
+lbfgs_steps = 0
+lbfgs_max_iter = 5
+lr = 0.001
+w_pde = 1.0
+w_traction = 1.0
+w_data = 100.0
+label_counts = [32, 96]
+
+[evaluation]
+scope = "short workflow on bounded COMSOL samples; no accuracy or convergence claim"

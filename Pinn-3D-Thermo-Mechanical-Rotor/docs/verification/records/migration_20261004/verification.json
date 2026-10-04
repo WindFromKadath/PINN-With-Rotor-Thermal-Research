@@ -1,0 +1,201 @@
+{
+  "status": "completed",
+  "acceptance": "code/model/workflow usability; not full accuracy reproduction",
+  "tests": {
+    "passed": 40,
+    "failed": 0,
+    "xml": "artifacts/R126_tests.xml"
+  },
+  "migration": {
+    "indexed_files": 1340,
+    "copied_files": 774,
+    "copied_hash_mismatches": [],
+    "original_files_changed": []
+  },
+  "legacy": {
+    "packages": 8,
+    "models": 10,
+    "source_prediction_tolerance_K": 0.001,
+    "source_prediction_tolerance_m": 1e-09,
+    "max_observed_temperature_difference_K": 0.0,
+    "max_observed_displacement_difference_m": 1.0913936421275139e-11,
+    "source_pde_rtol": 0.0001,
+    "source_pde_atol": 1e-05
+  },
+  "short_workflows": {
+    "coupled": "R102",
+    "mlp": "R103",
+    "iwg": "R104",
+    "xpinn": "R125",
+    "formal_thermal": "R106",
+    "standalone_thermal": "R109",
+    "standalone_mechanical": "R110",
+    "preprocess": "R122"
+  },
+  "reproducibility": {
+    "runs": [
+      "R102",
+      "R108"
+    ],
+    "loss_max_difference": {
+      "thermal": 0.0,
+      "mechanical": 0.0
+    },
+    "prediction_csvs_identical": true
+  },
+  "delivery_checks": "artifacts/R107/verification.json",
+  "cuda_checks": {
+    "status": "passed",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "torch": "2.14.1+cu130",
+    "cuda_runtime": "13.0",
+    "models": {
+      "little/mechanical": {
+        "finite_forward": true,
+        "finite_input_derivative": true,
+        "finite_backward": true,
+        "reload_difference": 0.0
+      },
+      "little/thermal": {
+        "finite_forward": true,
+        "finite_input_derivative": true,
+        "finite_backward": true,
+        "reload_difference": 0.0
+      },
+      "fxx/mechanical": {
+        "finite_forward": true,
+        "finite_input_derivative": true,
+        "finite_backward": true,
+        "reload_difference": 0.0
+      },
+      "fxx/thermal": {
+        "finite_forward": true,
+        "finite_input_derivative": true,
+        "finite_backward": true,
+        "reload_difference": 0.0
+      },
+      "fxx_ntk/mechanical": {
+        "finite_forward": true,
+        "finite_input_derivative": true,
+        "finite_backward": true,
+        "reload_difference": 0.0
+      },
+      "mlp_1100/mechanical": {
+        "finite_forward": true,
+        "finite_input_derivative": true,
+        "finite_backward": true,
+        "reload_difference": 0.0
+      },
+      "mlp_33k/mechanical": {
+        "finite_forward": true,
+        "finite_input_derivative": true,
+        "finite_backward": true,
+        "reload_difference": 0.0
+      },
+      "iwg_constraint/mechanical": {
+        "finite_forward": true,
+        "finite_input_derivative": true,
+        "finite_backward": true,
+        "reload_difference": 0.0
+      },
+      "iwg_projection/mechanical": {
+        "finite_forward": true,
+        "finite_input_derivative": true,
+        "finite_backward": true,
+        "reload_difference": 0.0
+      },
+      "iwg_fxx_constraint/mechanical": {
+        "finite_forward": true,
+        "finite_input_derivative": true,
+        "finite_backward": true,
+        "reload_difference": 0.0
+      },
+      "frozen_temperature_bridge": {
+        "finite_loss": 0.17619048058986664,
+        "thermal_parameter_gradients_none": true
+      }
+    },
+    "scope": "small derivatives/backward/reload; no full GPU training"
+  },
+  "python": "3.13.14",
+  "cpu_environment": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "torch": "2.14.1+cpu",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "trimesh": "4.12.2",
+      "rtree": "1.4.1"
+    }
+  },
+  "uv_lock_sha256": "4b1e73c62ac4ebdb5382b221ee6067c6a3f2c095274484e6581e4d735fa6af90",
+  "code_version": "thermo-rotor-0.1.0",
+  "source_sha256": {
+    "thermo_rotor/config.py": "c6b66e72001eb9086e45a536a3069dfb64687e03bcf8ff959c6321bd8229412d",
+    "thermo_rotor/__init__.py": "18d8eded2665e50aa6f46ceb5fe683e93650fa45fee987e244475253a3c5b92e",
+    "thermo_rotor/cli/main.py": "6b726296a476e24f1bb8f91799c8b31f6f8401dd8c5bab0140ca1d5cd20d63dd",
+    "thermo_rotor/cli/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "thermo_rotor/coupling/interface.py": "c8037794c688627dd2ea18cda1e487320ba0d3c85dd86a08d32ce512e8fc1b78",
+    "thermo_rotor/coupling/temperature.py": "ba415886fe90415ff81e6b941803b533ab81158fdd12d162a6b37347438cc91a",
+    "thermo_rotor/coupling/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "thermo_rotor/data/comsol.py": "59d39789aed1bcad159bc6844bdc9b969cbf6c7063a2de8a0ecfac880710c1f1",
+    "thermo_rotor/data/transforms.py": "6d1c13c2a1abfa29efdefd97f4783d2abba16e5ee5bc6a659753b9c3f8d08c3d",
+    "thermo_rotor/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "thermo_rotor/evaluation/metrics.py": "58e9654db0da1881c8b6fcc072850829aebbbc168f1641eae91fd633478eff46",
+    "thermo_rotor/evaluation/predict.py": "d87a4502c323247178c7e626aa154ae9a9200b3d47d6789e192b395b873cfb7b",
+    "thermo_rotor/evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "thermo_rotor/geometry/sampling.py": "a629327a3cd158c91b85c6e91ac08de68e0748849301a85588bc2bbb7d2637ab",
+    "thermo_rotor/geometry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "thermo_rotor/models/checkpoint.py": "9b5793c8e81de4714bb279a92b05badee12cf7bad30aa0a4aba991961eb061eb",
+    "thermo_rotor/models/networks.py": "2e6c7ac20ccbf76473794951718cd5a1116144bdb04fabc0313e24c5c2358714",
+    "thermo_rotor/models/__init__.py": "c06b01c2f8416147b19d1fc201e7139b87a4e884fb981c5cf96e0470f0f900d9",
+    "thermo_rotor/physics/mechanical.py": "8c47db861f6637d8e49762939f0adedec39be9f6ff6fb23477cd79dc9de1d66f",
+    "thermo_rotor/physics/thermal.py": "cbbde24a768fb65ff9052d675cda194618b0ab7d3875be51adf4217cafe620fa",
+    "thermo_rotor/physics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "thermo_rotor/plotting/figures.py": "410b41b50f32feb942c6dc0d4a9dde25199be16697a6f09fd068e5c27bbb5600",
+    "thermo_rotor/plotting/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "thermo_rotor/training/optimizer.py": "af9e6ea3603c6e609ef99a4e1fbba8a190714b94d06201683612ec103b9517c5",
+    "thermo_rotor/training/run.py": "4071e48a886d66f22e441ee0a9bcc8021577988cbfa67f9992b0e02a3d4d7529",
+    "thermo_rotor/training/workflows.py": "829ddea220ed633093e6ce3181419396d872cb7250b660a926a8107d5bb562f0",
+    "thermo_rotor/training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "run_statuses": {
+    "R101": "completed",
+    "R102": "completed",
+    "R103": "completed",
+    "R104": "completed",
+    "R105": "completed",
+    "R106": "completed",
+    "R107": "completed",
+    "R108": "completed",
+    "R109": "completed",
+    "R110": "completed",
+    "R111": "completed",
+    "R112": "completed",
+    "R113": "completed",
+    "R114": "completed",
+    "R115": "completed",
+    "R116": "completed",
+    "R117": "completed",
+    "R118": "completed",
+    "R119": "completed",
+    "R120": "completed",
+    "R121": "completed",
+    "R122": "completed",
+    "R123": "failed",
+    "R125": "completed"
+  },
+  "git_actions": [],
+  "limitations": [
+    "No full-budget accuracy or convergence validation",
+    "Main/formal meshes cover the lower ring; steady X-PINN uses separate three-domain meshes",
+    "Formal thermal and X-PINN have diagnostic T0 reference only",
+    "IWG short-budget loss is finite but large and unstable",
+    "Legacy selection is bounded diagnostics, not a global-best claim; original splits uncertain",
+    "5 GB stress reference remains indexed only; no full stress error comparison",
+    "R105 lacked the original 380 K X-PINN anchor; corrected R125 is the delivery reference"
+  ]
+}

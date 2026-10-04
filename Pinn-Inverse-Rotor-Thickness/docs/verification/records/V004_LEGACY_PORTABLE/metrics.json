@@ -1,0 +1,131 @@
+{
+  "portable_versions": [
+    {
+      "version_id": "fin_v3_1",
+      "device": "cpu",
+      "regions": {
+        "upper": {
+          "count": 195,
+          "finite": true,
+          "example_max_difference_k": 2.2737367544323206e-13,
+          "autograd_finite": true,
+          "reload_max_difference_k": 0.0
+        },
+        "lower": {
+          "count": 195,
+          "finite": true,
+          "example_max_difference_k": 1.1368683772161603e-13,
+          "autograd_finite": true,
+          "reload_max_difference_k": 0.0
+        },
+        "rib": {
+          "count": 195,
+          "finite": true,
+          "example_max_difference_k": 5.684341886080802e-14,
+          "autograd_finite": true,
+          "reload_max_difference_k": 0.0
+        }
+      },
+      "thickness": {
+        "upper": {
+          "min_m": 0.0018363185226917267,
+          "max_m": 0.03494149073958397,
+          "positive_finite": true,
+          "autograd_finite": true
+        },
+        "lower": {
+          "min_m": 0.0038591325283050537,
+          "max_m": 0.011364500969648361,
+          "positive_finite": true,
+          "autograd_finite": true
+        }
+      },
+      "historical_source_paths_unavailable": true
+    },
+    {
+      "version_id": "fin_v3",
+      "device": "cpu",
+      "regions": {
+        "upper": {
+          "count": 195,
+          "finite": true,
+          "example_max_difference_k": 1.1368683772161603e-13,
+          "autograd_finite": true,
+          "reload_max_difference_k": 0.0
+        },
+        "lower": {
+          "count": 195,
+          "finite": true,
+          "example_max_difference_k": 1.1368683772161603e-13,
+          "autograd_finite": true,
+          "reload_max_difference_k": 0.0
+        },
+        "rib": {
+          "count": 195,
+          "finite": true,
+          "example_max_difference_k": 1.1368683772161603e-13,
+          "autograd_finite": true,
+          "reload_max_difference_k": 0.0
+        }
+      },
+      "thickness": {
+        "upper": {
+          "min_m": 0.0018363185226917267,
+          "max_m": 0.03494149073958397,
+          "positive_finite": true,
+          "autograd_finite": true
+        },
+        "lower": {
+          "min_m": 0.0038591325283050537,
+          "max_m": 0.011364500969648361,
+          "positive_finite": true,
+          "autograd_finite": true
+        }
+      },
+      "historical_source_paths_unavailable": true
+    },
+    {
+      "version_id": "fin_final",
+      "device": "cpu",
+      "regions": {
+        "upper": {
+          "count": 195,
+          "finite": true,
+          "example_max_difference_k": 2.2737367544323206e-13,
+          "autograd_finite": true,
+          "reload_max_difference_k": 0.0
+        },
+        "lower": {
+          "count": 195,
+          "finite": true,
+          "example_max_difference_k": 1.1368683772161603e-13,
+          "autograd_finite": true,
+          "reload_max_difference_k": 0.0
+        },
+        "rib": {
+          "count": 195,
+          "finite": true,
+          "example_max_difference_k": 1.1368683772161603e-13,
+          "autograd_finite": true,
+          "reload_max_difference_k": 0.0
+        }
+      },
+      "thickness": {
+        "upper": {
+          "min_m": 0.0018363185226917267,
+          "max_m": 0.03494149073958397,
+          "positive_finite": true,
+          "autograd_finite": true
+        },
+        "lower": {
+          "min_m": 0.0038591325283050537,
+          "max_m": 0.011364500969648361,
+          "positive_finite": true,
+          "autograd_finite": true
+        }
+      },
+      "historical_source_paths_unavailable": true
+    }
+  ],
+  "all_usable": true
+}

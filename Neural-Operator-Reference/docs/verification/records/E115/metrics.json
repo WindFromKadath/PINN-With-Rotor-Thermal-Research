@@ -1,0 +1,10 @@
+{
+  "tests_passed": 92,
+  "legacy_models_passed": 6,
+  "saved_runs_replayed": 16,
+  "copied_file_hash_mismatches": 0,
+  "original_file_hash_mismatches": 0,
+  "same_seed_loss_difference": 0.0,
+  "privacy_findings": [],
+  "report": "artifacts/migration_20261003/verification.json"
+}

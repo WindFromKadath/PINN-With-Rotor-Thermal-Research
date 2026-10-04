@@ -1,0 +1,39 @@
+# E109：2D 圆环 PIDON（DeepXDE，极坐标，纯物理约束无需数据；档案 heat_2d_annulus_pidon_polar.py 重写）
+# 无量纲约定：r* = r/R_out ∈ [R_in*, 1]，t* = t/t_scale（t_scale = R_out²/alpha），
+#             T* = (T - T_inf)/T_scale（T_scale = q_base·R_out/k），q* ∈ U(0.5, 5)。
+experiment: E109
+seed: 0
+physics:
+  R_in: 0.05        # m
+  R_out: 0.147      # m
+  k: 50.0           # W/(m·K)
+  rho: 7850.0       # kg/m³
+  cp: 500.0         # J/(kg·K)
+  h: 10.0           # W/(m²·K)
+  T_inf: 20.0       # °C
+  q_base: 1.0e5     # W/m²，归一化参考热流
+  t_max: 3000.0     # s，物理时长（档案取 3000s 接近稳态）
+space:
+  q_star_min: 0.5   # branch 输入 q* 采样下限（档案 U(0.5, 5)）
+  q_star_max: 5.0
+sensors:
+  m_r: 10           # branch 传感器数（r 向；q* 为空间常数，传感器仅为 DeepONet 输入形状）
+  m_theta: 20
+pde:
+  num_domain: 1000
+  num_boundary: 500
+  num_initial: 500
+operator:
+  num_function: 100
+  num_test: 50
+  batch_size: 32
+net:
+  branch_hidden: [64, 64, 64]
+  trunk_hidden: [64, 64, 64]   # trunk 输入 (r*, θ, t*) 固定 3 维
+  activation: tanh
+training:
+  iterations: 15000
+  lr: 1.0e-3
+  loss_weights: [1.0, 5.0, 5.0, 2.0, 15.0]  # PDE / BC_in / BC_out / IC / Periodic
+  display_every: 200
+  device: auto

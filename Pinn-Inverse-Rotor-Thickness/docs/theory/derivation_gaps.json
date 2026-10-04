@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "I-G01",
+    "title": "未知厚度反演的数学定义和可辨识性",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "I-G02",
+    "title": "正则化与噪声稳定性",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "I-G03",
+    "title": "降维等效参数能否跨散热条件复用",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "I-G04",
+    "title": "厚度平均、接触平均和表面温度的关系",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "I-G05",
+    "title": "半厚度热阻模型的适用性",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "I-G06",
+    "title": "连续功率守恒与耦合收敛",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "I-G07",
+    "title": "真实温度重建的独立验证",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  }
+]

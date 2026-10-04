@@ -1,0 +1,26 @@
+[
+  {
+    "summary": "Neural-Operator-Reference/docs/verification/records/migration_20261003/verification.json",
+    "source_id": "artifacts/migration_20261003/verification.json",
+    "source_sha256": "95b5cb6d776d4b16e8fc97298d8e7c6c35a0ceb8b4fe6fe029fe431fec03ec81",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Neural-Operator-Reference/docs/verification/records/migration_20261003/verification.json",
+    "source_id": "artifacts/migration_20261003/verification.json",
+    "source_sha256": "95b5cb6d776d4b16e8fc97298d8e7c6c35a0ceb8b4fe6fe029fe431fec03ec81",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Neural-Operator-Reference/docs/verification/records/E115/metrics.json",
+    "source_id": "artifacts/E115/metrics.json",
+    "source_sha256": "3d9640263c2056def1c6ad2e4047c7dcd61e0d2b20194f5e04743d0e2ffe81d7",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Neural-Operator-Reference/docs/verification/records/E116/metrics.json",
+    "source_id": "artifacts/E116/metrics.json",
+    "source_sha256": "abf7cc5acec8d90a0c80ee6ee6febba82ea18a08ebddf6f11d4602865cd5df04",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  }
+]

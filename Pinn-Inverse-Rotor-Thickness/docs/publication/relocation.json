@@ -1,0 +1,33 @@
+{
+  "run_id": "MOVE20261004_01",
+  "status": "passed",
+  "cpu_tests": {
+    "passed": 37,
+    "skipped": 1,
+    "failed": 0
+  },
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.12.1+cpu",
+    "source_import": "new subproject src",
+    "lock": "unchanged"
+  },
+  "cli_help": "passed",
+  "packaging": {
+    "status": "passed",
+    "license": "MIT",
+    "wheel": "rotor_pinn-0.1.0-py3-none-any.whl",
+    "license_files": [
+      "rotor_pinn-0.1.0.dist-info/licenses/LICENSE"
+    ],
+    "private_assets_in_wheel": false
+  },
+  "source_configs_tests_hypotheses_unchanged": true,
+  "pyproject_change": "MIT license and LICENSE inclusion metadata only; dependencies unchanged",
+  "scope": "software relocation/usability and publication preparation; no historical metric replication or new scientific claim",
+  "local_models": {
+    "selected_bundles": 3,
+    "finite_predictions_thickness_derivatives_reload": true,
+    "old_source_unavailable": true
+  }
+}

@@ -1,0 +1,35 @@
+# E111：2D 直角 Robin 数据驱动 DeepONet（档案 DeepONet 线重写）
+# 数据现场生成：GRF2DGenerator 热源 + solve_heat_2d_robin FDM（补档案数据生成断链）
+experiment: E111
+seed: 0
+physics:          # 全部来自 CartesianHeatParams 默认值的显式书写（单位：SI/°C）
+  alpha: 0.01     # 热扩散系数 m²/s
+  beta: 5.0       # Robin 系数 h/k，1/m
+  u0: 20.0        # 初始/环境温度 °C
+  f_mean: 100.0   # 热源 GRF 均值 °C/s
+  f_std: 30.0     # 热源 GRF 波动 °C/s
+  f_max: 150.0    # 热源归一化尺度 °C/s（分支输入 f/f_max）
+  u_scale: 150.0  # 温度归一化尺度 °C（输出 (u-u0)/u_scale）
+data:
+  nx: 32          # 每边网格点（传感点数 nx²=1024）
+  nt: 11          # 保存帧数（含 t=0）
+  t_max: 0.5      # s
+  n_samples: 200
+  seed: 123
+  length_scale: 0.2   # GRF 相关长度（档案数据生成脚本缺失，取本库默认）
+  split_ratio: 0.8
+  split_seed: 456
+model:
+  branch_layers: [1024, 128, 128, 128]   # 首维必须等于 nx²
+  trunk_layers: [3, 128, 128, 128]       # 首维必须等于 3（x, y, t）
+  activation: tanh
+  kernel_initializer: Glorot normal
+training:
+  adam_iterations: 10000
+  adam_lr: 1.0e-3
+  adam_decay: ["step", 2000, 0.8]   # StepLR(step_size=2000, gamma=0.8)
+  use_lbfgs: true
+  lbfgs_maxiter: 15000
+  display_every: 500
+  checkpoint_period: 500
+zip_artifacts: true

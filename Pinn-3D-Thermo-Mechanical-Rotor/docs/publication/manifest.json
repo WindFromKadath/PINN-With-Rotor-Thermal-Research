@@ -1,0 +1,607 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 1125,
+    "sha256": "d3c29cba2595016b6b9a7d5d8041d2773dc42315458d9e6c4740510676e25bf2"
+  },
+  {
+    "path": ".python-version",
+    "bytes": 8,
+    "sha256": "f8faecf2505680716c6279bf2cdec3d5a5ba2ba852f0d7df45d51ac1ce8d9ade"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 5918,
+    "sha256": "787efc09dbfe259383e897e3e641b94321d410234921ec95105f9908ef4fd119"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 1705,
+    "sha256": "9468442a3fd91969cecff1f9ab5759135e78eb7df25bf28b4efb064455c8c7bb"
+  },
+  {
+    "path": "CONTRIBUTING.zh-CN.md",
+    "bytes": 1415,
+    "sha256": "a1d650af265ec05920a809be961d889e51dc0996025fc4c4956162bcf489344a"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1092,
+    "sha256": "11022217d4029821e080618f5e346580541460383c68bb93bd0a413a809428d2"
+  },
+  {
+    "path": "MAINTAINER.md",
+    "bytes": 18452,
+    "sha256": "302f4caad1fbba34d331c315f657e1ef8abb756094d8560972fabdfe966baaa4"
+  },
+  {
+    "path": "README.md",
+    "bytes": 12898,
+    "sha256": "fe2877b78c5188fad07633a3712943d9f6e955b43db18936bd145e4bc9cca8aa"
+  },
+  {
+    "path": "README.zh-CN.md",
+    "bytes": 11804,
+    "sha256": "ce65f7f99b3aa155e844f9534cc3491388264a5daf6c3c94111734e75cde2440"
+  },
+  {
+    "path": "configs/coupled.toml",
+    "bytes": 1719,
+    "sha256": "db54d741a5d0d2b3ea4f07df73d344703fe5f9b7fa4152731f4469339f85002c"
+  },
+  {
+    "path": "configs/demos/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "configs/demos/coupled.toml",
+    "bytes": 1608,
+    "sha256": "0ae3982bf5eb6f469e300921e80609758df078079777a40ebe736cca112001af"
+  },
+  {
+    "path": "configs/demos/formal_thermal.toml",
+    "bytes": 1556,
+    "sha256": "42b3b8c916d82c2823e229a9a1f03c97a47c2f68c513290925c1dcf2e79def33"
+  },
+  {
+    "path": "configs/demos/iwg.toml",
+    "bytes": 1591,
+    "sha256": "3b3b493f56b335823d66f5075d52975f4ac2dac41b7d0d19b62f463fff5a295b"
+  },
+  {
+    "path": "configs/demos/mechanical.toml",
+    "bytes": 1667,
+    "sha256": "b82feb0ce2c2ec0c7f1aea41be027d2fc339ac9950e35f4d2a103abbf1ed5ebe"
+  },
+  {
+    "path": "configs/demos/mlp.toml",
+    "bytes": 1604,
+    "sha256": "1f41c3e815cc677b1b9c0320bc432b21fee002797d164335062b92fc166d48b8"
+  },
+  {
+    "path": "configs/demos/thermal.toml",
+    "bytes": 1608,
+    "sha256": "4fdbe6603dfecf65413c102150d769ace8f8cef59b9a127017621df738448b87"
+  },
+  {
+    "path": "configs/demos/xpinn_steady.toml",
+    "bytes": 1608,
+    "sha256": "bff58ed44d891cbab27c73cac7610f66009fcb7c80d02cfe998778a1e59e7bc8"
+  },
+  {
+    "path": "configs/formal_thermal.toml",
+    "bytes": 1618,
+    "sha256": "797617eb66dd51de86cd21a64b69591d5175c1d1045dde82a02820402323071f"
+  },
+  {
+    "path": "configs/iwg.toml",
+    "bytes": 1728,
+    "sha256": "bf0e41d0dfd5e9efb367c45d59e5450a8620e91d2439da0558a2c40d79d068dd"
+  },
+  {
+    "path": "configs/mechanical.toml",
+    "bytes": 1775,
+    "sha256": "d7981b7b6d3f627fc1eebc97141fa72b699941f8c5d59ee80d41ec5d1564d0dc"
+  },
+  {
+    "path": "configs/mlp.toml",
+    "bytes": 1715,
+    "sha256": "301209564676d71bca0e80b04bf545bd8471414b4094098f0856f8ee0c4b727b"
+  },
+  {
+    "path": "configs/preprocess.toml",
+    "bytes": 295,
+    "sha256": "ee584a56956334eb27817ceb460fe31fc2ae799ccad626a8446ddca47c7146b8"
+  },
+  {
+    "path": "configs/preprocess_full.toml",
+    "bytes": 292,
+    "sha256": "74153e89c9dcd203c099a9db002a757581b71679d09482ce7d2902de07b1dc83"
+  },
+  {
+    "path": "configs/profiles/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "configs/profiles/formal_thermal.toml",
+    "bytes": 314,
+    "sha256": "ad28829ae5fba40ae80899ab061215a4eb1522f561e577d8e31785ffe1044405"
+  },
+  {
+    "path": "configs/profiles/fxx_transient.toml",
+    "bytes": 314,
+    "sha256": "b0f6ca7a227b3e0a50bb8db36f30756f37a8ac2dedc147fde58a30dfe66845fa"
+  },
+  {
+    "path": "configs/profiles/iwg.toml",
+    "bytes": 342,
+    "sha256": "7d5dad762231c6dea0c22e42a5774cad7e98fee42c7c1c9407fc72d85838cbb6"
+  },
+  {
+    "path": "configs/profiles/little_transient.toml",
+    "bytes": 317,
+    "sha256": "cc4e6297f8abe4ffe84f9cf9df1fec3c940c1bbd483c65105a804c350831f8ed"
+  },
+  {
+    "path": "configs/profiles/xpinn_steady.toml",
+    "bytes": 312,
+    "sha256": "bd6b6c87da94b1aac9bfc52fc936ee30039542679795a91f782e9889f957d51c"
+  },
+  {
+    "path": "configs/thermal.toml",
+    "bytes": 1719,
+    "sha256": "5cf3a0cc9fa5d9bb467e0bcac4de2d5322a46d7df6d3db1fb10fefd729051d80"
+  },
+  {
+    "path": "configs/xpinn_steady.toml",
+    "bytes": 1665,
+    "sha256": "c78eb5efa5579933d5f3a8a6bbc0cf415e2451f2ea331406bef05944af6d2fd5"
+  },
+  {
+    "path": "data/README.md",
+    "bytes": 350,
+    "sha256": "742af081183ef9d7dfabbbc6c12310e6db8d578af55e19ab2d11376ac945f5c7"
+  },
+  {
+    "path": "data/processed/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "data/raw/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "docs/publication/README.md",
+    "bytes": 1379,
+    "sha256": "9639971875266a1306fb12a65ba8c2af4bfbb0436c0115f9b38e7a3c63c3626b"
+  },
+  {
+    "path": "docs/publication/README.zh-CN.md",
+    "bytes": 1131,
+    "sha256": "f768625d1db1a6a833970475071193c172ee4dc611f6a9cec2146426b1acc24b"
+  },
+  {
+    "path": "docs/publication/clone_checks.json",
+    "bytes": 745,
+    "sha256": "997ca8da39da5e299db6e6e7aebaac2b3aa23c1d8270fddd0b889c78bad08b65"
+  },
+  {
+    "path": "docs/publication/relocation.json",
+    "bytes": 1326,
+    "sha256": "f41edb1f268725b8fbd516c9a8a4c9ced50681cc4e4b728ebabacc384788a8f5"
+  },
+  {
+    "path": "docs/reference_models/README.md",
+    "bytes": 614,
+    "sha256": "9f9218def15c05917acaa84d3feee578f67f83b0b8bfec6168873bc5d343e1cf"
+  },
+  {
+    "path": "docs/reference_models/index.json",
+    "bytes": 2073,
+    "sha256": "6f5478306215a1947dff340208df5173b0bbe871b913ff87f8dc339ab26c8afe"
+  },
+  {
+    "path": "docs/reference_models/source_manifest.csv",
+    "bytes": 268691,
+    "sha256": "bcef0d33968615c5e9e93789bf8643a397da7eea6d6a07b671525af6a5be6746"
+  },
+  {
+    "path": "docs/running_from_clone.md",
+    "bytes": 2060,
+    "sha256": "43387dd7fb6986a96cc2a7977c6887b10a370cdcd28d7fdcda1c8ac23690419b"
+  },
+  {
+    "path": "docs/theory/README.md",
+    "bytes": 982,
+    "sha256": "8b769dac3f742f40891a8c1abc9b5264caa3f9e6310abdadb4884befe8fe8d8b"
+  },
+  {
+    "path": "docs/theory/arithmetic_checks.json",
+    "bytes": 342,
+    "sha256": "82e33cbb3de48253716df234283dd7741eb9cb83f2125ee68c19e08470a0eb8c"
+  },
+  {
+    "path": "docs/theory/derivation_gaps.json",
+    "bytes": 1889,
+    "sha256": "89cc8bd848873bccb5dcb447bae162265afae41021d117ebfada4ddd12980491"
+  },
+  {
+    "path": "docs/theory/evidence_and_gaps.md",
+    "bytes": 5418,
+    "sha256": "9ec9e7aa8452a4e9db57a72205b7b1d6406f3cf0ebda903079dbcf04f3f17141"
+  },
+  {
+    "path": "docs/theory/model_and_derivations.md",
+    "bytes": 7199,
+    "sha256": "06d4d41eae950697a680d461ff39df179c8b0d032fc23e9bc56f29020ea79c1c"
+  },
+  {
+    "path": "docs/theory/notes/M0060.md",
+    "bytes": 1930,
+    "sha256": "e1722bc20a4fc9300f7ed567bc50f45e76a1e0f3a21c73ec335a8589cf532be5"
+  },
+  {
+    "path": "docs/theory/notes/M0063.md",
+    "bytes": 1312,
+    "sha256": "d35bffb7b8d349b1a645e6bc58147fdb270f1e3150b5e2fdb4aa1339a48fbcf5"
+  },
+  {
+    "path": "docs/theory/notes/M0070.md",
+    "bytes": 1464,
+    "sha256": "d504d87a325bf42b33aedb0df5ebd0fdf24e9292f3d6508380080891dfc828af"
+  },
+  {
+    "path": "docs/theory/notes/M0086.md",
+    "bytes": 1581,
+    "sha256": "71511d3d7ff2f53c4650c354248682f4b2012fda6d0774c8a1057d2cfabaf125"
+  },
+  {
+    "path": "docs/theory/notes/M0103.md",
+    "bytes": 1035,
+    "sha256": "c102ec45fe29537cce1da1994195cdc004575af5f52d6ce8f6a678f492d7ac33"
+  },
+  {
+    "path": "docs/theory/notes/M0105.md",
+    "bytes": 1071,
+    "sha256": "4eb42793028a37012d5b8213958775260b256ee8c5a2a41ee1acd3319ef8ca34"
+  },
+  {
+    "path": "docs/theory/notes/M0106.md",
+    "bytes": 1019,
+    "sha256": "dd44e5f99a64d5cfa3e2d8e3107d762909e78847217285c26443bfdba51a7a9c"
+  },
+  {
+    "path": "docs/theory/notes/M0137.md",
+    "bytes": 1884,
+    "sha256": "b0bc024b742e4df60d540082b6a565bea90f6ce142272314974727e24ac08a27"
+  },
+  {
+    "path": "docs/theory/source_catalog.json",
+    "bytes": 62780,
+    "sha256": "6d201932221e95d9909a1a4d281df4853b919ded578eff180c202eda7455e9a9"
+  },
+  {
+    "path": "docs/theory/sources.md",
+    "bytes": 14168,
+    "sha256": "19ec16f5f3b9ca39799b507254f3db775b1446246142403add9cc11df5963b40"
+  },
+  {
+    "path": "docs/verification/README.md",
+    "bytes": 780,
+    "sha256": "bf0d95e0c4399c6b564df923de17ffe70575badb0c25854498c5d7d28146ce0f"
+  },
+  {
+    "path": "docs/verification/integration.json",
+    "bytes": 605,
+    "sha256": "091d810a16ba2a8aa5faad2dffe0aec5e8a1cd5d9349c2d8e519d3d5e4bd4c41"
+  },
+  {
+    "path": "docs/verification/integration_provenance.json",
+    "bytes": 5314,
+    "sha256": "858a58e5ae8a4dbd6fa8c9f5cb1a6702d9ff4e1d080d5309c70534f6dd915931"
+  },
+  {
+    "path": "docs/verification/records/R101/verification.json",
+    "bytes": 2138,
+    "sha256": "62bf769a4e398faf8ec4b785df95dccbd7c5b12c2d22b34568ce8d9a4d1b409b"
+  },
+  {
+    "path": "docs/verification/records/R107/verification.json",
+    "bytes": 1711,
+    "sha256": "3283d2500077238c90e0d6cac38fa7b133caf135a043ca1f3f45a5fbf1a4e618"
+  },
+  {
+    "path": "docs/verification/records/R120/metrics.json",
+    "bytes": 1129,
+    "sha256": "a7ad12ee4faeaf4c567efcc49fd08aff70a59751bbc29de127e3cff023e2f799"
+  },
+  {
+    "path": "docs/verification/records/R126_tests.md",
+    "bytes": 313,
+    "sha256": "a1c5cb6e1a96dc3f91dbeef664e39a3182e288b9c83c3c3d30d7587a8a932d6b"
+  },
+  {
+    "path": "docs/verification/records/migration_20261004/verification.json",
+    "bytes": 8133,
+    "sha256": "c3dbcd4042667192486e53cb0864078c246651657de45a50dbd727db608c0a44"
+  },
+  {
+    "path": "experiments.csv",
+    "bytes": 8609,
+    "sha256": "6fafce436cd8f1f72a64f29869b1cdce92bc90886695ff27a1c215b08d250fa4"
+  },
+  {
+    "path": "hypotheses.csv",
+    "bytes": 1306,
+    "sha256": "f59fc387415d1c0129b070b455075e39f743394ce6087709bb6d48b038bb028f"
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 1221,
+    "sha256": "51e9304e48c1c6385f9090b22c7c1bfd3141d97d31ddc5a7b7045fd1cfecad39"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 16038,
+    "sha256": "4f482d525da36499109db922a8097c7f79ff1d6636dbf19246042df3c3747923"
+  },
+  {
+    "path": "src/thermo_rotor/__init__.py",
+    "bytes": 104,
+    "sha256": "18d8eded2665e50aa6f46ceb5fe683e93650fa45fee987e244475253a3c5b92e"
+  },
+  {
+    "path": "src/thermo_rotor/cli/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/cli/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/cli/main.py",
+    "bytes": 9029,
+    "sha256": "6b726296a476e24f1bb8f91799c8b31f6f8401dd8c5bab0140ca1d5cd20d63dd"
+  },
+  {
+    "path": "src/thermo_rotor/config.py",
+    "bytes": 2954,
+    "sha256": "c6b66e72001eb9086e45a536a3069dfb64687e03bcf8ff959c6321bd8229412d"
+  },
+  {
+    "path": "src/thermo_rotor/coupling/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/coupling/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/coupling/interface.py",
+    "bytes": 580,
+    "sha256": "c8037794c688627dd2ea18cda1e487320ba0d3c85dd86a08d32ce512e8fc1b78"
+  },
+  {
+    "path": "src/thermo_rotor/coupling/temperature.py",
+    "bytes": 972,
+    "sha256": "ba415886fe90415ff81e6b941803b533ab81158fdd12d162a6b37347438cc91a"
+  },
+  {
+    "path": "src/thermo_rotor/data/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/data/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/data/comsol.py",
+    "bytes": 7471,
+    "sha256": "59d39789aed1bcad159bc6844bdc9b969cbf6c7063a2de8a0ecfac880710c1f1"
+  },
+  {
+    "path": "src/thermo_rotor/data/transforms.py",
+    "bytes": 790,
+    "sha256": "6d1c13c2a1abfa29efdefd97f4783d2abba16e5ee5bc6a659753b9c3f8d08c3d"
+  },
+  {
+    "path": "src/thermo_rotor/evaluation/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/evaluation/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/evaluation/metrics.py",
+    "bytes": 982,
+    "sha256": "58e9654db0da1881c8b6fcc072850829aebbbc168f1641eae91fd633478eff46"
+  },
+  {
+    "path": "src/thermo_rotor/evaluation/predict.py",
+    "bytes": 2197,
+    "sha256": "d87a4502c323247178c7e626aa154ae9a9200b3d47d6789e192b395b873cfb7b"
+  },
+  {
+    "path": "src/thermo_rotor/geometry/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/geometry/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/geometry/sampling.py",
+    "bytes": 2100,
+    "sha256": "a629327a3cd158c91b85c6e91ac08de68e0748849301a85588bc2bbb7d2637ab"
+  },
+  {
+    "path": "src/thermo_rotor/models/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/models/__init__.py",
+    "bytes": 125,
+    "sha256": "c06b01c2f8416147b19d1fc201e7139b87a4e884fb981c5cf96e0470f0f900d9"
+  },
+  {
+    "path": "src/thermo_rotor/models/checkpoint.py",
+    "bytes": 2956,
+    "sha256": "9b5793c8e81de4714bb279a92b05badee12cf7bad30aa0a4aba991961eb061eb"
+  },
+  {
+    "path": "src/thermo_rotor/models/networks.py",
+    "bytes": 2651,
+    "sha256": "2e6c7ac20ccbf76473794951718cd5a1116144bdb04fabc0313e24c5c2358714"
+  },
+  {
+    "path": "src/thermo_rotor/physics/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/physics/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/physics/mechanical.py",
+    "bytes": 1279,
+    "sha256": "8c47db861f6637d8e49762939f0adedec39be9f6ff6fb23477cd79dc9de1d66f"
+  },
+  {
+    "path": "src/thermo_rotor/physics/thermal.py",
+    "bytes": 2041,
+    "sha256": "cbbde24a768fb65ff9052d675cda194618b0ab7d3875be51adf4217cafe620fa"
+  },
+  {
+    "path": "src/thermo_rotor/plotting/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/plotting/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/plotting/figures.py",
+    "bytes": 1439,
+    "sha256": "410b41b50f32feb942c6dc0d4a9dde25199be16697a6f09fd068e5c27bbb5600"
+  },
+  {
+    "path": "src/thermo_rotor/training/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/training/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/thermo_rotor/training/optimizer.py",
+    "bytes": 2175,
+    "sha256": "af9e6ea3603c6e609ef99a4e1fbba8a190714b94d06201683612ec103b9517c5"
+  },
+  {
+    "path": "src/thermo_rotor/training/run.py",
+    "bytes": 2633,
+    "sha256": "4071e48a886d66f22e441ee0a9bcc8021577988cbfa67f9992b0e02a3d4d7529"
+  },
+  {
+    "path": "src/thermo_rotor/training/workflows.py",
+    "bytes": 18551,
+    "sha256": "829ddea220ed633093e6ce3181419396d872cb7250b660a926a8107d5bb562f0"
+  },
+  {
+    "path": "tests/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "tests/test_contracts.py",
+    "bytes": 6338,
+    "sha256": "183cb59950702eeda081c80c1e3fedc96e1dc4ea3e168410384daacb5cb2bbb9"
+  },
+  {
+    "path": "tests/test_physics.py",
+    "bytes": 6060,
+    "sha256": "37bd27b28ebb1568242982e2994fdbf3e7e6fdd590665f1b36a92d493a1aa24d"
+  },
+  {
+    "path": "tools/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "tools/check_failure.py",
+    "bytes": 865,
+    "sha256": "d62b6f1ed79ff1821c2045062ad2eefbbcdaad12c602268ff3faad5084f3ee40"
+  },
+  {
+    "path": "tools/check_git_ready.py",
+    "bytes": 6182,
+    "sha256": "50d1255f0b93cae526b857d0983a177459278811e2588fc841568630629ee95c"
+  },
+  {
+    "path": "tools/create_configs.py",
+    "bytes": 6210,
+    "sha256": "cffdf3192adb3470bbeb3414abb7d62abf97e6989948a4c6a4f9b3c3be4cb345"
+  },
+  {
+    "path": "tools/curate_models.py",
+    "bytes": 8291,
+    "sha256": "d5a73c96e315d025b793243f4700bdaeaa95e3e0a0f7d788b535a1ce7c0da101"
+  },
+  {
+    "path": "tools/finalize_records.py",
+    "bytes": 10058,
+    "sha256": "8067709ce96284070fabf596c7abe38d89d930476cd104a72874a7c2f1a209a0"
+  },
+  {
+    "path": "tools/make_preprocess_smoke.py",
+    "bytes": 1134,
+    "sha256": "ec7832fd56fa6e28558a79ee665ef250255810add7cd89b009908c9b41fcc6aa"
+  },
+  {
+    "path": "tools/migrate_sources.py",
+    "bytes": 4402,
+    "sha256": "4fa5dbb6e3a9ae9f1e21693003b44eee29bfe51e289159d913519414de4dd44c"
+  },
+  {
+    "path": "tools/select_iwg_reference.py",
+    "bytes": 5365,
+    "sha256": "841386ee65c5c8c20dd9235b22157535d34461dceadc625ee2c32d0a4016c535"
+  },
+  {
+    "path": "tools/verify_delivery.py",
+    "bytes": 4486,
+    "sha256": "704058f1f999488886681d9219ec4a28b7a2a358c3c108b4d37ed914770b723c"
+  },
+  {
+    "path": "tools/verify_gpu.py",
+    "bytes": 3214,
+    "sha256": "f1c7ef54e4e4b7c5ecb59c07859f86ee9b38edec36618b34f076665f146ae746"
+  },
+  {
+    "path": "uv.lock",
+    "bytes": 90567,
+    "sha256": "4b1e73c62ac4ebdb5382b221ee6067c6a3f2c095274484e6581e4d735fa6af90"
+  }
+]

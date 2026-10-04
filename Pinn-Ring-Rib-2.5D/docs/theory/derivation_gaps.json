@@ -1,0 +1,62 @@
+[
+  {
+    "gap_id": "R-G01",
+    "title": "厚度平均闭合及模型适用范围",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "R-G02",
+    "title": "Lambda 的定义、单位和张量条件",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "R-G03",
+    "title": "H/(3k) 的完整推导",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "R-G04",
+    "title": "面线交换的积分守恒",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "R-G05",
+    "title": "高斯 mask 与环境暴露面积",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "R-G06",
+    "title": "温变物性下的肋扩散",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "R-G07",
+    "title": "交替快照的收敛、防漂移",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "R-G08",
+    "title": "环境散热、辐射及端点条件",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "R-G09",
+    "title": "冷却硬初值与一般工况",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "R-G10",
+    "title": "真实 COMSOL 精度与无肋数据结论",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  }
+]

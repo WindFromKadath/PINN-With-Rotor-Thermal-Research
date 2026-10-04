@@ -1,0 +1,251 @@
+{
+  "status": "completed",
+  "code_revision": "heatops-0.2.0",
+  "tests": {
+    "passed": 92,
+    "failed": 0,
+    "skipped": 0,
+    "log": "artifacts/E115/tests.log"
+  },
+  "reference_report": "artifacts/E114/verification.json",
+  "reference_report_sha256": "df6679e324b88725ce7684dd3fa05f2fde9287fb366a94d1b9e8847e6dda2fb7",
+  "legacy_model_count": 6,
+  "replayed_run_count": 16,
+  "final_run_replay": {
+    "checkpoint_sha256": "fc2043f807f0a7cf83c2cb806c78c0bef3a0375c2559b60e589e64a715aecdd5",
+    "max_abs_reload_difference": {
+      "prediction": 0.0
+    },
+    "scope": "checkpoint replay; no retraining or accuracy claim"
+  },
+  "copied_files": {
+    "count": 73,
+    "mismatches": []
+  },
+  "unchanged_original_files": {
+    "count": 661,
+    "mismatches": []
+  },
+  "datasets": {
+    "annulus_polar_smoke.pt": {
+      "sha256": "6959b192bd8f453cdda7eee2a282d0e6e13b7030d6ae330a641c20f442d5df65",
+      "shape": [
+        4,
+        10,
+        16,
+        16
+      ],
+      "time_range": [
+        0.0,
+        99.0
+      ],
+      "zero_time_count": 1
+    },
+    "annulus_polar_64.pt": {
+      "sha256": "0cbe1e70f5e69cf5118f13e129ddd56fab2f934d1f598820d391c7de14f4f961",
+      "shape": [
+        50,
+        100,
+        64,
+        64
+      ],
+      "time_range": [
+        0.0,
+        99.0
+      ],
+      "zero_time_count": 1
+    }
+  },
+  "short_runs": {
+    "E108": {
+      "status": "completed",
+      "metrics": {
+        "run_id": "E108",
+        "smoke": true,
+        "rel_l2_train": 1.5008743347157978,
+        "rel_l2_eval": 7.354529737299984,
+        "n_train": 3,
+        "n_eval": 1,
+        "checkpoint": "checkpoints/checkpoint_best.pt",
+        "note": "RelL2 在无量纲域计算（无量纲指标与单位无关）"
+      }
+    },
+    "E109": {
+      "status": "completed",
+      "metrics": {
+        "run_id": "E109",
+        "smoke": true,
+        "iterations": 60,
+        "elapsed_s": 2.27,
+        "final_loss_terms": [
+          3.1863481998443604,
+          15.934243202209473,
+          6.774253845214844,
+          0.6174562573432922,
+          0.10145396739244461
+        ],
+        "final_total_loss": 26.613755472004414,
+        "loss_terms_are_weighted": true,
+        "best_step": 20,
+        "checkpoints": [
+          "model-60.pt"
+        ],
+        "note": "纯物理约束（无数据项）；损失项顺序 PDE/BC_in/BC_out/IC/Periodic"
+      }
+    },
+    "E112": {
+      "status": "completed",
+      "metrics": {
+        "run_id": "E112",
+        "smoke": true,
+        "rel_l2_train": 0.8312271715817596,
+        "rel_l2_eval": 0.7194645918095515,
+        "n_train": 32,
+        "n_eval": 8,
+        "data_cache_key": "e9979f9b07ff",
+        "checkpoint": "checkpoints/checkpoint_best.pt"
+      }
+    },
+    "E113a": {
+      "status": "completed",
+      "metrics": {
+        "run_id": "E113a",
+        "smoke": true,
+        "rel_l2_train": 2.867815914066948,
+        "rel_l2_eval": 2.234441545635019,
+        "n_train": 32,
+        "n_eval": 8,
+        "data_cache_key": "e9979f9b07ff",
+        "checkpoint": "checkpoints/checkpoint_best.pt"
+      }
+    },
+    "E113b": {
+      "status": "completed",
+      "metrics": {
+        "run_id": "E113b",
+        "smoke": true,
+        "rel_l2_train": 2.867815914066948,
+        "rel_l2_eval": 2.234441545635019,
+        "n_train": 32,
+        "n_eval": 8,
+        "data_cache_key": "e9979f9b07ff",
+        "checkpoint": "checkpoints/checkpoint_best.pt"
+      }
+    },
+    "E116": {
+      "status": "completed",
+      "metrics": {
+        "run_id": "E116",
+        "smoke": true,
+        "rel_l2_train": 1.5008718798779421,
+        "rel_l2_eval": 7.3544818948516815,
+        "n_train": 3,
+        "n_eval": 1,
+        "checkpoint": "checkpoints/checkpoint_best.pt",
+        "note": "RelL2 在无量纲域计算（无量纲指标与单位无关）"
+      }
+    }
+  },
+  "reproducibility": {
+    "runs": [
+      "E113a",
+      "E113b"
+    ],
+    "loss_max_abs_difference": 0.0,
+    "prediction_max_abs_difference": {
+      "u_true": 0.0,
+      "u_pred": 0.0,
+      "x": 0.0,
+      "t": 0.0
+    },
+    "scope": "same CPU environment, seed 0, 2 epochs plus step 0; no full-budget claim"
+  },
+  "entrypoint_checks": {
+    "preprocess": "passed",
+    "train-pino-1d": "passed",
+    "train-pino-annulus": "passed",
+    "train-pidon": "passed",
+    "train-pi-deeponet": "passed",
+    "train-deeponet": "passed",
+    "train-pinn": "passed",
+    "compare": "passed",
+    "legacy-evaluate": "passed",
+    "evaluate": "passed",
+    "duplicate_run_id": "rejected",
+    "duplicate_run_preserved": true
+  },
+  "privacy_findings": [],
+  "python": "3.13.14",
+  "environment": {
+    "heatops": "0.2.0",
+    "torch": "2.14.1+cpu",
+    "deepxde": "1.15.0",
+    "neuraloperator": "2.0.0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "PyYAML": "6.0.3",
+    "pytest": "9.1.1"
+  },
+  "uv_lock_sha256": "d315510af09594d08f0bfc2082770aead344a0890ed87ecaff0becc635b3f53c",
+  "source_sha256": {
+    "__init__.py": "5b7d1a4b1b64634dd1a8c48565c4733eeebdb62837f868ea1299f2f3a01e8143",
+    "cli/compare_pino_1d.py": "26e005ee3acc6220f5023f3a9367753a77d3b0a69ed3221ace0c1702a7f5aaeb",
+    "cli/evaluate_run.py": "cc6e78cb6fabc18526eefcc270d2f530b2973674e4e71c5d432190d159e933b8",
+    "cli/legacy_evaluate.py": "18e75c0857d242750a96410bcea494e9d3dfe13f5b27596d2bb54729b4108e9a",
+    "cli/main.py": "400915f6647b8db059a122ba86ec924533cfff5fbb5cf87bc14decda6674ce94",
+    "cli/preprocess_annulus.py": "c07aadddb9efbfd9524e091c7521733b5957d9caf59f4cd804df8738f20800bd",
+    "cli/run_deeponet_2d.py": "09b193a4abe810be6b933643c65e56622fd07a5e535ff91d386f1dd3bf215ba5",
+    "cli/run_pidon_annulus.py": "002fc7f27605acc30a427333fce9522a177ac8a5a16d4bea9344d45e54786694",
+    "cli/run_pinn_annulus.py": "9f6466bf3e1a06b0c2f8a1b2328da5dd19c0164cc3d377e6fb809730cd763747",
+    "cli/run_pino_1d.py": "e7d72979509a39fc6ecbb374e6c597b7b11f1e828e615cb2083472d99b6f4f39",
+    "cli/run_pino_annulus.py": "92795801afc190cef66189661e8c4b1098a3dda51bd7edba6e5d865bfd4b3d7b",
+    "cli/run_pi_deeponet.py": "1f5f7569df34c520eaafc19c43fca8309d03045d865de0d1a14e0801a8eb1e29",
+    "cli/__init__.py": "ec163779be4495b3b453e211b1c96187e63212a87ed2e37a4a0a1910b25dedc8",
+    "data/comsol.py": "e714044277c5472a34b285f646e694d9d5a101aa24849501483bc8a04107bd0d",
+    "data/comsol_batch.py": "c23964111f19732911b21402b430d536907844ad87a96232de361b084e2a4e54",
+    "data/datasets.py": "fd34e8a2371b4490f3d4a9873083de2fd615e84afe6397536969d5d86c73ee0c",
+    "data/__init__.py": "d81d32f41552fd934edd6556170d2094a37c8c03aacbace3af3f5e6d23e7cd0a",
+    "evaluation/annulus_plots.py": "eaa90b0363f03eef490a07ab7e79b8cf88ff4329f96111dcfb7f9daa04c281c5",
+    "evaluation/deeponet_plots.py": "f4486317c64b0d762e878eb437c2785faf7b335dda733e2909cd7edb4a3ba7a8",
+    "evaluation/metrics.py": "6b938c2cf4aa02a959ec30cf5afe74a0864b905114e5d3777a5f72087dcd4c96",
+    "evaluation/plots.py": "a159d4a2df9573775fff44092a1f1515fbdc060d545b08b17ee568d90f6a8c8f",
+    "evaluation/replay.py": "aafa2844f528eab092684c72982c9b8cfe2dc8ca4034bea148b97146981d999c",
+    "evaluation/__init__.py": "0bfef7e0804121ff235518c99c94930ca5b2ffb3b52499bb9017cd5eb10c967b",
+    "fields/grf.py": "50d1c289208fc28f7a8b960a33092e4950635316c89d5996bf1a9c643045b010",
+    "fields/initial_conditions.py": "dc111f4d7803531e2f34a46acb5256952316690bdaac68011b5aa97166902a4a",
+    "fields/__init__.py": "07c31d85eacebbe33dbd2d41d74b80a7aef4632a90795b95bd0ad18f5b54e222",
+    "models/deepxde_models.py": "0986a021eab1c774a2dc22a8076525be16fe90e38428eb65a224a870ba12b2f1",
+    "models/fno.py": "889825ec91e7cc7971b4e3da15a5e757a610508c93264f6a455f7091762c3a06",
+    "models/legacy.py": "1853efce53858a0576401871ba02a7ffae0a7440c95df59179e17d67d8e43ba5",
+    "models/__init__.py": "f8a9828ec2ddb25e1e17cee0513386fdb0aa2ba1ab98f258b8c83a8a24a25900",
+    "physics/finite_difference.py": "6dee2c92d941120a274da6397d2455d44dd6a1d7339241da861b3cdae4fbdb35",
+    "physics/geometry.py": "05bde1f949b6a80ce824ad64c5300d81f15d815a68d50e3fbb95673b33578b02",
+    "physics/interpolation.py": "3515b7848423bb46d5ded7a0a930e97156df04a48e684d5e492ab942eca7fc51",
+    "physics/losses.py": "b0a8381b63433be54fb3b0fd36df5e8627c3e9c07f034428306cb6fa20d8ab06",
+    "physics/operator_boundary.py": "4acd438d776c8ff2aacace6d3aa8ab929ee6d6c51a066da93b2854036ba68c69",
+    "physics/residuals.py": "e4bd49b855f191067d1f22ce7740a19af189e7694984316c140f2f2796d5a312",
+    "physics/__init__.py": "81360f785f04adf97c5c08a46aa147ae2caf3b03972cfa28a53fac33a136822a",
+    "problems/annulus.py": "e2dc3373228d3545e82e89162817b16f674d016fd3a20e5b6ae382b00bc8c06c",
+    "problems/cartesian.py": "2bfd59121b1b3462c7e8de07cc822592a684ad3005ee8815d702bb8dc5bba1e3",
+    "problems/__init__.py": "c05aa9257433ebaa7a571fd07d096508f45d52c62f0ec07db5eef1498e2f2bab",
+    "solvers/adr_1d.py": "59b1c3e1e4c568c875c8394e93873696749558d312455e886e3dc654f0b6f53f",
+    "solvers/annulus_1d.py": "50351b8af38a4303dcb96ce7791c5f22fcae2d39d70e6656dc928bfc5ee80b0b",
+    "solvers/heat_1d.py": "3e54bf68c1136de14f846b00e50bc3274f9f91edc7fabdda0325674e515a8237",
+    "solvers/heat_2d.py": "cbee1e6c130e3a862ec2a54d7fd758c4da14c42f6c075b5f78fbf612ea2e32db",
+    "solvers/_tridiag.py": "53c420d91bc8f6f98836908cf15e09a3dbe710d1a5385b6608f08c92e484ad5a",
+    "solvers/__init__.py": "e8230d796960a11bd15cf1f329852e7e3cbc6c9eee403e2e9154fb52ac094f75",
+    "training/deepxde_loop.py": "acb52eafb7e0a9b6a2621d34d95863eba16ff1d7f6a9d90574037174b5c49ac0",
+    "training/run_context.py": "dfe827ef56b39115c40a7793d4b76665a73ec7d52b7d17a095a37d4ff2e058f3",
+    "training/torch_loop.py": "db2a394a640589b669655d6e85a4b1b93b7d5dcde010f144d81f049f5439036a",
+    "training/__init__.py": "4293ef7cc935de7079b216ab0847adb1b4a72f78a11604b889267027ba6f2b3f"
+  },
+  "limitations": [
+    "CPU runtime validated; CUDA extra locked but runtime not validated",
+    "No full-budget H103 accuracy or ordering reproduction",
+    "Legacy selection uses bounded diagnostics with historical split uncertainty",
+    "Finite-difference implementation checks do not establish physical approximation validity"
+  ],
+  "git_actions": []
+}

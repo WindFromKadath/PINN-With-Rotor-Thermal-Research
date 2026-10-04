@@ -1,0 +1,55 @@
+{
+  "format": "retained-source-predict/1",
+  "version": "heating_with_data",
+  "case": "heating",
+  "factory": "standard",
+  "weights": {
+    "upper": "weights/upper.pth",
+    "lower": "weights/lower.pth",
+    "rib": "weights/rib.pth"
+  },
+  "output_heads": {
+    "upper": [
+      "T_star",
+      "h_multiplier",
+      "emissivity_multiplier"
+    ],
+    "lower": [
+      "T_star",
+      "h_multiplier",
+      "emissivity_multiplier"
+    ],
+    "rib": [
+      "T_star",
+      "contact_resistance_multiplier"
+    ]
+  },
+  "clip_rib_radius": true,
+  "files_sha256": {
+    "source.py": "8c45b462855ff6dcbca6b89813bee94e0ae935dc42717f184023abbc62495c0a",
+    "rib_models.json": "d4d9ee8c68c9b17d27ee80697a54866a4103cd082858678cee3913bf799f98e9",
+    "weights/upper.pth": "e1134175149dc2bee44f96b7cbc214c493e97957752924d2b4403924cc21dca7",
+    "weights/lower.pth": "2308bc10aaf21f9574e9e90f740da5fa188f4399f6b883cb3d1f33582c6be507",
+    "weights/rib.pth": "4d68edd1228284707528812bc78b9ad30cc442c4ff5b502664bbf1fa34467821",
+    "weights/upper_thickness.pth": "f987f1ee7761208f0c3fb2e976b59da30e3e38d6995845b387cf6022d5c37aa8",
+    "weights/lower_thickness.pth": "51e1d7b3da8c344c2390550550d3440a6ccfac51f07dacff60b44a67818fa518"
+  },
+  "source_files": {
+    "source.py": "Re-PINN/pinn_mse_v6_variable.py",
+    "rib_models.json": "Re-PINN/Dataset/rib_models.json",
+    "weights/upper.pth": "Re-PINN/models_learnable_linux/upper_ring_learnable_data_lam.pth",
+    "weights/lower.pth": "Re-PINN/models_learnable_linux/lower_ring_learnable_data_lam.pth",
+    "weights/rib.pth": "Re-PINN/models_learnable_linux/rib_net_learnable_data_lam.pth",
+    "weights/upper_thickness.pth": "Re-PINN/ring_thickness/upper_thickness_oscillation_reg.pth",
+    "weights/lower_thickness.pth": "Re-PINN/ring_thickness/lower_thickness_oscillation_reg.pth"
+  },
+  "scope": "original model inference; additional versions are not retrained",
+  "use": "tools/predict_reference.py --bundle this_folder --domain upper/lower/rib --input file.csv --output prediction.csv",
+  "selection": {
+    "run_id": "R121_local_selection",
+    "sample_per_domain": 512,
+    "seed": 42,
+    "rmse_K": 1.393256948249589,
+    "criterion": "top two usable versions per case among six complete mature candidates"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "format": "retained-source-predict/1",
+  "version": "heating_v65",
+  "case": "heating",
+  "factory": "standard",
+  "weights": {
+    "upper": "weights/upper.pth",
+    "lower": "weights/lower.pth",
+    "rib": "weights/rib.pth"
+  },
+  "output_heads": {
+    "upper": [
+      "T_star"
+    ],
+    "lower": [
+      "T_star"
+    ],
+    "rib": [
+      "T_star"
+    ]
+  },
+  "clip_rib_radius": true,
+  "files_sha256": {
+    "source.py": "375b64e4a7f44f2b7e8da523ca719e1332be278c1faa4ccc10c53e1f96b685b0",
+    "rib_models.json": "d4d9ee8c68c9b17d27ee80697a54866a4103cd082858678cee3913bf799f98e9",
+    "weights/upper.pth": "3ac12bd94291080117d039851ac152a7885e69c5d4adca5e4ad0b9cf0d28ce3c",
+    "weights/lower.pth": "85afe9b9bf8ae4482a535cec84ccd46645ef3fe28e52625120da23be2aeba344",
+    "weights/rib.pth": "32ce9df18d0f2e7b0eb74acf2765b7c23dc46aed1492a98396cdec3e184fa6e8",
+    "weights/upper_thickness.pth": "f987f1ee7761208f0c3fb2e976b59da30e3e38d6995845b387cf6022d5c37aa8",
+    "weights/lower_thickness.pth": "51e1d7b3da8c344c2390550550d3440a6ccfac51f07dacff60b44a67818fa518"
+  },
+  "source_files": {
+    "source.py": "Re-PINN/pinn_v6.5.py",
+    "rib_models.json": "Re-PINN/Dataset/rib_models.json",
+    "weights/upper.pth": "Re-PINN/models_heating/upper_ring_flux_coupled_lam.pth",
+    "weights/lower.pth": "Re-PINN/models_heating/lower_ring_flux_coupled_lam.pth",
+    "weights/rib.pth": "Re-PINN/models_heating/rib_net_flux_coupled_lam.pth",
+    "weights/upper_thickness.pth": "Re-PINN/ring_thickness/upper_thickness_oscillation_reg.pth",
+    "weights/lower_thickness.pth": "Re-PINN/ring_thickness/lower_thickness_oscillation_reg.pth"
+  },
+  "scope": "original model inference; additional versions are not retrained",
+  "use": "tools/predict_reference.py --bundle this_folder --domain upper/lower/rib --input file.csv --output prediction.csv",
+  "selection": {
+    "run_id": "R121_local_selection",
+    "sample_per_domain": 512,
+    "seed": 42,
+    "rmse_K": 2.1211893770082755,
+    "criterion": "top two usable versions per case among six complete mature candidates"
+  }
+}

@@ -1,0 +1,5 @@
+version,case,bundle,status,selection_run,sample_rmse_K
+heating_with_data,heating,local_reference_versions/selected/heating_with_data,usable,R121_local_selection,1.393256948249589
+heating_v65,heating,local_reference_versions/selected/heating_v65,usable,R121_local_selection,2.1211893770082755
+cooling_hardconstraint,cooling,local_reference_versions/selected/cooling_hardconstraint,usable,R121_local_selection,4.207650774784171
+cooling_with_data,cooling,local_reference_versions/selected/cooling_with_data,usable,R121_local_selection,5.07941493500776

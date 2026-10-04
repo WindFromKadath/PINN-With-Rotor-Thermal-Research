@@ -1,0 +1,69 @@
+{
+  "seed_42_reproducibility": {
+    "runs": [
+      "R102",
+      "R108"
+    ],
+    "loss_max_difference": {
+      "thermal": 0.0,
+      "mechanical": 0.0
+    },
+    "prediction_csvs_identical": true
+  },
+  "portable_replay": {
+    "mechanical": {
+      "mae": 3.991125436982624e-05,
+      "rmse": 7.027281318371394e-05,
+      "max_absolute_error": 0.00011862268040309861,
+      "relative_l2": 0.5994425631738356,
+      "count": 384,
+      "units": "m",
+      "relative_l2_denominator": "displacement norm",
+      "component_rmse_m": [
+        5.961646550792906e-05,
+        3.720410344431193e-05
+      ],
+      "rmse_um": 70.27281318371394
+    },
+    "thermal": {
+      "mae": 59.670053601487744,
+      "rmse": 66.45663994362033,
+      "max_absolute_error": 116.18864440441405,
+      "relative_l2": 0.1993643461530027,
+      "count": 384,
+      "units": "K",
+      "relative_l2_denominator": "absolute Kelvin"
+    }
+  },
+  "entrypoint_checks": {
+    "evaluate": "passed",
+    "plot": "passed",
+    "predict": "passed",
+    "compare": "passed",
+    "sample": "passed",
+    "duplicate_run_id": "rejected_original_unchanged"
+  },
+  "migration": {
+    "indexed_source_files": 1340,
+    "copied_files": 774,
+    "hash_mismatches": []
+  },
+  "short_workflows": {
+    "R102": "completed",
+    "R103": "completed",
+    "R104": "completed",
+    "R105": "completed",
+    "R106": "completed"
+  },
+  "legacy_replays": {
+    "little": "R111",
+    "fxx": "R112",
+    "fxx_ntk": "R113",
+    "mlp_1100": "R114",
+    "mlp_33k": "R115",
+    "iwg_constraint": "R116",
+    "iwg_projection": "R117",
+    "iwg_fxx_constraint": "R118"
+  },
+  "status": "passed"
+}

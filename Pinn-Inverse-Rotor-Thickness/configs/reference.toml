@@ -1,0 +1,77 @@
+# Supply restored, validated SI inputs before running this research configuration.
+[geometry]
+outer_radius = 0.225
+upper_inner_radius = 0.084
+lower_inner_radius = 0.103
+rib_start = 0.123
+rib_end = 0.225
+rib_slope = 6.4105
+rib_theta0 = 1.2209
+rib_count = 13
+rib_width = 0.016
+rib_height = 0.0094
+
+[physics]
+ambient = 293.15
+temperature_scale = 900.0
+exposed_ring_faces = 1.0
+rib_exposed_sides = 2
+rib_end_condition = "insulated"
+ring_radial_boundary = "convection_radiation"
+convection = 10.0
+emissivity = 0.3
+source_strength = 100000000.0
+source_decay = 0.005
+lower_source_factor = 0.3
+rib_volume_source = 0.0
+contact_resistance_upper = 0.0
+contact_resistance_lower = 0.0
+
+[training]
+device = "auto"
+dtype = "float32"
+seed = 42
+thickness_steps = 2000
+warmup_steps = 2000
+outer_iterations = 5
+inner_steps = 1500
+lbfgs_steps = 5000
+domain_points = 1024
+boundary_points = 256
+observation_batch = 256
+train_fraction = 0.7
+validation_fraction = 0.15
+observe_ribs = true
+
+[contact]
+radial_nodes = 48
+angular_nodes = 128
+arc_nodes = 50
+time_nodes = 30
+gaussian_sigma = 0.008
+relaxation = 0.5
+
+[data]
+upper_csv = "../data/processed/upper.csv"
+lower_csv = "../data/processed/lower.csv"
+rib_csv = "../data/processed/ribs.csv"
+# For temperature-only inputs, point these to independent SI thickness tables.
+upper_thickness_csv = ""
+lower_thickness_csv = ""
+thickness_checkpoint = ""
+
+[preprocess]
+upper_input = "../data/raw/upper.csv"
+lower_input = "../data/raw/lower.csv"
+rib_input = "../data/raw/ribs.csv"
+encoding = "utf-8-sig"
+skip_rows = 0
+length_unit = "m"
+thickness_unit = "m"
+temperature_unit = "K"
+
+[preprocess.columns]
+# canonical = "source column"; e.g. True_T = "T"
+
+[output]
+artifacts = "../artifacts"

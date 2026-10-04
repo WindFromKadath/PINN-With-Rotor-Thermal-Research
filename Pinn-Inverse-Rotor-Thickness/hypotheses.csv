@@ -1,0 +1,3 @@
+hypothesis_id,question,prediction,comparison,metric,criterion,scope,status,evidence,reviewed_by,reviewed_at
+H001,已知厚度先验下能否重建上下圆环及肋的真实温度,恢复 COMSOL 数据后在预先划分的空间测试集达到规定精度,独立域与全长耦合模型使用相同数据划分和训练预算,RMSE_K;MAE_K;Max_K;L2_K,负责人在真实实验前登记精度门槛,真实 COMSOL 数据与本降维模型假设,untested,,,
+H002,理想贴合全长耦合是否改善空间外推,全长耦合比独立域模型降低测试误差,相同已知厚度数据与预算的独立域基线,测试集 RMSE_K 与交换闭合偏差,负责人在真实实验前登记改善判据,零界面接触热阻且几何和边界匹配,untested,,,

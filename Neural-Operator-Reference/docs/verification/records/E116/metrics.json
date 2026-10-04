@@ -1,0 +1,10 @@
+{
+  "run_id": "E116",
+  "smoke": true,
+  "rel_l2_train": 1.5008718798779421,
+  "rel_l2_eval": 7.3544818948516815,
+  "n_train": 3,
+  "n_eval": 1,
+  "checkpoint": "checkpoints/checkpoint_best.pt",
+  "note": "RelL2 在无量纲域计算（无量纲指标与单位无关）"
+}

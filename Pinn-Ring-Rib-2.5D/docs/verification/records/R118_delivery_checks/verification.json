@@ -1,0 +1,24 @@
+{
+  "heating": {
+    "status": "passed",
+    "case": "heating",
+    "source_run": "R108_heating_smoke",
+    "checkpoint_sha256": "8d00357fa1c2833c2bd8ba41c834a7455b5ea60a2395dae0e63d144dcd56b884",
+    "max_reload_prediction_difference_K": {
+      "upper": 1.1368683772161603e-13,
+      "lower": 5.684341886080802e-14,
+      "rib": 5.684341886080802e-14
+    }
+  },
+  "cooling": {
+    "status": "passed",
+    "case": "cooling",
+    "source_run": "R109_cooling_smoke",
+    "checkpoint_sha256": "a99c4c510297cd4c68e47e9454884cbf8582446243c4bf9b1ce5b9e957a052f4",
+    "max_reload_prediction_difference_K": {
+      "upper": 5.684341886080802e-14,
+      "lower": 5.684341886080802e-14,
+      "rib": 5.684341886080802e-14
+    }
+  }
+}

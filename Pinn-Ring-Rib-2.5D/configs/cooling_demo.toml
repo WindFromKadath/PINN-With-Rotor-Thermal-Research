@@ -1,0 +1,48 @@
+# Fixed smoke budget; not a precision reproduction experiment.
+case = "cooling"
+
+[physics]
+source = 0.0
+
+[training]
+seed = 42
+device = "cpu"
+train_thickness = true
+thickness_steps = 100
+thickness_batch = 0
+# Warm-start only: conservative learning rate for the fixed 100-step smoke budget.
+thickness_lr = 0.00001
+independent_steps = 40
+rib_steps = 40
+outer_iterations = 2
+coupling_steps = 40
+coupling_lr = 0.001
+coupling_decay = 1000
+lbfgs = false
+ring_domain = 256
+ring_boundary = 96
+ring_initial = 32
+rib_domain = 128
+rib_boundary = 64
+rib_initial = 32
+snapshot_s = 16
+snapshot_t = 8
+display_every = 40
+evaluation_limit = 512
+
+[data]
+upper_csv = "../data/processed/cooling/upper_domain.csv"
+lower_csv = "../data/processed/cooling/lower_domain.csv"
+rib_csv = "../data/processed/cooling/rib_domain.csv"
+upper_raw = "../data/raw/cooling/upper_domain.csv"
+lower_raw = "../data/raw/cooling/lower_domain.csv"
+rib_raw = "../data/raw/cooling/rib_domain.csv"
+rib_json = "../data/processed/rib_models.json"
+upper_thickness_csv = "../data/raw/thickness/upper.csv"
+lower_thickness_csv = "../data/raw/thickness/lower.csv"
+upper_thickness = "../local_reference_versions/cooling_hardconstraint/weights/upper_thickness.pth"
+lower_thickness = "../local_reference_versions/cooling_hardconstraint/weights/lower_thickness.pth"
+
+[output]
+root = "../artifacts"
+

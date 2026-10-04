@@ -1,0 +1,20 @@
+{
+  "scope": "previous clean snapshot checks, reused as existing evidence; no rerun in the parent restoration",
+  "source_run": "DOC20261004_02",
+  "independent_imports_verified": true,
+  "project": "Pinn-Ring-Rib-2.5D",
+  "tests": {
+    "tests": 12,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 12,
+    "xml_sha256": "34e516bb9f44a98a98b3a68e4000498acf2a6fce540985c8edb144bd3a40b6fd",
+    "interpreter_environment": "existing project .venv; PYTHONPATH points to clean snapshot src",
+    "cuda_verified_this_round": false,
+    "scope": "12 independent contract tests; 8 historical-fixture cases deselected; legacy/compatibility suites require excluded local assets"
+  },
+  "cli_help": "passed using declared entry point",
+  "new_training": false,
+  "new_proofs": false
+}

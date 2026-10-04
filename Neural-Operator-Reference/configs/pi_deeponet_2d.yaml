@@ -1,0 +1,46 @@
+# E107：2D PI-DeepONet（无量纲 θ=(u-u0)/u_scale，档案 Heat equation 线重写）
+# PDE: θ_t = alpha·Δθ + v·(f_max/u_scale)，Robin dθ/dn = -beta·θ（真 Robin，修正档案
+# OperatorBC 实为 θ=0 Dirichlet 的偏差），IC θ=0；分支输入 v = (GRF·f_std+f_mean)/f_max
+experiment: E107
+seed: 0
+geometry: 2d
+physics:          # CartesianHeatParams（单位：SI/°C）
+  alpha: 0.01     # m²/s
+  beta: 5.0       # 1/m
+  u0: 20.0        # °C
+  f_mean: 100.0   # °C/s
+  f_std: 30.0     # °C/s
+  f_max: 150.0    # °C/s（热源归一化尺度）
+  u_scale: 80.0   # °C（档案 2D 线 U_DIFF_MAX；与数据线默认 150 不同，显式记录）
+collocation:
+  num_domain: 1000
+  num_boundary: 200
+  num_initial: 200
+  train_distribution: Hammersley
+function_space:
+  length_scale: 0.3
+  n_sensors_per_dim: 32   # 传感点 32²=1024（分支输入维数）
+  n_grid: 50              # GRF2D 内部网格（档案默认 100 的 Cholesky 构造代价高；场光滑，50 足够）
+operator:
+  num_function: 250
+  num_function_test: null   # null = 测试沿用训练函数（档案约定）
+  batch_size: 64
+model:
+  branch_layers: [1024, 128, 128, 64]
+  trunk_layers: [3, 128, 128, 64]   # (x, y, t)
+  activation: tanh
+  kernel_initializer: Glorot normal
+training:
+  adam_iterations: 10000
+  adam_lr: 1.0e-3
+  adam_decay: ["step", 2000, 0.8]
+  use_lbfgs: true
+  lbfgs_maxiter: 15000
+  display_every: 500
+  checkpoint_period: 2000
+eval:
+  n_test: 3
+  seed: 789
+  nx: 32        # 真值求解网格（solve_heat_2d_robin）
+  nt: 11
+zip_artifacts: true

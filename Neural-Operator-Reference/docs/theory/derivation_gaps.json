@@ -1,0 +1,44 @@
+[
+  {
+    "gap_id": "N-G01",
+    "title": "解析解的完整推导与报告数值统一",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "N-G02",
+    "title": "显式 Euler/Robin 网格的稳定性条件",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "N-G03",
+    "title": "极坐标差分和周期边界的一致性、阶数",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "N-G04",
+    "title": "算子与解函数的逼近条件",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "N-G05",
+    "title": "数据标签的离散误差与划分",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "N-G06",
+    "title": "PDE 权重和架构排序结论",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "N-G07",
+    "title": "复杂几何与新工况泛化",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  }
+]

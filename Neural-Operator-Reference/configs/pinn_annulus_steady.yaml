@@ -1,0 +1,29 @@
+# E110：圆环稳态 PINN（无量纲 ∇*²θ=0，档案 Heat_2D_Annulus 整合版重写）
+# 几何 CSGDifference(Disk(1), Disk(R_in*))；内边界 -∂θ/∂n*=1、外边界 -∂θ/∂n*=Bi·θ
+# （OperatorBC 手写径向导数）；训练全程无量纲，评估经 AnnulusParams 还原为 °C。
+experiment: E110
+seed: 0
+mode: steady
+physics: {}       # 空 = AnnulusParams 钢材基准（R_in=0.05, R_out=0.147, k=50, h=10, q_in=1e5, T_inf=20）
+collocation:
+  num_domain: 4000
+  num_boundary: 1000
+  train_distribution: Hammersley
+model:
+  layer_sizes: [2, 64, 64, 64, 64, 1]   # (x*, y*) → θ
+  activation: tanh
+  kernel_initializer: Glorot normal
+training:
+  adam_iterations: 10000
+  adam_lr: 1.0e-3
+  adam_decay: null
+  use_lbfgs: true
+  lbfgs_maxiter: 15000
+  loss_weights: null        # 档案稳态线等权
+  display_every: 1000
+  checkpoint_period: 2000
+  monitor_period: 1000      # TrainingMonitor 探测内外边界温度
+eval:
+  n_radial: 200
+  angles: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]  # 0, π/2, π, 3π/2
+zip_artifacts: true

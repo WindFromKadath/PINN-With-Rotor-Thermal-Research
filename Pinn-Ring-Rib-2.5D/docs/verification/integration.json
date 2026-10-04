@@ -1,0 +1,18 @@
+{
+  "run_id": "DOC20261004_02",
+  "mode": "documentation-integration",
+  "status": "completed",
+  "date": "2026-10-04",
+  "source_material_count": 39,
+  "repository_note_count": 10,
+  "originals": "local archive; no modification",
+  "numerical_source_changed": false,
+  "uv_lock_changed": false,
+  "hypothesis_status_changed": false,
+  "new_proofs": false,
+  "new_training": false,
+  "git_actions": [],
+  "publication_checks": "../publication/git_readiness.json",
+  "publication_scope": "this project; parent monorepo preparation withdrawn",
+  "scope_adjustment_run": "DOC20261004_03"
+}

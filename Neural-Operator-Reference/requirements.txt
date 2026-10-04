@@ -1,0 +1,2 @@
+# Compatibility export; uv.lock is authoritative.
+-r requirements-lock.txt

@@ -1,0 +1,214 @@
+{
+  "format_version": 1,
+  "version_id": "fin_final",
+  "radius_scale_m": 0.225,
+  "ring_inner_m": {
+    "upper": 0.084,
+    "lower": 0.103
+  },
+  "rib_start_m": 0.12,
+  "rib_end_m": 0.225,
+  "rib_slope_rad_m": 6.4105,
+  "alpha_ref_m2_s": 4.181667128219329e-06,
+  "temperature_scale_k": 900.0,
+  "ambient_k": 293.15,
+  "ring_input_order": [
+    "r_star",
+    "theta",
+    "Fo"
+  ],
+  "rib_input_order": [
+    "s_star",
+    "Fo",
+    "rib_id"
+  ],
+  "rib_id_conditioned": true,
+  "weights": {
+    "upper": "weights/upper.pth",
+    "lower": "weights/lower.pth",
+    "rib": "weights/rib.pth"
+  },
+  "thickness": {
+    "upper": {
+      "weight": "weights/upper_thickness_m.pth",
+      "output_scale_m": 1.0,
+      "original_path": "[local archive]",
+      "units": "m"
+    },
+    "lower": {
+      "weight": "weights/lower_thickness_m.pth",
+      "output_scale_m": 1.0,
+      "original_path": "[local archive]",
+      "units": "m"
+    }
+  },
+  "new_training_checkpoint_compatible": false,
+  "original_paths_are_provenance_only": true,
+  "training_source_provenance": "Matching definitions and available source snapshot; original checkpoint-to-source revision was not saved",
+  "files_sha256": {
+    "examples/lower.csv": "a64edbcd2a77275746a3623cf25aac1ee472e20d7f27bbc6028c5abf94557dbd",
+    "examples/rib.csv": "ed1aea2d2846e5857bc5f221aa2f8aacd3d020e6b96e9e905470ede49dbb50cf",
+    "examples/upper.csv": "bb9e7b33d8051ddf4fdd90c2ffc91e5a28be7b02f2c4f1af5c7f145f3fec9bda",
+    "factory.py": "54999f1c4f0cf807a7035339eb766f83054cccdc1a0a6112da76a5c0be851cb3",
+    "source/pinn_mse_v3.py": "f558230b597d2fb0eacce3ee041998a7015411dcd4c94f49f108a1db575e3226",
+    "source/pinn_v3.2.py": "f12d6bf016d5b5e3ce11f3e0f0b80700d7946d3f68bef530f54687db0b9eb93f",
+    "source/thickness_reg_vision.py": "e4e724194a3362596879f2a0be10e22e072c663b1dff660a2961cbae3d9aa196",
+    "source/thickness_train_org.py": "a768eabb56f1aee90822540bc34bac3a46dc066f152e5ad80b495fd19e958494",
+    "weights/lower.pth": "09d5717df506e46f0ce6a491efbbbee2786df62c9f8b9bdb23e56861603571ad",
+    "weights/lower_thickness_m.pth": "b5ba3f27d9342f489625e5e156867a86263260c96d6e0e727b4b5065d7c71283",
+    "weights/rib.pth": "026c8cdc5e3b66c538cef842cefb51a9b6f9a5c8e7d60ede859549f0ebb5e3f5",
+    "weights/upper.pth": "60534dc30b4be90a3861abd8971210b3dc112b1f5c0535e9cc8215adf29b93cd",
+    "weights/upper_thickness_m.pth": "ad1293f1cbc669113ac97f63bc223c8e1389c7a4cb7f5bb1cdb09518f7dbef56"
+  },
+  "original_source_directory": "[local archive]",
+  "original_weights": {
+    "upper": {
+      "path": "[local archive]",
+      "sha256": "60534dc30b4be90a3861abd8971210b3dc112b1f5c0535e9cc8215adf29b93cd",
+      "tensor_shapes": {
+        "linears.0.weight": [
+          64,
+          4
+        ],
+        "linears.0.bias": [
+          64
+        ],
+        "linears.1.weight": [
+          64,
+          64
+        ],
+        "linears.1.bias": [
+          64
+        ],
+        "linears.2.weight": [
+          64,
+          64
+        ],
+        "linears.2.bias": [
+          64
+        ],
+        "linears.3.weight": [
+          64,
+          64
+        ],
+        "linears.3.bias": [
+          64
+        ],
+        "linears.4.weight": [
+          1,
+          64
+        ],
+        "linears.4.bias": [
+          1
+        ]
+      }
+    },
+    "lower": {
+      "path": "[local archive]",
+      "sha256": "09d5717df506e46f0ce6a491efbbbee2786df62c9f8b9bdb23e56861603571ad",
+      "tensor_shapes": {
+        "linears.0.weight": [
+          64,
+          4
+        ],
+        "linears.0.bias": [
+          64
+        ],
+        "linears.1.weight": [
+          64,
+          64
+        ],
+        "linears.1.bias": [
+          64
+        ],
+        "linears.2.weight": [
+          64,
+          64
+        ],
+        "linears.2.bias": [
+          64
+        ],
+        "linears.3.weight": [
+          64,
+          64
+        ],
+        "linears.3.bias": [
+          64
+        ],
+        "linears.4.weight": [
+          1,
+          64
+        ],
+        "linears.4.bias": [
+          1
+        ]
+      }
+    },
+    "rib": {
+      "path": "[local archive]",
+      "sha256": "026c8cdc5e3b66c538cef842cefb51a9b6f9a5c8e7d60ede859549f0ebb5e3f5",
+      "tensor_shapes": {
+        "linears.0.weight": [
+          64,
+          4
+        ],
+        "linears.0.bias": [
+          64
+        ],
+        "linears.1.weight": [
+          64,
+          64
+        ],
+        "linears.1.bias": [
+          64
+        ],
+        "linears.2.weight": [
+          64,
+          64
+        ],
+        "linears.2.bias": [
+          64
+        ],
+        "linears.3.weight": [
+          1,
+          64
+        ],
+        "linears.3.bias": [
+          1
+        ]
+      }
+    }
+  },
+  "selection_metrics": {
+    "regions": {
+      "upper": {
+        "count": 188567,
+        "rmse_k": 4.6539116947158226,
+        "mae_k": 1.8778500379074867,
+        "max_k": 23.497786178112506,
+        "l2_relative_absolute_kelvin": 0.012623313581833256
+      },
+      "lower": {
+        "count": 265630,
+        "rmse_k": 6.7795048478028574,
+        "mae_k": 3.5699650223228345,
+        "max_k": 25.504516818464197,
+        "l2_relative_absolute_kelvin": 0.021314032003937083
+      },
+      "rib": {
+        "count": 142511,
+        "rmse_k": 6.848213564293319,
+        "mae_k": 3.658106356084119,
+        "max_k": 69.6539021154777,
+        "l2_relative_absolute_kelvin": 0.02290370938637524
+      }
+    },
+    "overall": {
+      "count": 596708,
+      "rmse_k": 6.205266566205076,
+      "mae_k": 3.0562867464314536,
+      "max_k": 69.6539021154777,
+      "l2_relative_absolute_kelvin": 0.018765739406501145
+    }
+  }
+}

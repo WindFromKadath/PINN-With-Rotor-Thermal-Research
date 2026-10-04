@@ -1,0 +1,12 @@
+bundle_id,case,profile,source
+heating_coupled,heating,heating_coupled/profile.json,Re-PINN/pinn_v6.5.py
+cooling_hardconstraint,cooling,cooling_hardconstraint/profile.json,Re-PINN/pinn_v6_colding_hardcore.py
+ntk_archive,heating,,Re-PINN/pinn_no_rib_data_v6.5_NTK.py
+moe_archive,geometry,,ThicknesNet/data_surface_train_moe.py
+soft_moe_archive,geometry,,ThicknesNet/data_surface_train_moe_soft.py
+learnable_archive,cooling,,Re-PINN/pinn_mse_learnable_colding.py
+surface_correction_archive,heating,,Re-PINN/pinn_no_rib_data_v7_fixed.py
+selected_heating_with_data,heating,selected/heating_with_data/profile.json,Re-PINN/pinn_mse_v6_variable.py
+selected_heating_v65,heating,selected/heating_v65/profile.json,Re-PINN/pinn_v6.5.py
+selected_cooling_hardconstraint,cooling,selected/cooling_hardconstraint/profile.json,Re-PINN/pinn_v6_colding_hardcore.py
+selected_cooling_with_data,cooling,selected/cooling_with_data/profile.json,Re-PINN/pinn_mse_learnable_colding.py

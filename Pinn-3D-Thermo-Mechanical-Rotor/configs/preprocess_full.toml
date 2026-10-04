@@ -1,0 +1,13 @@
+profile = "profiles/little_transient.toml"
+mode = "preprocess"
+
+[paths]
+artifacts = "../artifacts"
+input = "../data/raw/HeatPINNCheck.csv"
+output = "../data/processed/heat_full_long.csv"
+
+[units]
+length_unit = "mm"
+displacement_unit = "mm"
+temperature_unit = "K"
+time_unit = "s"

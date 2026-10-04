@@ -1,0 +1,32 @@
+{
+  "run_id": "MOVE20261004_01",
+  "status": "passed",
+  "cpu_tests": {
+    "passed": 92,
+    "skipped": 0,
+    "failed": 0
+  },
+  "environment": {
+    "python": "3.13.14",
+    "torch": "2.14.1+cpu",
+    "source_import": "new subproject src",
+    "lock": "unchanged"
+  },
+  "cli_help": "passed",
+  "packaging": {
+    "status": "passed",
+    "license": "MIT",
+    "wheel": "heatops-0.2.0-py3-none-any.whl",
+    "license_files": [
+      "heatops-0.2.0.dist-info/licenses/LICENSE"
+    ],
+    "private_assets_in_wheel": false
+  },
+  "source_configs_tests_hypotheses_unchanged": true,
+  "pyproject_change": "MIT license and LICENSE inclusion metadata only; dependencies unchanged",
+  "scope": "software relocation/usability and publication preparation; no historical metric replication or new scientific claim",
+  "local_models": {
+    "selected_models": 6,
+    "finite_predictions": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "physics": {"R_in": 0.05, "R_out": 0.147, "k": 50.0, "rho": 7850.0, "cp": 500.0, "h": 10.0, "T_inf": 20.0, "q_in": 100000.0},
+  "fno_1d": {"a": 0.4, "n_modes": [16,16], "hidden_channels": 64},
+  "fno_polar": {"n_modes": [8,12,12], "hidden_channels": 32},
+  "pidon": {"branch_layers": [200,64,64,64], "trunk_layers": [3,64,64,64]},
+  "comparison_times": [0.0,1000.0,3000.0],
+  "comparison_angles": [0.0,1.5707963267948966]
+}

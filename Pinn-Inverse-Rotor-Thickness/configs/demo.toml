@@ -1,0 +1,34 @@
+# Pipeline demonstration: synthetic temperature functions are not COMSOL or a PDE solution.
+[physics]
+exposed_ring_faces = 1
+rib_exposed_sides = 2
+rib_end_condition = "insulated"
+ring_radial_boundary = "convection_radiation"
+temperature_scale = 100.0
+source_strength = 200000.0
+
+[networks]
+ring_widths = [24, 24]
+rib_widths = [24, 24]
+thickness_widths = [24, 24]
+
+[training]
+device = "cpu"
+thickness_steps = 120
+warmup_steps = 40
+outer_iterations = 2
+inner_steps = 40
+lbfgs_steps = 0
+domain_points = 96
+boundary_points = 48
+observation_batch = 128
+display_every = 40
+
+[contact]
+radial_nodes = 24
+angular_nodes = 64
+arc_nodes = 8
+time_nodes = 9
+
+[output]
+artifacts = "../artifacts"

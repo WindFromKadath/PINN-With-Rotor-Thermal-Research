@@ -1,0 +1,146 @@
+[
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R122_reference_checks/verification.json",
+    "source_id": "artifacts/R122_reference_checks/verification.json",
+    "source_sha256": "79c503e4d9d90a61e965395ca6775b0c517277cc99a509ade4887d0357a052c7",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/reference_models/selected/heating_with_data/profile.json",
+    "source_id": "local_reference_versions/selected/heating_with_data/profile.json",
+    "source_sha256": "aa63cb6423ad0571d034b851e3f0c6b3dcf3debfac9d9cedba7f6af6224a6a5e",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/reference_models/selected/heating_v65/profile.json",
+    "source_id": "local_reference_versions/selected/heating_v65/profile.json",
+    "source_sha256": "9504a04fb0f2f1b3ae3e02180dd1b7df935a85889bf477a1a9659dbba91f19ab",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/reference_models/selected/cooling_hardconstraint/profile.json",
+    "source_id": "local_reference_versions/selected/cooling_hardconstraint/profile.json",
+    "source_sha256": "e4bfea55811d7a7a67f49532a035732a99120d285762fe9db8bf8e973b8f9481",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/reference_models/selected/cooling_with_data/profile.json",
+    "source_id": "local_reference_versions/selected/cooling_with_data/profile.json",
+    "source_sha256": "3c87f79aef6046ca9bce857b7ab642a51facd28f5b7eb0e4a55ef69a57b48c3d",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/reference_models/selected_versions.csv",
+    "source_id": "local_reference_versions/selected_versions.csv",
+    "source_sha256": "5c89a7f80f530ce5fedacca366f67e154f75014d87b1dec9d7ab05c9ef62289e",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R121_local_selection/selection.json",
+    "source_id": "artifacts/R121_local_selection/selection.json",
+    "source_sha256": "0ecd7d98864a890c52856a7cf20551915e684deff9890f611efb4d9b33adcc18",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R122_reference_checks/verification.json",
+    "source_id": "artifacts/R122_reference_checks/verification.json",
+    "source_sha256": "79c503e4d9d90a61e965395ca6775b0c517277cc99a509ade4887d0357a052c7",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/reference_models/source_manifest.csv",
+    "source_id": "local_reference_versions/source_manifest.csv",
+    "source_sha256": "c937ed660b440ed80f44dfe0ac6440d271d58308b23fd37ca97d6462291d9ed9",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/reference_models/index.csv",
+    "source_id": "local_reference_versions/index.csv",
+    "source_sha256": "a3f76d953864976042cba98303d69200fc5bc2bb80cccb228406018cac76745a",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R119_cpu_checks/verification.json",
+    "source_id": "artifacts/R119_cpu_checks/verification.json",
+    "source_sha256": "9d8446c6c96a9e7f66e5274816b14441165e2dd9ea839192b8332204fa40ca8b",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R119_cpu_checks/tests.md",
+    "source_id": "artifacts/R119_cpu_checks/tests.log",
+    "source_sha256": "644f6523d04b22234b27364b67bf1227809d285cb849a162030ba1068062debf",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R110_heating_legacy/metrics.json",
+    "source_id": "artifacts/R110_heating_legacy/metrics.json",
+    "source_sha256": "01ebd6dc91e35123a436d42609dc1e4da72d5cf4fafc54405e0c89c799dad2eb",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R111_cooling_legacy/metrics.json",
+    "source_id": "artifacts/R111_cooling_legacy/metrics.json",
+    "source_sha256": "fa677376e425f167e6aa9624de431845425625364ad32f34a119c578590b5cb5",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R108_heating_smoke/metrics.json",
+    "source_id": "artifacts/R108_heating_smoke/metrics.json",
+    "source_sha256": "2ea9e1eae497c103848d12a0ae793b6271cd7feb6d8255021b04b53fc94a616d",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R109_cooling_smoke/metrics.json",
+    "source_id": "artifacts/R109_cooling_smoke/metrics.json",
+    "source_sha256": "350a8e069f8cf9509e2a87e6adf204aca4f1e32e49385c47d0eafec559d2a7b1",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R116_heating_legacy_portable/metrics.json",
+    "source_id": "artifacts/R116_heating_legacy_portable/metrics.json",
+    "source_sha256": "01ebd6dc91e35123a436d42609dc1e4da72d5cf4fafc54405e0c89c799dad2eb",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R117_cooling_legacy_portable/metrics.json",
+    "source_id": "artifacts/R117_cooling_legacy_portable/metrics.json",
+    "source_sha256": "fa677376e425f167e6aa9624de431845425625364ad32f34a119c578590b5cb5",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R118_delivery_checks/verification.json",
+    "source_id": "artifacts/R118_delivery_checks/verification.json",
+    "source_sha256": "ce61834477912d20069e95b0aebd4c0ddb7d5e574769c8fea6d0f28786f78e83",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R120_thickness_smoke/status.json",
+    "source_id": "artifacts/R120_thickness_smoke/status.json",
+    "source_sha256": "5412046a1f9975a390a77a5e861a4d5ca35c8cf5cb0ef5533ffea9f7bba5dea5",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/data/comsol_heating/preprocess.json",
+    "source_id": "data/processed/comsol_heating/preprocess.json",
+    "source_sha256": "04819d8247154256796a4c6806c6f20adaba7484608893a603108e00617b10e8",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R113_gpu_checks/verification.json",
+    "source_id": "artifacts/R113_gpu_checks/verification.json",
+    "source_sha256": "2c57d0978dcd869ac03a09eea1e18be782dfd32546a1c38274c60717aba2497a",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R122_reference_checks/verification.json",
+    "source_id": "artifacts/R122_reference_checks/verification.json",
+    "source_sha256": "79c503e4d9d90a61e965395ca6775b0c517277cc99a509ade4887d0357a052c7",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Ring-Rib-2.5D/docs/verification/records/R118_delivery_checks/verification.json",
+    "source_id": "artifacts/R118_delivery_checks/verification.json",
+    "source_sha256": "ce61834477912d20069e95b0aebd4c0ddb7d5e574769c8fea6d0f28786f78e83",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  }
+]

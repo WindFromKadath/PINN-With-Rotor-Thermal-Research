@@ -1,0 +1,41 @@
+{
+  "upper": {
+    "rows": 31395,
+    "source_sha256": "cebdb5b89156332e29b36977fd8daac1d75c4e43276bb8dd489c690c57b68d54",
+    "processed_sha256": "eea89ab4dcc5417164def7ffcf78ba84c146b9d9c43aaa8c68935ced8c76574f",
+    "options": {
+      "length_unit": "mm",
+      "thickness_unit": "mm",
+      "temperature_unit": "K",
+      "representation": "integral",
+      "sparsify": true,
+      "eps": 0.005
+    }
+  },
+  "lower": {
+    "rows": 34230,
+    "source_sha256": "64d428853de08356af53c0eabb54c06a67e6a99ad15a8ea9f8ca08cebd979b4d",
+    "processed_sha256": "53a14f77c782a4b502dde67e28a1f6a999fea037ac1a63ba3ce957e7f836c313",
+    "options": {
+      "length_unit": "mm",
+      "thickness_unit": "mm",
+      "temperature_unit": "K",
+      "representation": "integral",
+      "sparsify": true,
+      "eps": 0.005
+    }
+  },
+  "rib": {
+    "rows": 15078,
+    "source_sha256": "69407b290b3231792e550a441a8abf393df993b48dcd9383f46fffd19b813627",
+    "processed_sha256": "e25e7eb0229c15db5745e1c40c1e1a38d49c112b223b5d33140d5a4aac39593f",
+    "options": {
+      "length_unit": "mm",
+      "thickness_unit": "mm",
+      "temperature_unit": "K",
+      "representation": "integral",
+      "sparsify": false,
+      "eps": 0.005
+    }
+  }
+}

@@ -1,0 +1,2127 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 73,
+    "sha256": "97390ca9e901be48cc3e10a41cda5ecf531ef5b509dd670808fd723ce12f17c3"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 942,
+    "sha256": "f0f27885fc4f28027e5f40dace0acb9241cdbce9692b3d98aecc0ff452b5c599"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 1215,
+    "sha256": "f98c92f10c75a86d7e2bbe64c164cc2cd5e1ed052701f1ed798190e534e0b142"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 1894,
+    "sha256": "74c61807e0a9d2419960b6970391f1b247f078152de6c34d4de92147afbb0e9c"
+  },
+  {
+    "path": "CONTRIBUTING.zh-CN.md",
+    "bytes": 1475,
+    "sha256": "9369c8143f0800c2129d31f51e72439e6c4ea899f69a1f0960cc2fdf931baf1f"
+  },
+  {
+    "path": "docs/publication/README.md",
+    "bytes": 2284,
+    "sha256": "b5a96a62f5745b899c6e26468751c87efb37a65b2debaa2e5a7c8ea767d70f5b"
+  },
+  {
+    "path": "docs/publication/README.zh-CN.md",
+    "bytes": 1801,
+    "sha256": "3fcba9207bb65486beec7838a1d744ba801638fd6b6788c9ed0861ac77d0800d"
+  },
+  {
+    "path": "docs/publication/submission.json",
+    "bytes": 918,
+    "sha256": "fd1f0eae6918f323099f0fb4846a9c5b6ef659715f4872ebea9b89b9517f5939"
+  },
+  {
+    "path": "docs/research.md",
+    "bytes": 956,
+    "sha256": "5b45f5aee4ceee190902ced733642e85454fa4362e1939a98783b6ad8558c8e0"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1092,
+    "sha256": "11022217d4029821e080618f5e346580541460383c68bb93bd0a413a809428d2"
+  },
+  {
+    "path": "Neural-Operator-Reference/.gitignore",
+    "bytes": 1125,
+    "sha256": "d3c29cba2595016b6b9a7d5d8041d2773dc42315458d9e6c4740510676e25bf2"
+  },
+  {
+    "path": "Neural-Operator-Reference/.python-version",
+    "bytes": 9,
+    "sha256": "29a3527efc801f94f92e2f542c5737949849ab2ecfe9352646a0c16b5908f09d"
+  },
+  {
+    "path": "Neural-Operator-Reference/AGENTS.md",
+    "bytes": 5348,
+    "sha256": "5675a02c416f1f993ae5d37d7b21a8a88a2f8c3d81a2e0442090c9a172329890"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/deeponet_2d.yaml",
+    "bytes": 1442,
+    "sha256": "446321affbb935de62bc430da92858db0cd7bcd906784e6206dc28959124c22b"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/legacy_selection.json",
+    "bytes": 428,
+    "sha256": "0a94fe55ff76114fc7d26ea5f674eeefd1c1934f9c21d16a77e9fa326807867a"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/pi_deeponet_1d.yaml",
+    "bytes": 1450,
+    "sha256": "f1d74158dfed687adf569ddf16c8bded82309c2f82189d1c92447fcbcc2225f0"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/pi_deeponet_2d.yaml",
+    "bytes": 1624,
+    "sha256": "6add28ad4ceb5795dd3f4733803fbb94232e23d137ad7553eafd967c37b000e4"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/pidon_annulus.yaml",
+    "bytes": 1362,
+    "sha256": "c9a8efb7f92594001bc24290d54777002dc7ad026dd158fef3623f1bb3b13821"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/pinn_annulus_steady.yaml",
+    "bytes": 1110,
+    "sha256": "6ce75dc3570aedf17741812537da7cc16a95985d5736b96b8198a46a735e84c3"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/pinn_annulus_transient.yaml",
+    "bytes": 1443,
+    "sha256": "357f95a1901edd2dc6b34c074c0abe7d63eee1dd7b8e2ffc11b7dc825dc35a78"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/pino_1d_fno.yaml",
+    "bytes": 716,
+    "sha256": "466519f9451c61814fdace562d37aab000bc2b4d91fd645fe5c609f15b945e1b"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/pino_1d_hybrid.yaml",
+    "bytes": 695,
+    "sha256": "fa80ffc493650f467d483bf96f6a31b00a58abafff0554c53f027d28d8364258"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/pino_1d_physics.yaml",
+    "bytes": 629,
+    "sha256": "6864db25fa1c46ba1741adbf79b2004d40d18f4552d4a7d6aff230baf461b146"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/pino_annulus_polar.yaml",
+    "bytes": 1657,
+    "sha256": "0950ab5ccf2799b13e48dc44a0ab9d9d4d35a9346e143211e3e6961bdf49c0d5"
+  },
+  {
+    "path": "Neural-Operator-Reference/configs/preprocess_annulus.yaml",
+    "bytes": 256,
+    "sha256": "0a9d7df36510f5d1e4a1c0cfa7207efe70deeed840ed6a026992e982a79408ca"
+  },
+  {
+    "path": "Neural-Operator-Reference/CONTRIBUTING.md",
+    "bytes": 1551,
+    "sha256": "e96b96f3bb9c1d2b436a9948f6d8134199048f3acf58b69703b0c3bc2f18830d"
+  },
+  {
+    "path": "Neural-Operator-Reference/CONTRIBUTING.zh-CN.md",
+    "bytes": 1193,
+    "sha256": "c6372ed8851e8c0f2301e353e8861730023bc4b680291e844e73800575aec804"
+  },
+  {
+    "path": "Neural-Operator-Reference/data/processed/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Neural-Operator-Reference/data/raw/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Neural-Operator-Reference/data/README.md",
+    "bytes": 350,
+    "sha256": "742af081183ef9d7dfabbbc6c12310e6db8d578af55e19ab2d11376ac945f5c7"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/publication/clone_checks.json",
+    "bytes": 739,
+    "sha256": "50f213a01f1885f73f256dd05e9ae5e24e24cd7d39a2f7fa93bd0f6ff3dac63f"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/publication/git_readiness.json",
+    "bytes": 901,
+    "sha256": "a26403badb97bab3718bba20af537be48fad5a6b2d37cf8094c71842fae930b1"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/publication/manifest.json",
+    "bytes": 18940,
+    "sha256": "740ca3b6386196990ce6d5a522791485e23f36dcc3abcad98791e90833c12c0f"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/publication/README.md",
+    "bytes": 1379,
+    "sha256": "9639971875266a1306fb12a65ba8c2af4bfbb0436c0115f9b38e7a3c63c3626b"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/publication/README.zh-CN.md",
+    "bytes": 1131,
+    "sha256": "f768625d1db1a6a833970475071193c172ee4dc611f6a9cec2146426b1acc24b"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/publication/relocation.json",
+    "bytes": 922,
+    "sha256": "02f05c1eb257d05c2853640b7c5f2a48cba9b541e081f2c456dbe7a5022e0691"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/reference_models/README.md",
+    "bytes": 614,
+    "sha256": "9f9218def15c05917acaa84d3feee578f67f83b0b8bfec6168873bc5d343e1cf"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/running_from_clone.md",
+    "bytes": 1679,
+    "sha256": "65e54b0c99e468547399a4e2c271aa2e162179871031e15ad7de590c06030f0f"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/arithmetic_checks.json",
+    "bytes": 170,
+    "sha256": "7e1a6d7c6177ae7c25f1047d2587bb51f6da659fac8729d3db2a5c2bd347e9d8"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/derivation_gaps.json",
+    "bytes": 1104,
+    "sha256": "e3568d77db72f16e3fc74935799f4da35a3d62d9d9a650f621854f5e84d017d3"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/evidence_and_gaps.md",
+    "bytes": 3437,
+    "sha256": "c81bd1676dfc1d9d97327533feef07d7c7cd1f8948c43243849cb758539d39f2"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/model_and_derivations.md",
+    "bytes": 4822,
+    "sha256": "7294f7d70a42a8d013823ba3c78dee49746c8d90139f93d6755545d844444b8f"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/notes/M0013.md",
+    "bytes": 1596,
+    "sha256": "10590f4df5b0389885743fa7e0a30815d521db067523c1527d00bf16cfe04232"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/notes/M0182.md",
+    "bytes": 1369,
+    "sha256": "222556d49f9491ea0aa509ced70beba88ce5b870ad1026b011b33c03b07c20c2"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/notes/M0183.md",
+    "bytes": 1106,
+    "sha256": "674f77405b476482ecf542a8f8d9d985684e9856862407116c84f62589dae007"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/notes/M0189.md",
+    "bytes": 1156,
+    "sha256": "e17eb51b7217ea19d1f265a6ef31b17fcbeb014f259ab30310d09afa9479c36d"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/README.md",
+    "bytes": 957,
+    "sha256": "32cddce4bd26af364ebd1bcbcb3c6b65f35938459bdacb66f9b6c5c68e344215"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/source_catalog.json",
+    "bytes": 41376,
+    "sha256": "e68692fe94364ffd64a21141b18462014e28e0b1f5cf7dd9fb66989a20467b13"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/theory/sources.md",
+    "bytes": 10029,
+    "sha256": "d11f7ec9d385c8c7d1e0e85cb8f8c9c1ddce029755615159095fc76133ec8dca"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/verification/integration.json",
+    "bytes": 604,
+    "sha256": "f5527740184cbe0c558cb23d3d45250d62aa660af3ee435c17a106bcbcf18f5b"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/verification/integration_provenance.json",
+    "bytes": 1417,
+    "sha256": "896e746cc748b21049cc5dae50e29bf477aba06fb99208255b5e63f2426d21ee"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/verification/README.md",
+    "bytes": 756,
+    "sha256": "9f5dc3fe09596a2e0944c4020dd1353cf7af0a00981f03ae54495d839ee021af"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/verification/records/E115/metrics.json",
+    "bytes": 291,
+    "sha256": "da3324f879e58a8ef76909268e5c8cc4409b9c28746ba6dbc6a73c76f90288da"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/verification/records/E116/metrics.json",
+    "bytes": 283,
+    "sha256": "c7c43ffabe65b441c5fdedc0aa2eff41bcfce95d5f1dc4da8a52ca0abf2e725e"
+  },
+  {
+    "path": "Neural-Operator-Reference/docs/verification/records/migration_20261003/verification.json",
+    "bytes": 10441,
+    "sha256": "7157102dd6c32a58b7ae465ff8e1056974810ddf2804e8fa6ee7b702594639b6"
+  },
+  {
+    "path": "Neural-Operator-Reference/experiments.csv",
+    "bytes": 7516,
+    "sha256": "21e93c8229241dddea7977973ace8d05c16c806ce01591b523c40b26fb381f7d"
+  },
+  {
+    "path": "Neural-Operator-Reference/hypotheses.csv",
+    "bytes": 2284,
+    "sha256": "8cc15f730cf67625216d1c108d85f27434c8d929bafa50c23bb6f2b359c62e42"
+  },
+  {
+    "path": "Neural-Operator-Reference/LICENSE",
+    "bytes": 1092,
+    "sha256": "11022217d4029821e080618f5e346580541460383c68bb93bd0a413a809428d2"
+  },
+  {
+    "path": "Neural-Operator-Reference/pyproject.toml",
+    "bytes": 1235,
+    "sha256": "fcd7c81dc69306e0e34f7bf0c6b913c54ab06dbe14b30fc3b18162ffd562d580"
+  },
+  {
+    "path": "Neural-Operator-Reference/README.md",
+    "bytes": 2047,
+    "sha256": "5bc3c84c1464305648836f72c467de2dc35cca204b97d35f227dabf2acfa5869"
+  },
+  {
+    "path": "Neural-Operator-Reference/README.zh-CN.md",
+    "bytes": 10320,
+    "sha256": "a2be770ba26463e27a747df2a58bdf37faa372af34686755280385bd0e042214"
+  },
+  {
+    "path": "Neural-Operator-Reference/requirements-lock.txt",
+    "bytes": 4728,
+    "sha256": "dab453d8b465e88fe82cee4d259891b145bf40ec8ae3200d2ba03ea3548ddba0"
+  },
+  {
+    "path": "Neural-Operator-Reference/requirements.txt",
+    "bytes": 77,
+    "sha256": "c30507c9824b4635d57f28009adf78ca564485e6714b76b56eaeb3cde8d9483a"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/__init__.py",
+    "bytes": 127,
+    "sha256": "5b7d1a4b1b64634dd1a8c48565c4733eeebdb62837f868ea1299f2f3a01e8143"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/__init__.py",
+    "bytes": 59,
+    "sha256": "ec163779be4495b3b453e211b1c96187e63212a87ed2e37a4a0a1910b25dedc8"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/compare_pino_1d.py",
+    "bytes": 4389,
+    "sha256": "26e005ee3acc6220f5023f3a9367753a77d3b0a69ed3221ace0c1702a7f5aaeb"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/evaluate_run.py",
+    "bytes": 1362,
+    "sha256": "cc6e78cb6fabc18526eefcc270d2f530b2973674e4e71c5d432190d159e933b8"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/legacy_evaluate.py",
+    "bytes": 2715,
+    "sha256": "18e75c0857d242750a96410bcea494e9d3dfe13f5b27596d2bb54729b4108e9a"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/main.py",
+    "bytes": 901,
+    "sha256": "400915f6647b8db059a122ba86ec924533cfff5fbb5cf87bc14decda6674ce94"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/preprocess_annulus.py",
+    "bytes": 2726,
+    "sha256": "c07aadddb9efbfd9524e091c7521733b5957d9caf59f4cd804df8738f20800bd"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/run_deeponet_2d.py",
+    "bytes": 13744,
+    "sha256": "09b193a4abe810be6b933643c65e56622fd07a5e535ff91d386f1dd3bf215ba5"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/run_pi_deeponet.py",
+    "bytes": 19017,
+    "sha256": "1f5f7569df34c520eaafc19c43fca8309d03045d865de0d1a14e0801a8eb1e29"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/run_pidon_annulus.py",
+    "bytes": 12810,
+    "sha256": "002fc7f27605acc30a427333fce9522a177ac8a5a16d4bea9344d45e54786694"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/run_pinn_annulus.py",
+    "bytes": 20616,
+    "sha256": "9f6466bf3e1a06b0c2f8a1b2328da5dd19c0164cc3d377e6fb809730cd763747"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/run_pino_1d.py",
+    "bytes": 10048,
+    "sha256": "e7d72979509a39fc6ecbb374e6c597b7b11f1e828e615cb2083472d99b6f4f39"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/cli/run_pino_annulus.py",
+    "bytes": 18537,
+    "sha256": "92795801afc190cef66189661e8c4b1098a3dda51bd7edba6e5d865bfd4b3d7b"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/data/__init__.py",
+    "bytes": 265,
+    "sha256": "d81d32f41552fd934edd6556170d2094a37c8c03aacbace3af3f5e6d23e7cd0a"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/data/comsol.py",
+    "bytes": 15252,
+    "sha256": "e714044277c5472a34b285f646e694d9d5a101aa24849501483bc8a04107bd0d"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/data/comsol_batch.py",
+    "bytes": 3308,
+    "sha256": "c23964111f19732911b21402b430d536907844ad87a96232de361b084e2a4e54"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/data/datasets.py",
+    "bytes": 9774,
+    "sha256": "fd34e8a2371b4490f3d4a9873083de2fd615e84afe6397536969d5d86c73ee0c"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/evaluation/__init__.py",
+    "bytes": 506,
+    "sha256": "0bfef7e0804121ff235518c99c94930ca5b2ffb3b52499bb9017cd5eb10c967b"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/evaluation/annulus_plots.py",
+    "bytes": 4431,
+    "sha256": "eaa90b0363f03eef490a07ab7e79b8cf88ff4329f96111dcfb7f9daa04c281c5"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/evaluation/deeponet_plots.py",
+    "bytes": 7505,
+    "sha256": "f4486317c64b0d762e878eb437c2785faf7b335dda733e2909cd7edb4a3ba7a8"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/evaluation/metrics.py",
+    "bytes": 4114,
+    "sha256": "6b938c2cf4aa02a959ec30cf5afe74a0864b905114e5d3777a5f72087dcd4c96"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/evaluation/plots.py",
+    "bytes": 3796,
+    "sha256": "a159d4a2df9573775fff44092a1f1515fbdc060d545b08b17ee568d90f6a8c8f"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/evaluation/replay.py",
+    "bytes": 5758,
+    "sha256": "aafa2844f528eab092684c72982c9b8cfe2dc8ca4034bea148b97146981d999c"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/fields/__init__.py",
+    "bytes": 489,
+    "sha256": "07c31d85eacebbe33dbd2d41d74b80a7aef4632a90795b95bd0ad18f5b54e222"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/fields/grf.py",
+    "bytes": 4096,
+    "sha256": "50d1c289208fc28f7a8b960a33092e4950635316c89d5996bf1a9c643045b010"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/fields/initial_conditions.py",
+    "bytes": 3211,
+    "sha256": "dc111f4d7803531e2f34a46acb5256952316690bdaac68011b5aa97166902a4a"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/models/__init__.py",
+    "bytes": 158,
+    "sha256": "f8a9828ec2ddb25e1e17cee0513386fdb0aa2ba1ab98f258b8c83a8a24a25900"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/models/deepxde_models.py",
+    "bytes": 6628,
+    "sha256": "0986a021eab1c774a2dc22a8076525be16fe90e38428eb65a224a870ba12b2f1"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/models/fno.py",
+    "bytes": 5583,
+    "sha256": "889825ec91e7cc7971b4e3da15a5e757a610508c93264f6a455f7091762c3a06"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/models/legacy.py",
+    "bytes": 1730,
+    "sha256": "1853efce53858a0576401871ba02a7ffae0a7440c95df59179e17d67d8e43ba5"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/physics/__init__.py",
+    "bytes": 456,
+    "sha256": "81360f785f04adf97c5c08a46aa147ae2caf3b03972cfa28a53fac33a136822a"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/physics/finite_difference.py",
+    "bytes": 3031,
+    "sha256": "6dee2c92d941120a274da6397d2455d44dd6a1d7339241da861b3cdae4fbdb35"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/physics/geometry.py",
+    "bytes": 4806,
+    "sha256": "05bde1f949b6a80ce824ad64c5300d81f15d815a68d50e3fbb95673b33578b02"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/physics/interpolation.py",
+    "bytes": 3430,
+    "sha256": "3515b7848423bb46d5ded7a0a930e97156df04a48e684d5e492ab942eca7fc51"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/physics/losses.py",
+    "bytes": 12085,
+    "sha256": "b0a8381b63433be54fb3b0fd36df5e8627c3e9c07f034428306cb6fa20d8ab06"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/physics/operator_boundary.py",
+    "bytes": 700,
+    "sha256": "4acd438d776c8ff2aacace6d3aa8ab929ee6d6c51a066da93b2854036ba68c69"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/physics/residuals.py",
+    "bytes": 5043,
+    "sha256": "e4bd49b855f191067d1f22ce7740a19af189e7694984316c140f2f2796d5a312"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/problems/__init__.py",
+    "bytes": 547,
+    "sha256": "c05aa9257433ebaa7a571fd07d096508f45d52c62f0ec07db5eef1498e2f2bab"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/problems/annulus.py",
+    "bytes": 5558,
+    "sha256": "e2dc3373228d3545e82e89162817b16f674d016fd3a20e5b6ae382b00bc8c06c"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/problems/cartesian.py",
+    "bytes": 4517,
+    "sha256": "2bfd59121b1b3462c7e8de07cc822592a684ad3005ee8815d702bb8dc5bba1e3"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/solvers/__init__.py",
+    "bytes": 652,
+    "sha256": "e8230d796960a11bd15cf1f329852e7e3cbc6c9eee403e2e9154fb52ac094f75"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/solvers/_tridiag.py",
+    "bytes": 1032,
+    "sha256": "53c420d91bc8f6f98836908cf15e09a3dbe710d1a5385b6608f08c92e484ad5a"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/solvers/adr_1d.py",
+    "bytes": 4190,
+    "sha256": "59b1c3e1e4c568c875c8394e93873696749558d312455e886e3dc654f0b6f53f"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/solvers/annulus_1d.py",
+    "bytes": 7943,
+    "sha256": "50351b8af38a4303dcb96ce7791c5f22fcae2d39d70e6656dc928bfc5ee80b0b"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/solvers/heat_1d.py",
+    "bytes": 5608,
+    "sha256": "3e54bf68c1136de14f846b00e50bc3274f9f91edc7fabdda0325674e515a8237"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/solvers/heat_2d.py",
+    "bytes": 4793,
+    "sha256": "cbee1e6c130e3a862ec2a54d7fd758c4da14c42f6c075b5f78fbf612ea2e32db"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/training/__init__.py",
+    "bytes": 216,
+    "sha256": "4293ef7cc935de7079b216ab0847adb1b4a72f78a11604b889267027ba6f2b3f"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/training/deepxde_loop.py",
+    "bytes": 14873,
+    "sha256": "acb52eafb7e0a9b6a2621d34d95863eba16ff1d7f6a9d90574037174b5c49ac0"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/training/run_context.py",
+    "bytes": 4692,
+    "sha256": "dfe827ef56b39115c40a7793d4b76665a73ec7d52b7d17a095a37d4ff2e058f3"
+  },
+  {
+    "path": "Neural-Operator-Reference/src/heatops/training/torch_loop.py",
+    "bytes": 8589,
+    "sha256": "db2a394a640589b669655d6e85a4b1b93b7d5dcde010f144d81f049f5439036a"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_comsol.py",
+    "bytes": 6533,
+    "sha256": "c1934f50c0709db1ed08d60c086b529a0e3a6b7a5f3db178bb0450bf17751e9b"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_datasets.py",
+    "bytes": 2756,
+    "sha256": "a607a8e17b5370021afbbd636a10bac137b31beec77e193af0d21dd04ac7f789"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_deepxde_cli.py",
+    "bytes": 10366,
+    "sha256": "90a173458110b5977e6b84430efcd922f2c717267f68148c9f33b78438f2dfe6"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_deepxde_models.py",
+    "bytes": 9816,
+    "sha256": "8f6e522504670a2405b174ae853f1e90be5c2c711613385d54aad8573be22d39"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_fields.py",
+    "bytes": 3612,
+    "sha256": "79a67e994018575a8ef57cef263e11eaf9167e6be2953a1c922eef5b721cfdf8"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_metrics.py",
+    "bytes": 3306,
+    "sha256": "d09e04df9ed67a8ec5eb2d285eb047aa60304bb3b289adaac6fce5c12528f096"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_migration_regressions.py",
+    "bytes": 7015,
+    "sha256": "1c4ce8e93e9a73501543047cc5e179ed9eb4ebf2cb4d0ffcca096907e2cfe2da"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_models_fno.py",
+    "bytes": 2713,
+    "sha256": "5762d7fb8f2e16687aa2e7a42223c93095486f9879cbbfc8d0710deb0664d2e2"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_physics.py",
+    "bytes": 3221,
+    "sha256": "bceecdcc88880f42c0d36eb02084c8588ae3d4120d5caf9e08028ec989c4d817"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_polar.py",
+    "bytes": 9778,
+    "sha256": "c7d0c7b700a44c1df64abb18e3ada741a68ce7ec8b1fcd25eea8525a4648e635"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_problems.py",
+    "bytes": 4087,
+    "sha256": "142bff9f8ccd6b00f8c5ede3b340b31dd76d9f9c83c9cb73207cdc06ef239e71"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_solvers_annulus.py",
+    "bytes": 3324,
+    "sha256": "977c5922bf329648e09536109f219c2eef63cfa4874aeb643bd2e17714539824"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_solvers_heat.py",
+    "bytes": 4931,
+    "sha256": "1230961dfaf9e21ffc56392094acc7cf2bdb9caeee7dff4a97155962f16af90b"
+  },
+  {
+    "path": "Neural-Operator-Reference/tests/test_torch_loop.py",
+    "bytes": 3450,
+    "sha256": "e1e534c5ac94d20426830aeede325c95b8683214d47b0220fa287deeda7601c6"
+  },
+  {
+    "path": "Neural-Operator-Reference/tools/check_git_ready.py",
+    "bytes": 6182,
+    "sha256": "50d1255f0b93cae526b857d0983a177459278811e2588fc841568630629ee95c"
+  },
+  {
+    "path": "Neural-Operator-Reference/tools/migrate_local.py",
+    "bytes": 10750,
+    "sha256": "55b5e2826a990e86880bc404740e3077f8056b21330ab658c5e0a2e77e537ecd"
+  },
+  {
+    "path": "Neural-Operator-Reference/tools/verify_reference.py",
+    "bytes": 3656,
+    "sha256": "8b72ae93ac00eddbecab24abc7f19819067f3896b1f8c321608550c37fb728da"
+  },
+  {
+    "path": "Neural-Operator-Reference/uv.lock",
+    "bytes": 151134,
+    "sha256": "d315510af09594d08f0bfc2082770aead344a0890ed87ecaff0becc635b3f53c"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/.gitignore",
+    "bytes": 1125,
+    "sha256": "d3c29cba2595016b6b9a7d5d8041d2773dc42315458d9e6c4740510676e25bf2"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/.python-version",
+    "bytes": 8,
+    "sha256": "f8faecf2505680716c6279bf2cdec3d5a5ba2ba852f0d7df45d51ac1ce8d9ade"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/AGENTS.md",
+    "bytes": 5918,
+    "sha256": "787efc09dbfe259383e897e3e641b94321d410234921ec95105f9908ef4fd119"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/coupled.toml",
+    "bytes": 1719,
+    "sha256": "db54d741a5d0d2b3ea4f07df73d344703fe5f9b7fa4152731f4469339f85002c"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/demos/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/demos/coupled.toml",
+    "bytes": 1608,
+    "sha256": "0ae3982bf5eb6f469e300921e80609758df078079777a40ebe736cca112001af"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/demos/formal_thermal.toml",
+    "bytes": 1556,
+    "sha256": "42b3b8c916d82c2823e229a9a1f03c97a47c2f68c513290925c1dcf2e79def33"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/demos/iwg.toml",
+    "bytes": 1591,
+    "sha256": "3b3b493f56b335823d66f5075d52975f4ac2dac41b7d0d19b62f463fff5a295b"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/demos/mechanical.toml",
+    "bytes": 1667,
+    "sha256": "b82feb0ce2c2ec0c7f1aea41be027d2fc339ac9950e35f4d2a103abbf1ed5ebe"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/demos/mlp.toml",
+    "bytes": 1604,
+    "sha256": "1f41c3e815cc677b1b9c0320bc432b21fee002797d164335062b92fc166d48b8"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/demos/thermal.toml",
+    "bytes": 1608,
+    "sha256": "4fdbe6603dfecf65413c102150d769ace8f8cef59b9a127017621df738448b87"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/demos/xpinn_steady.toml",
+    "bytes": 1608,
+    "sha256": "bff58ed44d891cbab27c73cac7610f66009fcb7c80d02cfe998778a1e59e7bc8"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/formal_thermal.toml",
+    "bytes": 1618,
+    "sha256": "797617eb66dd51de86cd21a64b69591d5175c1d1045dde82a02820402323071f"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/iwg.toml",
+    "bytes": 1728,
+    "sha256": "bf0e41d0dfd5e9efb367c45d59e5450a8620e91d2439da0558a2c40d79d068dd"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/mechanical.toml",
+    "bytes": 1775,
+    "sha256": "d7981b7b6d3f627fc1eebc97141fa72b699941f8c5d59ee80d41ec5d1564d0dc"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/mlp.toml",
+    "bytes": 1715,
+    "sha256": "301209564676d71bca0e80b04bf545bd8471414b4094098f0856f8ee0c4b727b"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/preprocess.toml",
+    "bytes": 295,
+    "sha256": "ee584a56956334eb27817ceb460fe31fc2ae799ccad626a8446ddca47c7146b8"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/preprocess_full.toml",
+    "bytes": 292,
+    "sha256": "74153e89c9dcd203c099a9db002a757581b71679d09482ce7d2902de07b1dc83"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/profiles/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/profiles/formal_thermal.toml",
+    "bytes": 314,
+    "sha256": "ad28829ae5fba40ae80899ab061215a4eb1522f561e577d8e31785ffe1044405"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/profiles/fxx_transient.toml",
+    "bytes": 314,
+    "sha256": "b0f6ca7a227b3e0a50bb8db36f30756f37a8ac2dedc147fde58a30dfe66845fa"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/profiles/iwg.toml",
+    "bytes": 342,
+    "sha256": "7d5dad762231c6dea0c22e42a5774cad7e98fee42c7c1c9407fc72d85838cbb6"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/profiles/little_transient.toml",
+    "bytes": 317,
+    "sha256": "cc4e6297f8abe4ffe84f9cf9df1fec3c940c1bbd483c65105a804c350831f8ed"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/profiles/xpinn_steady.toml",
+    "bytes": 312,
+    "sha256": "bd6b6c87da94b1aac9bfc52fc936ee30039542679795a91f782e9889f957d51c"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/thermal.toml",
+    "bytes": 1719,
+    "sha256": "5cf3a0cc9fa5d9bb467e0bcac4de2d5322a46d7df6d3db1fb10fefd729051d80"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/configs/xpinn_steady.toml",
+    "bytes": 1665,
+    "sha256": "c78eb5efa5579933d5f3a8a6bbc0cf415e2451f2ea331406bef05944af6d2fd5"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/CONTRIBUTING.md",
+    "bytes": 1705,
+    "sha256": "9468442a3fd91969cecff1f9ab5759135e78eb7df25bf28b4efb064455c8c7bb"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/CONTRIBUTING.zh-CN.md",
+    "bytes": 1415,
+    "sha256": "a1d650af265ec05920a809be961d889e51dc0996025fc4c4956162bcf489344a"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/data/processed/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/data/raw/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/data/README.md",
+    "bytes": 350,
+    "sha256": "742af081183ef9d7dfabbbc6c12310e6db8d578af55e19ab2d11376ac945f5c7"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/publication/clone_checks.json",
+    "bytes": 745,
+    "sha256": "997ca8da39da5e299db6e6e7aebaac2b3aa23c1d8270fddd0b889c78bad08b65"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/publication/git_readiness.json",
+    "bytes": 902,
+    "sha256": "8c8abe9d33fe52528151be3b7c57a8a3895d61f45e2604cb233317c582c86f5b"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/publication/manifest.json",
+    "bytes": 19065,
+    "sha256": "dee6f20adce1241cde9d3882dbcde8f6a2e60cd1ea008e2edb19a526d9f558df"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/publication/README.md",
+    "bytes": 1379,
+    "sha256": "9639971875266a1306fb12a65ba8c2af4bfbb0436c0115f9b38e7a3c63c3626b"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/publication/README.zh-CN.md",
+    "bytes": 1131,
+    "sha256": "f768625d1db1a6a833970475071193c172ee4dc611f6a9cec2146426b1acc24b"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/publication/relocation.json",
+    "bytes": 1326,
+    "sha256": "f41edb1f268725b8fbd516c9a8a4c9ced50681cc4e4b728ebabacc384788a8f5"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/reference_models/index.json",
+    "bytes": 2073,
+    "sha256": "6f5478306215a1947dff340208df5173b0bbe871b913ff87f8dc339ab26c8afe"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/reference_models/README.md",
+    "bytes": 614,
+    "sha256": "9f9218def15c05917acaa84d3feee578f67f83b0b8bfec6168873bc5d343e1cf"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/reference_models/source_manifest.csv",
+    "bytes": 268691,
+    "sha256": "bcef0d33968615c5e9e93789bf8643a397da7eea6d6a07b671525af6a5be6746"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/running_from_clone.md",
+    "bytes": 2060,
+    "sha256": "43387dd7fb6986a96cc2a7977c6887b10a370cdcd28d7fdcda1c8ac23690419b"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/arithmetic_checks.json",
+    "bytes": 342,
+    "sha256": "82e33cbb3de48253716df234283dd7741eb9cb83f2125ee68c19e08470a0eb8c"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/derivation_gaps.json",
+    "bytes": 1889,
+    "sha256": "89cc8bd848873bccb5dcb447bae162265afae41021d117ebfada4ddd12980491"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/evidence_and_gaps.md",
+    "bytes": 5418,
+    "sha256": "9ec9e7aa8452a4e9db57a72205b7b1d6406f3cf0ebda903079dbcf04f3f17141"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/model_and_derivations.md",
+    "bytes": 7199,
+    "sha256": "06d4d41eae950697a680d461ff39df179c8b0d032fc23e9bc56f29020ea79c1c"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0060.md",
+    "bytes": 1930,
+    "sha256": "e1722bc20a4fc9300f7ed567bc50f45e76a1e0f3a21c73ec335a8589cf532be5"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0063.md",
+    "bytes": 1312,
+    "sha256": "d35bffb7b8d349b1a645e6bc58147fdb270f1e3150b5e2fdb4aa1339a48fbcf5"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0070.md",
+    "bytes": 1464,
+    "sha256": "d504d87a325bf42b33aedb0df5ebd0fdf24e9292f3d6508380080891dfc828af"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0086.md",
+    "bytes": 1581,
+    "sha256": "71511d3d7ff2f53c4650c354248682f4b2012fda6d0774c8a1057d2cfabaf125"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0103.md",
+    "bytes": 1035,
+    "sha256": "c102ec45fe29537cce1da1994195cdc004575af5f52d6ce8f6a678f492d7ac33"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0105.md",
+    "bytes": 1071,
+    "sha256": "4eb42793028a37012d5b8213958775260b256ee8c5a2a41ee1acd3319ef8ca34"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0106.md",
+    "bytes": 1019,
+    "sha256": "dd44e5f99a64d5cfa3e2d8e3107d762909e78847217285c26443bfdba51a7a9c"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/notes/M0137.md",
+    "bytes": 1884,
+    "sha256": "b0bc024b742e4df60d540082b6a565bea90f6ce142272314974727e24ac08a27"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/README.md",
+    "bytes": 982,
+    "sha256": "8b769dac3f742f40891a8c1abc9b5264caa3f9e6310abdadb4884befe8fe8d8b"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/source_catalog.json",
+    "bytes": 62780,
+    "sha256": "6d201932221e95d9909a1a4d281df4853b919ded578eff180c202eda7455e9a9"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/theory/sources.md",
+    "bytes": 14168,
+    "sha256": "19ec16f5f3b9ca39799b507254f3db775b1446246142403add9cc11df5963b40"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/integration.json",
+    "bytes": 605,
+    "sha256": "091d810a16ba2a8aa5faad2dffe0aec5e8a1cd5d9349c2d8e519d3d5e4bd4c41"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/integration_provenance.json",
+    "bytes": 5314,
+    "sha256": "858a58e5ae8a4dbd6fa8c9f5cb1a6702d9ff4e1d080d5309c70534f6dd915931"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/README.md",
+    "bytes": 780,
+    "sha256": "bf0d95e0c4399c6b564df923de17ffe70575badb0c25854498c5d7d28146ce0f"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/migration_20261004/verification.json",
+    "bytes": 8133,
+    "sha256": "c3dbcd4042667192486e53cb0864078c246651657de45a50dbd727db608c0a44"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R101/verification.json",
+    "bytes": 2138,
+    "sha256": "62bf769a4e398faf8ec4b785df95dccbd7c5b12c2d22b34568ce8d9a4d1b409b"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R107/verification.json",
+    "bytes": 1711,
+    "sha256": "3283d2500077238c90e0d6cac38fa7b133caf135a043ca1f3f45a5fbf1a4e618"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R120/metrics.json",
+    "bytes": 1129,
+    "sha256": "a7ad12ee4faeaf4c567efcc49fd08aff70a59751bbc29de127e3cff023e2f799"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R126_tests.md",
+    "bytes": 313,
+    "sha256": "a1c5cb6e1a96dc3f91dbeef664e39a3182e288b9c83c3c3d30d7587a8a932d6b"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/experiments.csv",
+    "bytes": 8609,
+    "sha256": "6fafce436cd8f1f72a64f29869b1cdce92bc90886695ff27a1c215b08d250fa4"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/hypotheses.csv",
+    "bytes": 1306,
+    "sha256": "f59fc387415d1c0129b070b455075e39f743394ce6087709bb6d48b038bb028f"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/LICENSE",
+    "bytes": 1092,
+    "sha256": "11022217d4029821e080618f5e346580541460383c68bb93bd0a413a809428d2"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/MAINTAINER.md",
+    "bytes": 18452,
+    "sha256": "302f4caad1fbba34d331c315f657e1ef8abb756094d8560972fabdfe966baaa4"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/pyproject.toml",
+    "bytes": 1221,
+    "sha256": "51e9304e48c1c6385f9090b22c7c1bfd3141d97d31ddc5a7b7045fd1cfecad39"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/README.md",
+    "bytes": 12898,
+    "sha256": "fe2877b78c5188fad07633a3712943d9f6e955b43db18936bd145e4bc9cca8aa"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/README.zh-CN.md",
+    "bytes": 11804,
+    "sha256": "ce65f7f99b3aa155e844f9534cc3491388264a5daf6c3c94111734e75cde2440"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/requirements.txt",
+    "bytes": 16038,
+    "sha256": "4f482d525da36499109db922a8097c7f79ff1d6636dbf19246042df3c3747923"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/__init__.py",
+    "bytes": 104,
+    "sha256": "18d8eded2665e50aa6f46ceb5fe683e93650fa45fee987e244475253a3c5b92e"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/cli/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/cli/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/cli/main.py",
+    "bytes": 9029,
+    "sha256": "6b726296a476e24f1bb8f91799c8b31f6f8401dd8c5bab0140ca1d5cd20d63dd"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/config.py",
+    "bytes": 2954,
+    "sha256": "c6b66e72001eb9086e45a536a3069dfb64687e03bcf8ff959c6321bd8229412d"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/coupling/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/coupling/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/coupling/interface.py",
+    "bytes": 580,
+    "sha256": "c8037794c688627dd2ea18cda1e487320ba0d3c85dd86a08d32ce512e8fc1b78"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/coupling/temperature.py",
+    "bytes": 972,
+    "sha256": "ba415886fe90415ff81e6b941803b533ab81158fdd12d162a6b37347438cc91a"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/data/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/data/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/data/comsol.py",
+    "bytes": 7471,
+    "sha256": "59d39789aed1bcad159bc6844bdc9b969cbf6c7063a2de8a0ecfac880710c1f1"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/data/transforms.py",
+    "bytes": 790,
+    "sha256": "6d1c13c2a1abfa29efdefd97f4783d2abba16e5ee5bc6a659753b9c3f8d08c3d"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/evaluation/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/evaluation/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/evaluation/metrics.py",
+    "bytes": 982,
+    "sha256": "58e9654db0da1881c8b6fcc072850829aebbbc168f1641eae91fd633478eff46"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/evaluation/predict.py",
+    "bytes": 2197,
+    "sha256": "d87a4502c323247178c7e626aa154ae9a9200b3d47d6789e192b395b873cfb7b"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/geometry/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/geometry/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/geometry/sampling.py",
+    "bytes": 2100,
+    "sha256": "a629327a3cd158c91b85c6e91ac08de68e0748849301a85588bc2bbb7d2637ab"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/models/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/models/__init__.py",
+    "bytes": 125,
+    "sha256": "c06b01c2f8416147b19d1fc201e7139b87a4e884fb981c5cf96e0470f0f900d9"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/models/checkpoint.py",
+    "bytes": 2956,
+    "sha256": "9b5793c8e81de4714bb279a92b05badee12cf7bad30aa0a4aba991961eb061eb"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/models/networks.py",
+    "bytes": 2651,
+    "sha256": "2e6c7ac20ccbf76473794951718cd5a1116144bdb04fabc0313e24c5c2358714"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/physics/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/physics/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/physics/mechanical.py",
+    "bytes": 1279,
+    "sha256": "8c47db861f6637d8e49762939f0adedec39be9f6ff6fb23477cd79dc9de1d66f"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/physics/thermal.py",
+    "bytes": 2041,
+    "sha256": "cbbde24a768fb65ff9052d675cda194618b0ab7d3875be51adf4217cafe620fa"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/plotting/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/plotting/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/plotting/figures.py",
+    "bytes": 1439,
+    "sha256": "410b41b50f32feb942c6dc0d4a9dde25199be16697a6f09fd068e5c27bbb5600"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/training/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/training/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/training/optimizer.py",
+    "bytes": 2175,
+    "sha256": "af9e6ea3603c6e609ef99a4e1fbba8a190714b94d06201683612ec103b9517c5"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/training/run.py",
+    "bytes": 2633,
+    "sha256": "4071e48a886d66f22e441ee0a9bcc8021577988cbfa67f9992b0e02a3d4d7529"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/src/thermo_rotor/training/workflows.py",
+    "bytes": 18551,
+    "sha256": "829ddea220ed633093e6ce3181419396d872cb7250b660a926a8107d5bb562f0"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tests/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tests/test_contracts.py",
+    "bytes": 6338,
+    "sha256": "183cb59950702eeda081c80c1e3fedc96e1dc4ea3e168410384daacb5cb2bbb9"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tests/test_physics.py",
+    "bytes": 6060,
+    "sha256": "37bd27b28ebb1568242982e2994fdbf3e7e6fdd590665f1b36a92d493a1aa24d"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/check_failure.py",
+    "bytes": 865,
+    "sha256": "d62b6f1ed79ff1821c2045062ad2eefbbcdaad12c602268ff3faad5084f3ee40"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/check_git_ready.py",
+    "bytes": 6182,
+    "sha256": "50d1255f0b93cae526b857d0983a177459278811e2588fc841568630629ee95c"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/create_configs.py",
+    "bytes": 6210,
+    "sha256": "cffdf3192adb3470bbeb3414abb7d62abf97e6989948a4c6a4f9b3c3be4cb345"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/curate_models.py",
+    "bytes": 8291,
+    "sha256": "d5a73c96e315d025b793243f4700bdaeaa95e3e0a0f7d788b535a1ce7c0da101"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/finalize_records.py",
+    "bytes": 10058,
+    "sha256": "8067709ce96284070fabf596c7abe38d89d930476cd104a72874a7c2f1a209a0"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/make_preprocess_smoke.py",
+    "bytes": 1134,
+    "sha256": "ec7832fd56fa6e28558a79ee665ef250255810add7cd89b009908c9b41fcc6aa"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/migrate_sources.py",
+    "bytes": 4402,
+    "sha256": "4fa5dbb6e3a9ae9f1e21693003b44eee29bfe51e289159d913519414de4dd44c"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/select_iwg_reference.py",
+    "bytes": 5365,
+    "sha256": "841386ee65c5c8c20dd9235b22157535d34461dceadc625ee2c32d0a4016c535"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/verify_delivery.py",
+    "bytes": 4486,
+    "sha256": "704058f1f999488886681d9219ec4a28b7a2a358c3c108b4d37ed914770b723c"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/tools/verify_gpu.py",
+    "bytes": 3214,
+    "sha256": "f1c7ef54e4e4b7c5ecb59c07859f86ee9b38edec36618b34f076665f146ae746"
+  },
+  {
+    "path": "Pinn-3D-Thermo-Mechanical-Rotor/uv.lock",
+    "bytes": 90567,
+    "sha256": "4b1e73c62ac4ebdb5382b221ee6067c6a3f2c095274484e6581e4d735fa6af90"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/.gitignore",
+    "bytes": 1125,
+    "sha256": "d3c29cba2595016b6b9a7d5d8041d2773dc42315458d9e6c4740510676e25bf2"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/.python-version",
+    "bytes": 8,
+    "sha256": "f50159fad3f4319868eb38717b91d55843c41e9803014c8de05e116a6d0bcfdc"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/AGENTS.md",
+    "bytes": 7324,
+    "sha256": "ea0c52ae7bb5d03e80afd10974bb27a5933b008793dbb26d07dd11c2c6c8994a"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/configs/demo.toml",
+    "bytes": 681,
+    "sha256": "50cb5c890f7586c733eb784ccb164234515d739c3f19a881b5c8cfa836000e74"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/configs/reference.toml",
+    "bytes": 1703,
+    "sha256": "2e48bd45a8ad218a0e58a6b587021c24cd6b8438f8ffebdf0d8c90228660c657"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/CONTRIBUTING.md",
+    "bytes": 1551,
+    "sha256": "e96b96f3bb9c1d2b436a9948f6d8134199048f3acf58b69703b0c3bc2f18830d"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/CONTRIBUTING.zh-CN.md",
+    "bytes": 1193,
+    "sha256": "c6372ed8851e8c0f2301e353e8861730023bc4b680291e844e73800575aec804"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/data/processed/.gitkeep",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/data/raw/.gitkeep",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/data/README.md",
+    "bytes": 350,
+    "sha256": "742af081183ef9d7dfabbbc6c12310e6db8d578af55e19ab2d11376ac945f5c7"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/publication/clone_checks.json",
+    "bytes": 742,
+    "sha256": "ec8487fe99eca0958c794f8f09973a87cebd86342a84a3693c856b958b76f86a"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/publication/git_readiness.json",
+    "bytes": 899,
+    "sha256": "cc4cdc72d8dc44c7ab4161be29e626a9454529e0ddb08aa60c35bc033d787fca"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/publication/manifest.json",
+    "bytes": 11042,
+    "sha256": "118ce2358e4dc2a0bf646afd3167fc5265953125066a8b6cad1818a16044e1f2"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/publication/README.md",
+    "bytes": 1379,
+    "sha256": "9639971875266a1306fb12a65ba8c2af4bfbb0436c0115f9b38e7a3c63c3626b"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/publication/README.zh-CN.md",
+    "bytes": 1131,
+    "sha256": "f768625d1db1a6a833970475071193c172ee4dc611f6a9cec2146426b1acc24b"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/publication/relocation.json",
+    "bytes": 995,
+    "sha256": "3542fbb9574063e6326d74b46698369f72a0ad9418bdb4c3d25a906e2ed00608"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/reference_models/fin_final/profile.json",
+    "bytes": 5847,
+    "sha256": "1e5b8ff2a13477f9b4bea8c3056444a9e8ea0e3737a3757640c0e2fb9bbc5a46"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/reference_models/fin_v3/profile.json",
+    "bytes": 5845,
+    "sha256": "4efe2a22194ff04e41eb60732c5fa5b2305f5b98aed7044ea9acf2a176d7cf37"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/reference_models/fin_v3_1/profile.json",
+    "bytes": 5848,
+    "sha256": "ad2a53ef978d17512162a51aa5971f9ebf981298b372ce2a08fec94b98bce179"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/reference_models/index.csv",
+    "bytes": 210,
+    "sha256": "118f0de88f9cf2ddd56f3a784e8fe53e743d115b67d81519667ce17395ed5902"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/reference_models/README.md",
+    "bytes": 614,
+    "sha256": "9f9218def15c05917acaa84d3feee578f67f83b0b8bfec6168873bc5d343e1cf"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/running_from_clone.md",
+    "bytes": 1668,
+    "sha256": "4e759c1e6742a13e1f3be243dd26360ead2dce2181f2c6a8175304c8a75db300"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/derivation_gaps.json",
+    "bytes": 1105,
+    "sha256": "86cc573369832c7ce226498b791688ca77ea29b808c7c5ede308cc24704d9141"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/evidence_and_gaps.md",
+    "bytes": 3151,
+    "sha256": "e413f7a5fae933eba87e2257d53bbac0ed0b4b7c0e1de5be5332f4407aa61bb6"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/model_and_derivations.md",
+    "bytes": 4474,
+    "sha256": "9fb3124df36c21362ed67e8eff5253d7ca08d1c3fad676380adfa5ad0ed898a7"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/notes/M0016.md",
+    "bytes": 1284,
+    "sha256": "780af6ddfe2402ddc10d8cfbac1bd735d009101b84c83860d283d80086d1233f"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/notes/M0028.md",
+    "bytes": 954,
+    "sha256": "bcf300584e90e70dd284a8f9ea46500aecd6b2128e6c45e1e35f3ab2b9cf370e"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/notes/M0174.md",
+    "bytes": 1946,
+    "sha256": "1d59e326be77331c0b7dad5b38207d65abc9c02ea495e58e08f79cf72ae4362d"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/notes/M0175.md",
+    "bytes": 1332,
+    "sha256": "a644bb270f46e88fa0cef10b0e9d8a3a47defe9bdf4cc591d796c6801295ae3c"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/notes/M0204.md",
+    "bytes": 1060,
+    "sha256": "0badc433dd5ace975eab93c5cfe21b8373a23e6841a141277573f3d0371b9254"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/README.md",
+    "bytes": 958,
+    "sha256": "18bc7b6af0c02432baf5f454758efbc68361fa573db2d49c152b45f221550f38"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/source_catalog.json",
+    "bytes": 12883,
+    "sha256": "52b971d47103305b6c90241fe67faad788e73ca7e0a23a319dfd5eeb84f65cb9"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/theory/sources.md",
+    "bytes": 3517,
+    "sha256": "c1c7fd7358dd76bb5e553a53d190e9a77c75e3aff7fe0470a581edf9a8460366"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/verification/integration.json",
+    "bytes": 604,
+    "sha256": "895c1e8ab005dfa8cf4128ae2522fae73642f314c423d5fd4c921f81bfd636e2"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/verification/integration_provenance.json",
+    "bytes": 3262,
+    "sha256": "888487de954534488f234598216014de20ddbb7e33ed1cb3bc026a2bedd5660f"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/verification/README.md",
+    "bytes": 771,
+    "sha256": "93dd06ea1eb96e58edb0ed5629b91eca19418f8495a5b094507155cde974c348"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/verification/records/R006_VERSION_SELECTION/metrics.json",
+    "bytes": 38310,
+    "sha256": "15e2fe33146cbaa7024b8e956bafa0af4c0edf20e9ef7bb22119b5dc1e9996b4"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/verification/records/V004_LEGACY_PORTABLE/final_checks.json",
+    "bytes": 933,
+    "sha256": "fbc2b5476358c1613c44f1705dc81402a1fae98ab9bc0309c05db7754c4f3bd2"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/docs/verification/records/V004_LEGACY_PORTABLE/metrics.json",
+    "bytes": 3750,
+    "sha256": "725427d2598744e96b36168cd125937ff8044479761897a28dbe3d5f02095fc0"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/experiments.csv",
+    "bytes": 6984,
+    "sha256": "ae2fc208ab16f24515122cb458412afdccaf83266f8c9bea0855f9fdb9b343c2"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/hypotheses.csv",
+    "bytes": 750,
+    "sha256": "0719c419d45de65220a2d64749b32cc42d97ea506970ca6a3ee1e29b97200616"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/LICENSE",
+    "bytes": 1092,
+    "sha256": "11022217d4029821e080618f5e346580541460383c68bb93bd0a413a809428d2"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/pyproject.toml",
+    "bytes": 1318,
+    "sha256": "70c6b1320b7ed02d93ca8948359ece86fd3be8946940bb151ae1369019baf920"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/README.md",
+    "bytes": 2093,
+    "sha256": "5af94a1ba68496a44775e43d737597b2e52e6776ba2a6c3fe4a6ef20a5098eae"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/README.zh-CN.md",
+    "bytes": 26623,
+    "sha256": "058b8083b14d3bd4fcbccac811511f43f28d661ea971f8f149de1da045eab82e"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/__init__.py",
+    "bytes": 111,
+    "sha256": "f185e18b8cc7513f8fbfa0df6956366ef329aa705fa68af939d3a5b9e00c2d74"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/artifacts.py",
+    "bytes": 5119,
+    "sha256": "0180e45575f5f76f0f2019d3a29573c6312538f5bf82cc9319c6434265139098"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/backend.py",
+    "bytes": 1090,
+    "sha256": "7099ecfe8f8b7648b7a807a41c85221515eb52c657d3a4d2a23b01e415e11fc1"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/cli.py",
+    "bytes": 2295,
+    "sha256": "44f6a9987e491de395ee3c7eff2ca4c2ab5250a715142367faa643bb46e1443d"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/config.py",
+    "bytes": 9633,
+    "sha256": "1ba93614c5ccb8e5329d479310d1e247a5ec2ceb0a6d93695abd6fb7dfa1f904"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/coupling.py",
+    "bytes": 9060,
+    "sha256": "3b4d1e2654a714fa3ef2ce187abffd2dedf1c2bc426c4f7aabe9d101ce147329"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/data.py",
+    "bytes": 6945,
+    "sha256": "9994184c49a2793dd491b1227afdf4ca27ab1189ba6294abc4c1bfccd3534ad8"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/evaluation.py",
+    "bytes": 4323,
+    "sha256": "55381793c2bd9fb9c7b2ab7b7ad91bb2124e691871ff1d75ab34c786b9429030"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/geometry.py",
+    "bytes": 2503,
+    "sha256": "c4419735ac1618ab386a3b81e5ddb21723aae6f454dce8b99f81aacfa68aaa45"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/legacy.py",
+    "bytes": 9548,
+    "sha256": "49ba81da3f95ff4fe4858242d7e268a3f6d9637ba8f17eba91383399020518c7"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/materials.py",
+    "bytes": 1097,
+    "sha256": "f604c057132520ab6b5af13e9b91d41476a2696d45c3f02fd3b047762c030509"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/networks.py",
+    "bytes": 1843,
+    "sha256": "62de9b92546a38773fef89a22f50c07cd87db82fd1e30288627f35414ebc13c0"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/physics.py",
+    "bytes": 2063,
+    "sha256": "96b2d4b5e4c37afa880567f89faa8a5b9552930eff19f5896a6add87b94cae8a"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/plotting.py",
+    "bytes": 1896,
+    "sha256": "5f6c3f41d0b008ffbbc57f10fd0ee548ad35ebd2816046f6cab4f9774c5520bb"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/synthetic.py",
+    "bytes": 1845,
+    "sha256": "208fdafd458504766337f796efe26b87934c90436f42ce6e51a9f70a6371106b"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/src/rotor_pinn/training.py",
+    "bytes": 21584,
+    "sha256": "3fc2a70ae7dd48ff9c3caee1bdb2864f42d5095917f044d1ba73d6ae27ca1366"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tests/conftest.py",
+    "bytes": 347,
+    "sha256": "e2f54d6586759a62e8945d67d580512e89e9431aba0f39e54349fd3ce966feb9"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tests/test_data_geometry.py",
+    "bytes": 5899,
+    "sha256": "34a8cd67b057754585419e8ed30463df405b750786d019c3fc8b509cb6c0eb22"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tests/test_legacy.py",
+    "bytes": 5174,
+    "sha256": "1a1d5a73d4cd4b5f3f7b9d149666536158dd70d070d765a221fa48adada6d965"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tests/test_numerics.py",
+    "bytes": 6901,
+    "sha256": "e29c9d5185ce7b8405d442161c57dd167e76d4b2719ddba5ceb64c210b19b021"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tests/test_runtime.py",
+    "bytes": 6462,
+    "sha256": "0c6cb3baa476168d03892d6a040d64c80a713bd399f757fe569da2936b3af353"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tools/check_git_ready.py",
+    "bytes": 6182,
+    "sha256": "50d1255f0b93cae526b857d0983a177459278811e2588fc841568630629ee95c"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tools/curate_legacy.py",
+    "bytes": 16113,
+    "sha256": "fc0d0e4145dcbadf76142d30afd81b1524b14422ef8c8beff69d28836a6a5a90"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tools/inspect_legacy.py",
+    "bytes": 9776,
+    "sha256": "0bac8260e9f38e234e5f065e7e95d7bcf04bd66e2f3232eb996c13e1a5eed98b"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tools/reuse_preserved.py",
+    "bytes": 1618,
+    "sha256": "73220cee7306738e3e091935d9c76d35ffdca82f02bb4c976b12d021f54005a4"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tools/verify.py",
+    "bytes": 4365,
+    "sha256": "f697e753ace0b2b40fa262c756513f2e8734a6e9f7a345b18878fde89a2bd74b"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/tools/verify_preserved.py",
+    "bytes": 3060,
+    "sha256": "18d9c9121622705a3f26fc8fd009328a1ac4825cad963704a75f27bbd0441c80"
+  },
+  {
+    "path": "Pinn-Inverse-Rotor-Thickness/uv.lock",
+    "bytes": 95246,
+    "sha256": "5bb709a65bdf3c5909d03c32b6f8e9f4d95fb0779e5e590f62d913ca42ead1c1"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/.gitignore",
+    "bytes": 1125,
+    "sha256": "d3c29cba2595016b6b9a7d5d8041d2773dc42315458d9e6c4740510676e25bf2"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/.python-version",
+    "bytes": 8,
+    "sha256": "f50159fad3f4319868eb38717b91d55843c41e9803014c8de05e116a6d0bcfdc"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/AGENTS.md",
+    "bytes": 5068,
+    "sha256": "acb53b29b93a329700be5b4863a1ca3fa7b8e1f98a51e9ef7bebf7ba5d8b243a"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/configs/cooling.toml",
+    "bytes": 1147,
+    "sha256": "2c6f86e755941f8e618b9a859c75910226924935f99af8755605e84aced70e23"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/configs/cooling_demo.toml",
+    "bytes": 1341,
+    "sha256": "5d642c6e4336c5b2d1601d61adc9af612b409d36346f0b0f410ac8b51bbc39fa"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/configs/heating.toml",
+    "bytes": 1265,
+    "sha256": "82df5b830523c2b4cb7ab56dd1e65f267831a4767b6269e622f188784e63d4bb"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/configs/heating_comsol.toml",
+    "bytes": 1286,
+    "sha256": "b8fd40cc0ad83adcd67a7e723a9652cac8250b6d1faf91f643df6cc64aaa20a9"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/configs/heating_demo.toml",
+    "bytes": 1459,
+    "sha256": "af42a13a78f9b095f3d3e30afd6f921c5f181a665f8b56b4beada7c8750a2e49"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/CONTRIBUTING.md",
+    "bytes": 1551,
+    "sha256": "e96b96f3bb9c1d2b436a9948f6d8134199048f3acf58b69703b0c3bc2f18830d"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/CONTRIBUTING.zh-CN.md",
+    "bytes": 1193,
+    "sha256": "c6372ed8851e8c0f2301e353e8861730023bc4b680291e844e73800575aec804"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/data/README.md",
+    "bytes": 350,
+    "sha256": "742af081183ef9d7dfabbbc6c12310e6db8d578af55e19ab2d11376ac945f5c7"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/publication/clone_checks.json",
+    "bytes": 814,
+    "sha256": "d351f9e9d9452d4dcfee1c15db3b6b69faf5ce223138e816ee8b1b587223086c"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/publication/git_readiness.json",
+    "bytes": 901,
+    "sha256": "f11534d5ea0ba23bcb78ac25d6df30f4b35ca7fb2826d6b7bb63601b95da9593"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/publication/manifest.json",
+    "bytes": 14903,
+    "sha256": "2699a9f4b15fcf54e323c2dec372825eb64930619e98cab203e9c6daf03c2e2f"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/publication/README.md",
+    "bytes": 1379,
+    "sha256": "9639971875266a1306fb12a65ba8c2af4bfbb0436c0115f9b38e7a3c63c3626b"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/publication/README.zh-CN.md",
+    "bytes": 1131,
+    "sha256": "f768625d1db1a6a833970475071193c172ee4dc611f6a9cec2146426b1acc24b"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/publication/relocation.json",
+    "bytes": 1028,
+    "sha256": "01db2bd17cd50ef56dcb5e222dc0bb87e0c8728e7363b19fd5c5ef7f953736b2"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/reference_models/index.csv",
+    "bytes": 970,
+    "sha256": "a3f76d953864976042cba98303d69200fc5bc2bb80cccb228406018cac76745a"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/reference_models/README.md",
+    "bytes": 614,
+    "sha256": "9f9218def15c05917acaa84d3feee578f67f83b0b8bfec6168873bc5d343e1cf"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/reference_models/selected/cooling_hardconstraint/profile.json",
+    "bytes": 2159,
+    "sha256": "e0f475913239ebedc8aeeebbf9dad15bd55c04dc61cb9103cbb620b3bfb390aa"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/reference_models/selected/cooling_with_data/profile.json",
+    "bytes": 2496,
+    "sha256": "b117c360db48281103d47a5ec9dc9db9dd0b8b3ad788bd4b9353ebb5fe133d84"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/reference_models/selected/heating_v65/profile.json",
+    "bytes": 2122,
+    "sha256": "f085fa5c4e3efb506a68c3cd5bdf32280d7b18293edfedd17b7eaea5e3118995"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/reference_models/selected/heating_with_data/profile.json",
+    "bytes": 2318,
+    "sha256": "1c6730a74a2f4a10c02a6c157ccef42e027b9c6c19df6e4253223fcdc24f0266"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/reference_models/selected_versions.csv",
+    "bytes": 554,
+    "sha256": "5c89a7f80f530ce5fedacca366f67e154f75014d87b1dec9d7ab05c9ef62289e"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/reference_models/source_manifest.csv",
+    "bytes": 106187,
+    "sha256": "c937ed660b440ed80f44dfe0ac6440d271d58308b23fd37ca97d6462291d9ed9"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/running_from_clone.md",
+    "bytes": 1654,
+    "sha256": "63baa12b0e651261545c714b65ca2383525c48e7c76384ccdd14bd8d8e784e09"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/derivation_gaps.json",
+    "bytes": 1520,
+    "sha256": "54cfaedfdf9c91f3f86fc9ba013b810b185c098cc5ff8d7c2e72d744fc577cf1"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/evidence_and_gaps.md",
+    "bytes": 4234,
+    "sha256": "afc66c6d267a8d76d430f6c1436d9e7f794269db8e93e0a81254320a298afd86"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/model_and_derivations.md",
+    "bytes": 6634,
+    "sha256": "ddbe379e7a11f98a17e60a4b65c68c2a73e137595a6bf643abfdbaf732ac9a3f"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0031.md",
+    "bytes": 1363,
+    "sha256": "a2e9445dc2e47f8265242297214ad4a4cb85679df546f3e94d24d4c2d1b1b54a"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0037.md",
+    "bytes": 1097,
+    "sha256": "aec443735fad9a7126733b50a2d6433516763c3d7a32e09ff043249ff8b52d53"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0038.md",
+    "bytes": 2430,
+    "sha256": "fbcbcdc925e2cb4d8d9f86be4d8af3fae8c2cdb59355a34da49bf34d451726b2"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0039.md",
+    "bytes": 1075,
+    "sha256": "acfe49197f40298fb3ca25df6eeb08bc890bdec45102fd4ecff87b7d9c87e58f"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0053.md",
+    "bytes": 1304,
+    "sha256": "34a57856bab5244d8b191a05dac60990fc438175be9aa59012a0c54a2b70df93"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0054.md",
+    "bytes": 1395,
+    "sha256": "ae660a06ee3778958aeefac698a8c2e5839c38776deb70f8cf9fbc9339748ebd"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0174.md",
+    "bytes": 1946,
+    "sha256": "1d59e326be77331c0b7dad5b38207d65abc9c02ea495e58e08f79cf72ae4362d"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0175.md",
+    "bytes": 1332,
+    "sha256": "a644bb270f46e88fa0cef10b0e9d8a3a47defe9bdf4cc591d796c6801295ae3c"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0177.md",
+    "bytes": 995,
+    "sha256": "502ead71c6b6e03e4f5a8a15505f1046796b7b28c6279b36c735d22e22914fe9"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/notes/M0204.md",
+    "bytes": 1060,
+    "sha256": "0badc433dd5ace975eab93c5cfe21b8373a23e6841a141277573f3d0371b9254"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/README.md",
+    "bytes": 963,
+    "sha256": "b6c72efc67175feffafff389ac7f72206c7d39b74939c12e9705dbce3f5cd9a7"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/source_catalog.json",
+    "bytes": 20742,
+    "sha256": "2f25b820da0d9cf7b07c4d45e9bb24042f148e76522dfd09c11a216ad0559993"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/theory/sources.md",
+    "bytes": 5089,
+    "sha256": "b92406b9d34bc954370c57ac06fc105e0665c19fb4f9e82d62e1a9970a716f66"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/integration.json",
+    "bytes": 605,
+    "sha256": "2561852fa9836598c04b3c86447c49101893533bf309a3840af4ecb4af179b37"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/integration_provenance.json",
+    "bytes": 8709,
+    "sha256": "2ea08fb195734c86d318c30931fb83643a0007c5f81c493f7370fa5e04d863cb"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/README.md",
+    "bytes": 758,
+    "sha256": "be308f27c3d3b180714017670d3e07dfce0a40a10a236b2d3e3f1a6a56679566"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/data/comsol_heating/preprocess.json",
+    "bytes": 1267,
+    "sha256": "f6ca77d07a2732e764e13d67e9d3735cd882953f1c26d0c308583207577474d8"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R108_heating_smoke/metrics.json",
+    "bytes": 1793,
+    "sha256": "f27de9cad64df520928e560ef47fa0a9eff6479fcee182dce2c45b45bbe8efc9"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R109_cooling_smoke/metrics.json",
+    "bytes": 1018,
+    "sha256": "d2d2bae4e93c5e943e5ccd4dadbb7697b269ad80976a029c520eb38b02031169"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R110_heating_legacy/metrics.json",
+    "bytes": 1828,
+    "sha256": "ffe1526183333059d6a07b9791358024886fb164db81c4485cb7e7275a43bae2"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R111_cooling_legacy/metrics.json",
+    "bytes": 1029,
+    "sha256": "033fad33229fb6d0dd33ee2e220191f47b204b90473df457114cf577722bb64f"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R113_gpu_checks/verification.json",
+    "bytes": 777,
+    "sha256": "60e6afa7065200716e2ab347b6bcf4bca81bf68605979f1fa21fdab30d06a02e"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R116_heating_legacy_portable/metrics.json",
+    "bytes": 1828,
+    "sha256": "ffe1526183333059d6a07b9791358024886fb164db81c4485cb7e7275a43bae2"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R117_cooling_legacy_portable/metrics.json",
+    "bytes": 1029,
+    "sha256": "033fad33229fb6d0dd33ee2e220191f47b204b90473df457114cf577722bb64f"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R118_delivery_checks/verification.json",
+    "bytes": 750,
+    "sha256": "1d32b5d80f3dbd80389579574e04308b7db60c189e34758dd248176c296d7599"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R119_cpu_checks/tests.md",
+    "bytes": 311,
+    "sha256": "e173bbcc7aa084592f3be76bf17af728976eac07ab8ee98a99e7d404a0e2e7eb"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R119_cpu_checks/verification.json",
+    "bytes": 441,
+    "sha256": "7efab479884a11e27c25e651b24e361d907d8c3108dc380212b774b97b936afe"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R120_thickness_smoke/status.json",
+    "bytes": 73,
+    "sha256": "4315b76c6d45b63109faad544ee272a18c3915fddcc61690b496bbb113a66075"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R121_local_selection/selection.json",
+    "bytes": 9684,
+    "sha256": "e92b20149f56b5917a915aa60ed04e3e62bb64ba2ea79a141d4f0427484fd990"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/docs/verification/records/R122_reference_checks/verification.json",
+    "bytes": 441,
+    "sha256": "5b4dc5fad254051dee51ce97aaef33de0c5b4de426a469c72e5f4a8db50dcca9"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/experiments.csv",
+    "bytes": 12881,
+    "sha256": "7d1ddf5fa300c95d1fbc42ba6df403d4fc50d423149a85bc313058fa9757a9be"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/hypotheses.csv",
+    "bytes": 3475,
+    "sha256": "c9946279d58d28e0994a518fa2aca9c4982fa39fa58318f70f992eec559ff097"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/LICENSE",
+    "bytes": 1092,
+    "sha256": "11022217d4029821e080618f5e346580541460383c68bb93bd0a413a809428d2"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/pyproject.toml",
+    "bytes": 1305,
+    "sha256": "8d54fc2f9581c61dd98ac76cb8f4ddc7a28556d4a569314a06eed802a71a5e33"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/README.md",
+    "bytes": 2064,
+    "sha256": "a965af78c24aff3007ad4fe713c8792b0e3446470d25730eba3c76dab0a64afc"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/README.zh-CN.md",
+    "bytes": 18330,
+    "sha256": "41a52aca7f152659f04e9edca45d431c8c6f8493cf07ae4545abaa3c15ea6382"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/__init__.py",
+    "bytes": 106,
+    "sha256": "c26c8ec19cb48b896ce992662a28a62fba8c408e09d80674c615f4059c3fff0d"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/artifacts.py",
+    "bytes": 3985,
+    "sha256": "726da3e227178b2da86da93d1dd75257991a0271c95946ce6310e4f4770f437b"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/backend.py",
+    "bytes": 857,
+    "sha256": "2bc43f20c9c6a5b9d7a5dbfd0863c9677b6743764e857384072fcf2c2d53a2ac"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/checkpoints.py",
+    "bytes": 4642,
+    "sha256": "b4ff5971d94069be2505e8ca0dbec3bf858f4bff68c9e238f9d101c2d249d513"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/cli.py",
+    "bytes": 3663,
+    "sha256": "d21a466d4f65ea4153711c77401dd3bf1223bc1d40101a4bcea66ee6833357a5"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/config.py",
+    "bytes": 5850,
+    "sha256": "6ca4df79ec9da1ff2473ad240dcf6ef431cf203edcd408b87e266870a3230425"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/coupling.py",
+    "bytes": 1952,
+    "sha256": "5550690b8de8e16d84385f2caf43aba59c24f216429ba86b8e8af9904c018319"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/data.py",
+    "bytes": 9008,
+    "sha256": "449bdbff8fe5873d8ef4ad5efe0c7333173e51a2fb624728b0d3ee5017e7686b"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/evaluation.py",
+    "bytes": 2668,
+    "sha256": "a1cca569f2391d51c212b16ea6335ed489f51ced6d3205a91434f3690d78711a"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/geometry.py",
+    "bytes": 2768,
+    "sha256": "49e3342c4f03c534f7024422ab688451a1d8c2a778abf6a7acd5818d029135c4"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/legacy.py",
+    "bytes": 8374,
+    "sha256": "22c0a95c5a6c0d7a590d53b6ba342a1dc21a1a971400ad0815e34d32b22d3368"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/materials.py",
+    "bytes": 1086,
+    "sha256": "23b75259134cf5067e72929f62b985447f3d79aebf6af370ee2bba9fa9e448e8"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/networks.py",
+    "bytes": 2611,
+    "sha256": "e407c8185263c02622e677d809fb81c60006c95a4042e13a17e878e4545a13db"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/physics.py",
+    "bytes": 6823,
+    "sha256": "23a093de8c2b140abdc0d42f2be91f3897607c8ff1933a25d0c416823e076707"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/plotting.py",
+    "bytes": 2130,
+    "sha256": "ce4eaa8c3cecd30e89d2e326be949cd83f3ba5d990bb5eb1d48cb368885b8bc9"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/reference.py",
+    "bytes": 4745,
+    "sha256": "fd6a718e04355b686c2d86bc59984f169454d04c3e12ed91fbda837491878b4c"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/src/ring_rib_pinn/training.py",
+    "bytes": 14632,
+    "sha256": "e788fd8c98049cb59930efc7c1258385722f37bd738539a3e2f8ce79abab2354"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tests/conftest.py",
+    "bytes": 316,
+    "sha256": "35ea5b5ea8c4e37041d16b7755e3d3c81c088cc0126c287747629e73075f3941"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tests/test_compatibility.py",
+    "bytes": 4689,
+    "sha256": "842742b258be1a11a1f002b8875ff10d25febbf83efde70fed0e87c97e187af2"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tests/test_contracts.py",
+    "bytes": 6407,
+    "sha256": "1e804b140bf3a9db74cbdcbdc339d2670d7374be9a559d51435d086c0245b08c"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tests/test_legacy_run.py",
+    "bytes": 1492,
+    "sha256": "dae8810504d97675aff3598c3e51b4794eebaace53dd59159a533f2420490cb4"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tests/test_selected_references.py",
+    "bytes": 1060,
+    "sha256": "9e3b395e77f43b2a9ab4499c0527ac9bfa07a03cfdc6224ddd2a1fc49c7c0408"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tools/check_git_ready.py",
+    "bytes": 6182,
+    "sha256": "50d1255f0b93cae526b857d0983a177459278811e2588fc841568630629ee95c"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tools/delivery_check.py",
+    "bytes": 3978,
+    "sha256": "92fefec4c02a76334d32b80083f0158315595b387e89d3e29893249d60d42e67"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tools/migrate_local.py",
+    "bytes": 7776,
+    "sha256": "083503b95b5f58fb8d78efd86c96086e7f4977409b0f80f995be755e2d8853ce"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tools/predict_reference.py",
+    "bytes": 980,
+    "sha256": "7548a4f200bb0403b4cb42e51b34ad4f4c3f485d696425e0814d899b45430540"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tools/select_local_references.py",
+    "bytes": 9984,
+    "sha256": "13e0c7090b2afe5d94e74528b5fcdc9e8bef2e13d4f40095aed4fa65f01edd88"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/tools/verify.py",
+    "bytes": 5636,
+    "sha256": "e6a522a3a0860746ff779e71797446421e200ba2d443b5efdc37f758436a2a86"
+  },
+  {
+    "path": "Pinn-Ring-Rib-2.5D/uv.lock",
+    "bytes": 95350,
+    "sha256": "4c7a2b2670e6c22d9f4633113c06cae609998401cb51ed45362906dc9f6030d6"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3666,
+    "sha256": "18b65efe4c18b9619c413f4c55d4271412dcef46e63dca1d603ce36c35002e1a"
+  },
+  {
+    "path": "README.zh-CN.md",
+    "bytes": 3210,
+    "sha256": "3b945b385210a7d397f29add1241f68738cb4439362470dde25b4c2c63198782"
+  },
+  {
+    "path": "tools/check_publication.py",
+    "bytes": 4317,
+    "sha256": "96202ebc785a55185a7e4fe9cfb03bbb8958c32a66edcae8fc30da995933fa1e"
+  }
+]

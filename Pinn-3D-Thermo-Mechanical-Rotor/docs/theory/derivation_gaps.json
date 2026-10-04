@@ -1,0 +1,74 @@
+[
+  {
+    "gap_id": "T-G01",
+    "title": "最终论文/汇总/实际配置的尺度统一",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G02",
+    "title": "边界法向与未加载表面的约束",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G03",
+    "title": "严格轴对称与力学降维条件",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G04",
+    "title": "准静态、线弹性和单向耦合的误差范围",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G05",
+    "title": "温度误差向位移、应力的传播",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G06",
+    "title": "刚体参考系和 IWG 径向约束",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G07",
+    "title": "投影平均的测度与求导",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G08",
+    "title": "IWG 拉伸目标的单位与加载条件",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G09",
+    "title": "合力、界面通量的独立积分检验",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G10",
+    "title": "XPINN 界面与连续整体问题的关系",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G11",
+    "title": "数据锚点与泛化/成本比较",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  },
+  {
+    "gap_id": "T-G12",
+    "title": "参数和材料适用性",
+    "status": "not_completed",
+    "document": "evidence_and_gaps.md"
+  }
+]

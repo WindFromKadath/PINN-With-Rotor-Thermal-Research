@@ -1,0 +1,43 @@
+# E106：1D PI-DeepONet（物理量纲，档案 HeatEquation1D 线重写）
+# PDE: u_t = alpha·u_xx + (v·f_std + f_mean)，Robin du/dn = -beta·(u-u0)，IC u=u0
+experiment: E106
+seed: 0
+geometry: 1d
+physics:          # CartesianHeatParams（单位：SI/°C）
+  alpha: 0.01     # m²/s
+  beta: 5.0       # 1/m
+  u0: 20.0        # °C
+  f_mean: 100.0   # °C/s（PDE 源项常值部分）
+  f_std: 30.0     # °C/s（源项传感值放大系数）
+collocation:
+  num_domain: 300
+  num_boundary: 100
+  num_initial: 30
+  num_test_points: 500        # TimePDE 测试点数（PDE 损失测试集）
+  train_distribution: uniform # 档案约定
+function_space:
+  length_scale: 0.3
+  n_sensors: 50   # 分支输入维数
+operator:
+  num_function: 500
+  num_function_test: 100
+  batch_size: 50  # 每批函数数
+model:
+  branch_layers: [50, 128, 128, 128]
+  trunk_layers: [2, 128, 128, 128]   # (x, t)
+  activation: tanh
+  kernel_initializer: Glorot normal
+training:
+  adam_iterations: 10000  # 档案 iterations=1 系调试残留，此处为正常值
+  adam_lr: 5.0e-4         # 档案 1D 线学习率
+  adam_decay: null
+  use_lbfgs: true
+  lbfgs_maxiter: 15000
+  display_every: 500
+  checkpoint_period: 2000
+eval:
+  n_test: 5     # 测试函数数（独立于训练函数空间采样，由 eval.seed 控制）
+  seed: 789
+  nx: 101       # 真值求解网格（solve_adr_robin）
+  nt: 101
+zip_artifacts: true

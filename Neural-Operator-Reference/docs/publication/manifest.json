@@ -1,0 +1,602 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 1125,
+    "sha256": "d3c29cba2595016b6b9a7d5d8041d2773dc42315458d9e6c4740510676e25bf2"
+  },
+  {
+    "path": ".python-version",
+    "bytes": 9,
+    "sha256": "29a3527efc801f94f92e2f542c5737949849ab2ecfe9352646a0c16b5908f09d"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 5348,
+    "sha256": "5675a02c416f1f993ae5d37d7b21a8a88a2f8c3d81a2e0442090c9a172329890"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 1551,
+    "sha256": "e96b96f3bb9c1d2b436a9948f6d8134199048f3acf58b69703b0c3bc2f18830d"
+  },
+  {
+    "path": "CONTRIBUTING.zh-CN.md",
+    "bytes": 1193,
+    "sha256": "c6372ed8851e8c0f2301e353e8861730023bc4b680291e844e73800575aec804"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1092,
+    "sha256": "11022217d4029821e080618f5e346580541460383c68bb93bd0a413a809428d2"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2047,
+    "sha256": "5bc3c84c1464305648836f72c467de2dc35cca204b97d35f227dabf2acfa5869"
+  },
+  {
+    "path": "README.zh-CN.md",
+    "bytes": 10320,
+    "sha256": "a2be770ba26463e27a747df2a58bdf37faa372af34686755280385bd0e042214"
+  },
+  {
+    "path": "configs/deeponet_2d.yaml",
+    "bytes": 1442,
+    "sha256": "446321affbb935de62bc430da92858db0cd7bcd906784e6206dc28959124c22b"
+  },
+  {
+    "path": "configs/legacy_selection.json",
+    "bytes": 428,
+    "sha256": "0a94fe55ff76114fc7d26ea5f674eeefd1c1934f9c21d16a77e9fa326807867a"
+  },
+  {
+    "path": "configs/pi_deeponet_1d.yaml",
+    "bytes": 1450,
+    "sha256": "f1d74158dfed687adf569ddf16c8bded82309c2f82189d1c92447fcbcc2225f0"
+  },
+  {
+    "path": "configs/pi_deeponet_2d.yaml",
+    "bytes": 1624,
+    "sha256": "6add28ad4ceb5795dd3f4733803fbb94232e23d137ad7553eafd967c37b000e4"
+  },
+  {
+    "path": "configs/pidon_annulus.yaml",
+    "bytes": 1362,
+    "sha256": "c9a8efb7f92594001bc24290d54777002dc7ad026dd158fef3623f1bb3b13821"
+  },
+  {
+    "path": "configs/pinn_annulus_steady.yaml",
+    "bytes": 1110,
+    "sha256": "6ce75dc3570aedf17741812537da7cc16a95985d5736b96b8198a46a735e84c3"
+  },
+  {
+    "path": "configs/pinn_annulus_transient.yaml",
+    "bytes": 1443,
+    "sha256": "357f95a1901edd2dc6b34c074c0abe7d63eee1dd7b8e2ffc11b7dc825dc35a78"
+  },
+  {
+    "path": "configs/pino_1d_fno.yaml",
+    "bytes": 716,
+    "sha256": "466519f9451c61814fdace562d37aab000bc2b4d91fd645fe5c609f15b945e1b"
+  },
+  {
+    "path": "configs/pino_1d_hybrid.yaml",
+    "bytes": 695,
+    "sha256": "fa80ffc493650f467d483bf96f6a31b00a58abafff0554c53f027d28d8364258"
+  },
+  {
+    "path": "configs/pino_1d_physics.yaml",
+    "bytes": 629,
+    "sha256": "6864db25fa1c46ba1741adbf79b2004d40d18f4552d4a7d6aff230baf461b146"
+  },
+  {
+    "path": "configs/pino_annulus_polar.yaml",
+    "bytes": 1657,
+    "sha256": "0950ab5ccf2799b13e48dc44a0ab9d9d4d35a9346e143211e3e6961bdf49c0d5"
+  },
+  {
+    "path": "configs/preprocess_annulus.yaml",
+    "bytes": 256,
+    "sha256": "0a9d7df36510f5d1e4a1c0cfa7207efe70deeed840ed6a026992e982a79408ca"
+  },
+  {
+    "path": "data/README.md",
+    "bytes": 350,
+    "sha256": "742af081183ef9d7dfabbbc6c12310e6db8d578af55e19ab2d11376ac945f5c7"
+  },
+  {
+    "path": "data/processed/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "data/raw/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "docs/publication/README.md",
+    "bytes": 1379,
+    "sha256": "9639971875266a1306fb12a65ba8c2af4bfbb0436c0115f9b38e7a3c63c3626b"
+  },
+  {
+    "path": "docs/publication/README.zh-CN.md",
+    "bytes": 1131,
+    "sha256": "f768625d1db1a6a833970475071193c172ee4dc611f6a9cec2146426b1acc24b"
+  },
+  {
+    "path": "docs/publication/clone_checks.json",
+    "bytes": 739,
+    "sha256": "50f213a01f1885f73f256dd05e9ae5e24e24cd7d39a2f7fa93bd0f6ff3dac63f"
+  },
+  {
+    "path": "docs/publication/relocation.json",
+    "bytes": 922,
+    "sha256": "02f05c1eb257d05c2853640b7c5f2a48cba9b541e081f2c456dbe7a5022e0691"
+  },
+  {
+    "path": "docs/reference_models/README.md",
+    "bytes": 614,
+    "sha256": "9f9218def15c05917acaa84d3feee578f67f83b0b8bfec6168873bc5d343e1cf"
+  },
+  {
+    "path": "docs/running_from_clone.md",
+    "bytes": 1679,
+    "sha256": "65e54b0c99e468547399a4e2c271aa2e162179871031e15ad7de590c06030f0f"
+  },
+  {
+    "path": "docs/theory/README.md",
+    "bytes": 957,
+    "sha256": "32cddce4bd26af364ebd1bcbcb3c6b65f35938459bdacb66f9b6c5c68e344215"
+  },
+  {
+    "path": "docs/theory/arithmetic_checks.json",
+    "bytes": 170,
+    "sha256": "7e1a6d7c6177ae7c25f1047d2587bb51f6da659fac8729d3db2a5c2bd347e9d8"
+  },
+  {
+    "path": "docs/theory/derivation_gaps.json",
+    "bytes": 1104,
+    "sha256": "e3568d77db72f16e3fc74935799f4da35a3d62d9d9a650f621854f5e84d017d3"
+  },
+  {
+    "path": "docs/theory/evidence_and_gaps.md",
+    "bytes": 3437,
+    "sha256": "c81bd1676dfc1d9d97327533feef07d7c7cd1f8948c43243849cb758539d39f2"
+  },
+  {
+    "path": "docs/theory/model_and_derivations.md",
+    "bytes": 4822,
+    "sha256": "7294f7d70a42a8d013823ba3c78dee49746c8d90139f93d6755545d844444b8f"
+  },
+  {
+    "path": "docs/theory/notes/M0013.md",
+    "bytes": 1596,
+    "sha256": "10590f4df5b0389885743fa7e0a30815d521db067523c1527d00bf16cfe04232"
+  },
+  {
+    "path": "docs/theory/notes/M0182.md",
+    "bytes": 1369,
+    "sha256": "222556d49f9491ea0aa509ced70beba88ce5b870ad1026b011b33c03b07c20c2"
+  },
+  {
+    "path": "docs/theory/notes/M0183.md",
+    "bytes": 1106,
+    "sha256": "674f77405b476482ecf542a8f8d9d985684e9856862407116c84f62589dae007"
+  },
+  {
+    "path": "docs/theory/notes/M0189.md",
+    "bytes": 1156,
+    "sha256": "e17eb51b7217ea19d1f265a6ef31b17fcbeb014f259ab30310d09afa9479c36d"
+  },
+  {
+    "path": "docs/theory/source_catalog.json",
+    "bytes": 41376,
+    "sha256": "e68692fe94364ffd64a21141b18462014e28e0b1f5cf7dd9fb66989a20467b13"
+  },
+  {
+    "path": "docs/theory/sources.md",
+    "bytes": 10029,
+    "sha256": "d11f7ec9d385c8c7d1e0e85cb8f8c9c1ddce029755615159095fc76133ec8dca"
+  },
+  {
+    "path": "docs/verification/README.md",
+    "bytes": 756,
+    "sha256": "9f5dc3fe09596a2e0944c4020dd1353cf7af0a00981f03ae54495d839ee021af"
+  },
+  {
+    "path": "docs/verification/integration.json",
+    "bytes": 604,
+    "sha256": "f5527740184cbe0c558cb23d3d45250d62aa660af3ee435c17a106bcbcf18f5b"
+  },
+  {
+    "path": "docs/verification/integration_provenance.json",
+    "bytes": 1417,
+    "sha256": "896e746cc748b21049cc5dae50e29bf477aba06fb99208255b5e63f2426d21ee"
+  },
+  {
+    "path": "docs/verification/records/E115/metrics.json",
+    "bytes": 291,
+    "sha256": "da3324f879e58a8ef76909268e5c8cc4409b9c28746ba6dbc6a73c76f90288da"
+  },
+  {
+    "path": "docs/verification/records/E116/metrics.json",
+    "bytes": 283,
+    "sha256": "c7c43ffabe65b441c5fdedc0aa2eff41bcfce95d5f1dc4da8a52ca0abf2e725e"
+  },
+  {
+    "path": "docs/verification/records/migration_20261003/verification.json",
+    "bytes": 10441,
+    "sha256": "7157102dd6c32a58b7ae465ff8e1056974810ddf2804e8fa6ee7b702594639b6"
+  },
+  {
+    "path": "experiments.csv",
+    "bytes": 7516,
+    "sha256": "21e93c8229241dddea7977973ace8d05c16c806ce01591b523c40b26fb381f7d"
+  },
+  {
+    "path": "hypotheses.csv",
+    "bytes": 2284,
+    "sha256": "8cc15f730cf67625216d1c108d85f27434c8d929bafa50c23bb6f2b359c62e42"
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 1235,
+    "sha256": "fcd7c81dc69306e0e34f7bf0c6b913c54ab06dbe14b30fc3b18162ffd562d580"
+  },
+  {
+    "path": "requirements-lock.txt",
+    "bytes": 4728,
+    "sha256": "dab453d8b465e88fe82cee4d259891b145bf40ec8ae3200d2ba03ea3548ddba0"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 77,
+    "sha256": "c30507c9824b4635d57f28009adf78ca564485e6714b76b56eaeb3cde8d9483a"
+  },
+  {
+    "path": "src/heatops/__init__.py",
+    "bytes": 127,
+    "sha256": "5b7d1a4b1b64634dd1a8c48565c4733eeebdb62837f868ea1299f2f3a01e8143"
+  },
+  {
+    "path": "src/heatops/cli/__init__.py",
+    "bytes": 59,
+    "sha256": "ec163779be4495b3b453e211b1c96187e63212a87ed2e37a4a0a1910b25dedc8"
+  },
+  {
+    "path": "src/heatops/cli/compare_pino_1d.py",
+    "bytes": 4389,
+    "sha256": "26e005ee3acc6220f5023f3a9367753a77d3b0a69ed3221ace0c1702a7f5aaeb"
+  },
+  {
+    "path": "src/heatops/cli/evaluate_run.py",
+    "bytes": 1362,
+    "sha256": "cc6e78cb6fabc18526eefcc270d2f530b2973674e4e71c5d432190d159e933b8"
+  },
+  {
+    "path": "src/heatops/cli/legacy_evaluate.py",
+    "bytes": 2715,
+    "sha256": "18e75c0857d242750a96410bcea494e9d3dfe13f5b27596d2bb54729b4108e9a"
+  },
+  {
+    "path": "src/heatops/cli/main.py",
+    "bytes": 901,
+    "sha256": "400915f6647b8db059a122ba86ec924533cfff5fbb5cf87bc14decda6674ce94"
+  },
+  {
+    "path": "src/heatops/cli/preprocess_annulus.py",
+    "bytes": 2726,
+    "sha256": "c07aadddb9efbfd9524e091c7521733b5957d9caf59f4cd804df8738f20800bd"
+  },
+  {
+    "path": "src/heatops/cli/run_deeponet_2d.py",
+    "bytes": 13744,
+    "sha256": "09b193a4abe810be6b933643c65e56622fd07a5e535ff91d386f1dd3bf215ba5"
+  },
+  {
+    "path": "src/heatops/cli/run_pi_deeponet.py",
+    "bytes": 19017,
+    "sha256": "1f5f7569df34c520eaafc19c43fca8309d03045d865de0d1a14e0801a8eb1e29"
+  },
+  {
+    "path": "src/heatops/cli/run_pidon_annulus.py",
+    "bytes": 12810,
+    "sha256": "002fc7f27605acc30a427333fce9522a177ac8a5a16d4bea9344d45e54786694"
+  },
+  {
+    "path": "src/heatops/cli/run_pinn_annulus.py",
+    "bytes": 20616,
+    "sha256": "9f6466bf3e1a06b0c2f8a1b2328da5dd19c0164cc3d377e6fb809730cd763747"
+  },
+  {
+    "path": "src/heatops/cli/run_pino_1d.py",
+    "bytes": 10048,
+    "sha256": "e7d72979509a39fc6ecbb374e6c597b7b11f1e828e615cb2083472d99b6f4f39"
+  },
+  {
+    "path": "src/heatops/cli/run_pino_annulus.py",
+    "bytes": 18537,
+    "sha256": "92795801afc190cef66189661e8c4b1098a3dda51bd7edba6e5d865bfd4b3d7b"
+  },
+  {
+    "path": "src/heatops/data/__init__.py",
+    "bytes": 265,
+    "sha256": "d81d32f41552fd934edd6556170d2094a37c8c03aacbace3af3f5e6d23e7cd0a"
+  },
+  {
+    "path": "src/heatops/data/comsol.py",
+    "bytes": 15252,
+    "sha256": "e714044277c5472a34b285f646e694d9d5a101aa24849501483bc8a04107bd0d"
+  },
+  {
+    "path": "src/heatops/data/comsol_batch.py",
+    "bytes": 3308,
+    "sha256": "c23964111f19732911b21402b430d536907844ad87a96232de361b084e2a4e54"
+  },
+  {
+    "path": "src/heatops/data/datasets.py",
+    "bytes": 9774,
+    "sha256": "fd34e8a2371b4490f3d4a9873083de2fd615e84afe6397536969d5d86c73ee0c"
+  },
+  {
+    "path": "src/heatops/evaluation/__init__.py",
+    "bytes": 506,
+    "sha256": "0bfef7e0804121ff235518c99c94930ca5b2ffb3b52499bb9017cd5eb10c967b"
+  },
+  {
+    "path": "src/heatops/evaluation/annulus_plots.py",
+    "bytes": 4431,
+    "sha256": "eaa90b0363f03eef490a07ab7e79b8cf88ff4329f96111dcfb7f9daa04c281c5"
+  },
+  {
+    "path": "src/heatops/evaluation/deeponet_plots.py",
+    "bytes": 7505,
+    "sha256": "f4486317c64b0d762e878eb437c2785faf7b335dda733e2909cd7edb4a3ba7a8"
+  },
+  {
+    "path": "src/heatops/evaluation/metrics.py",
+    "bytes": 4114,
+    "sha256": "6b938c2cf4aa02a959ec30cf5afe74a0864b905114e5d3777a5f72087dcd4c96"
+  },
+  {
+    "path": "src/heatops/evaluation/plots.py",
+    "bytes": 3796,
+    "sha256": "a159d4a2df9573775fff44092a1f1515fbdc060d545b08b17ee568d90f6a8c8f"
+  },
+  {
+    "path": "src/heatops/evaluation/replay.py",
+    "bytes": 5758,
+    "sha256": "aafa2844f528eab092684c72982c9b8cfe2dc8ca4034bea148b97146981d999c"
+  },
+  {
+    "path": "src/heatops/fields/__init__.py",
+    "bytes": 489,
+    "sha256": "07c31d85eacebbe33dbd2d41d74b80a7aef4632a90795b95bd0ad18f5b54e222"
+  },
+  {
+    "path": "src/heatops/fields/grf.py",
+    "bytes": 4096,
+    "sha256": "50d1c289208fc28f7a8b960a33092e4950635316c89d5996bf1a9c643045b010"
+  },
+  {
+    "path": "src/heatops/fields/initial_conditions.py",
+    "bytes": 3211,
+    "sha256": "dc111f4d7803531e2f34a46acb5256952316690bdaac68011b5aa97166902a4a"
+  },
+  {
+    "path": "src/heatops/models/__init__.py",
+    "bytes": 158,
+    "sha256": "f8a9828ec2ddb25e1e17cee0513386fdb0aa2ba1ab98f258b8c83a8a24a25900"
+  },
+  {
+    "path": "src/heatops/models/deepxde_models.py",
+    "bytes": 6628,
+    "sha256": "0986a021eab1c774a2dc22a8076525be16fe90e38428eb65a224a870ba12b2f1"
+  },
+  {
+    "path": "src/heatops/models/fno.py",
+    "bytes": 5583,
+    "sha256": "889825ec91e7cc7971b4e3da15a5e757a610508c93264f6a455f7091762c3a06"
+  },
+  {
+    "path": "src/heatops/models/legacy.py",
+    "bytes": 1730,
+    "sha256": "1853efce53858a0576401871ba02a7ffae0a7440c95df59179e17d67d8e43ba5"
+  },
+  {
+    "path": "src/heatops/physics/__init__.py",
+    "bytes": 456,
+    "sha256": "81360f785f04adf97c5c08a46aa147ae2caf3b03972cfa28a53fac33a136822a"
+  },
+  {
+    "path": "src/heatops/physics/finite_difference.py",
+    "bytes": 3031,
+    "sha256": "6dee2c92d941120a274da6397d2455d44dd6a1d7339241da861b3cdae4fbdb35"
+  },
+  {
+    "path": "src/heatops/physics/geometry.py",
+    "bytes": 4806,
+    "sha256": "05bde1f949b6a80ce824ad64c5300d81f15d815a68d50e3fbb95673b33578b02"
+  },
+  {
+    "path": "src/heatops/physics/interpolation.py",
+    "bytes": 3430,
+    "sha256": "3515b7848423bb46d5ded7a0a930e97156df04a48e684d5e492ab942eca7fc51"
+  },
+  {
+    "path": "src/heatops/physics/losses.py",
+    "bytes": 12085,
+    "sha256": "b0a8381b63433be54fb3b0fd36df5e8627c3e9c07f034428306cb6fa20d8ab06"
+  },
+  {
+    "path": "src/heatops/physics/operator_boundary.py",
+    "bytes": 700,
+    "sha256": "4acd438d776c8ff2aacace6d3aa8ab929ee6d6c51a066da93b2854036ba68c69"
+  },
+  {
+    "path": "src/heatops/physics/residuals.py",
+    "bytes": 5043,
+    "sha256": "e4bd49b855f191067d1f22ce7740a19af189e7694984316c140f2f2796d5a312"
+  },
+  {
+    "path": "src/heatops/problems/__init__.py",
+    "bytes": 547,
+    "sha256": "c05aa9257433ebaa7a571fd07d096508f45d52c62f0ec07db5eef1498e2f2bab"
+  },
+  {
+    "path": "src/heatops/problems/annulus.py",
+    "bytes": 5558,
+    "sha256": "e2dc3373228d3545e82e89162817b16f674d016fd3a20e5b6ae382b00bc8c06c"
+  },
+  {
+    "path": "src/heatops/problems/cartesian.py",
+    "bytes": 4517,
+    "sha256": "2bfd59121b1b3462c7e8de07cc822592a684ad3005ee8815d702bb8dc5bba1e3"
+  },
+  {
+    "path": "src/heatops/solvers/__init__.py",
+    "bytes": 652,
+    "sha256": "e8230d796960a11bd15cf1f329852e7e3cbc6c9eee403e2e9154fb52ac094f75"
+  },
+  {
+    "path": "src/heatops/solvers/_tridiag.py",
+    "bytes": 1032,
+    "sha256": "53c420d91bc8f6f98836908cf15e09a3dbe710d1a5385b6608f08c92e484ad5a"
+  },
+  {
+    "path": "src/heatops/solvers/adr_1d.py",
+    "bytes": 4190,
+    "sha256": "59b1c3e1e4c568c875c8394e93873696749558d312455e886e3dc654f0b6f53f"
+  },
+  {
+    "path": "src/heatops/solvers/annulus_1d.py",
+    "bytes": 7943,
+    "sha256": "50351b8af38a4303dcb96ce7791c5f22fcae2d39d70e6656dc928bfc5ee80b0b"
+  },
+  {
+    "path": "src/heatops/solvers/heat_1d.py",
+    "bytes": 5608,
+    "sha256": "3e54bf68c1136de14f846b00e50bc3274f9f91edc7fabdda0325674e515a8237"
+  },
+  {
+    "path": "src/heatops/solvers/heat_2d.py",
+    "bytes": 4793,
+    "sha256": "cbee1e6c130e3a862ec2a54d7fd758c4da14c42f6c075b5f78fbf612ea2e32db"
+  },
+  {
+    "path": "src/heatops/training/__init__.py",
+    "bytes": 216,
+    "sha256": "4293ef7cc935de7079b216ab0847adb1b4a72f78a11604b889267027ba6f2b3f"
+  },
+  {
+    "path": "src/heatops/training/deepxde_loop.py",
+    "bytes": 14873,
+    "sha256": "acb52eafb7e0a9b6a2621d34d95863eba16ff1d7f6a9d90574037174b5c49ac0"
+  },
+  {
+    "path": "src/heatops/training/run_context.py",
+    "bytes": 4692,
+    "sha256": "dfe827ef56b39115c40a7793d4b76665a73ec7d52b7d17a095a37d4ff2e058f3"
+  },
+  {
+    "path": "src/heatops/training/torch_loop.py",
+    "bytes": 8589,
+    "sha256": "db2a394a640589b669655d6e85a4b1b93b7d5dcde010f144d81f049f5439036a"
+  },
+  {
+    "path": "tests/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "tests/test_comsol.py",
+    "bytes": 6533,
+    "sha256": "c1934f50c0709db1ed08d60c086b529a0e3a6b7a5f3db178bb0450bf17751e9b"
+  },
+  {
+    "path": "tests/test_datasets.py",
+    "bytes": 2756,
+    "sha256": "a607a8e17b5370021afbbd636a10bac137b31beec77e193af0d21dd04ac7f789"
+  },
+  {
+    "path": "tests/test_deepxde_cli.py",
+    "bytes": 10366,
+    "sha256": "90a173458110b5977e6b84430efcd922f2c717267f68148c9f33b78438f2dfe6"
+  },
+  {
+    "path": "tests/test_deepxde_models.py",
+    "bytes": 9816,
+    "sha256": "8f6e522504670a2405b174ae853f1e90be5c2c711613385d54aad8573be22d39"
+  },
+  {
+    "path": "tests/test_fields.py",
+    "bytes": 3612,
+    "sha256": "79a67e994018575a8ef57cef263e11eaf9167e6be2953a1c922eef5b721cfdf8"
+  },
+  {
+    "path": "tests/test_metrics.py",
+    "bytes": 3306,
+    "sha256": "d09e04df9ed67a8ec5eb2d285eb047aa60304bb3b289adaac6fce5c12528f096"
+  },
+  {
+    "path": "tests/test_migration_regressions.py",
+    "bytes": 7015,
+    "sha256": "1c4ce8e93e9a73501543047cc5e179ed9eb4ebf2cb4d0ffcca096907e2cfe2da"
+  },
+  {
+    "path": "tests/test_models_fno.py",
+    "bytes": 2713,
+    "sha256": "5762d7fb8f2e16687aa2e7a42223c93095486f9879cbbfc8d0710deb0664d2e2"
+  },
+  {
+    "path": "tests/test_physics.py",
+    "bytes": 3221,
+    "sha256": "bceecdcc88880f42c0d36eb02084c8588ae3d4120d5caf9e08028ec989c4d817"
+  },
+  {
+    "path": "tests/test_polar.py",
+    "bytes": 9778,
+    "sha256": "c7d0c7b700a44c1df64abb18e3ada741a68ce7ec8b1fcd25eea8525a4648e635"
+  },
+  {
+    "path": "tests/test_problems.py",
+    "bytes": 4087,
+    "sha256": "142bff9f8ccd6b00f8c5ede3b340b31dd76d9f9c83c9cb73207cdc06ef239e71"
+  },
+  {
+    "path": "tests/test_solvers_annulus.py",
+    "bytes": 3324,
+    "sha256": "977c5922bf329648e09536109f219c2eef63cfa4874aeb643bd2e17714539824"
+  },
+  {
+    "path": "tests/test_solvers_heat.py",
+    "bytes": 4931,
+    "sha256": "1230961dfaf9e21ffc56392094acc7cf2bdb9caeee7dff4a97155962f16af90b"
+  },
+  {
+    "path": "tests/test_torch_loop.py",
+    "bytes": 3450,
+    "sha256": "e1e534c5ac94d20426830aeede325c95b8683214d47b0220fa287deeda7601c6"
+  },
+  {
+    "path": "tools/check_git_ready.py",
+    "bytes": 6182,
+    "sha256": "50d1255f0b93cae526b857d0983a177459278811e2588fc841568630629ee95c"
+  },
+  {
+    "path": "tools/migrate_local.py",
+    "bytes": 10750,
+    "sha256": "55b5e2826a990e86880bc404740e3077f8056b21330ab658c5e0a2e77e537ecd"
+  },
+  {
+    "path": "tools/verify_reference.py",
+    "bytes": 3656,
+    "sha256": "8b72ae93ac00eddbecab24abc7f19819067f3896b1f8c321608550c37fb728da"
+  },
+  {
+    "path": "uv.lock",
+    "bytes": 151134,
+    "sha256": "d315510af09594d08f0bfc2082770aead344a0890ed87ecaff0becc635b3f53c"
+  }
+]

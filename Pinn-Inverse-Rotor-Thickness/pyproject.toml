@@ -1,0 +1,51 @@
+[build-system]
+requires = ["uv_build>=0.12,<0.13"]
+build-backend = "uv_build"
+
+[project]
+name = "rotor-pinn"
+version = "0.1.0"
+description = "Known-thickness rotor thermal PINNs with conservative full-length rib contact"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12,<3.13"
+dependencies = ["deepxde>=1.15,<2", "numpy>=2,<3", "pandas>=2.2,<4", "scipy>=1.14,<2", "matplotlib>=3.9,<4"]
+
+[project.optional-dependencies]
+cpu = ["torch>=2.12,<2.13"]
+cuda = ["torch>=2.12,<2.13"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.12,<1"]
+
+[project.scripts]
+rotor-pinn = "rotor_pinn.cli:main"
+
+[tool.uv]
+cache-dir = ".cache/uv"
+conflicts = [[{extra = "cpu"}, {extra = "cuda"}]]
+
+[tool.uv.sources]
+torch = [{index = "pytorch-cpu", extra = "cpu"}, {index = "pytorch-cuda", extra = "cuda"}]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cuda"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [".cache", "artifacts", "data", "local_reference_versions"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

@@ -1,0 +1,34 @@
+{
+  "run_id": "MOVE20261004_01",
+  "status": "passed",
+  "cpu_tests": {
+    "passed": 34,
+    "skipped": 0,
+    "failed": 0
+  },
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.12.1+cpu",
+    "source_import": "new subproject src",
+    "lock": "unchanged"
+  },
+  "cli_help": "passed",
+  "packaging": {
+    "status": "passed",
+    "license": "MIT",
+    "wheel": "ring_rib_pinn-0.1.0-py3-none-any.whl",
+    "license_files": [
+      "ring_rib_pinn-0.1.0.dist-info/licenses/LICENSE"
+    ],
+    "private_assets_in_wheel": false
+  },
+  "source_configs_tests_hypotheses_unchanged": true,
+  "pyproject_change": "MIT license and LICENSE inclusion metadata only; dependencies unchanged",
+  "scope": "software relocation/usability and publication preparation; no historical metric replication or new scientific claim",
+  "local_models": {
+    "selected_source_versions": 4,
+    "main_model_groups": 2,
+    "tests": "full contract/compatibility/local legacy tests",
+    "status": "passed"
+  }
+}

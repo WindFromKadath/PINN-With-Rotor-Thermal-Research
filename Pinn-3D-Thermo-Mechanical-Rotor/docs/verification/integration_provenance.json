@@ -1,0 +1,92 @@
+[
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/migration_20261004/verification.json",
+    "source_id": "artifacts/migration_20261004/verification.json",
+    "source_sha256": "cf2fea2a8930455cc98ff0b30082f5357be5fb43c0cf142ca42b4d70475b99ea",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/reference_models/index.json",
+    "source_id": "local_reference_versions/index.json",
+    "source_sha256": "d8e11c36bd487c62e6374813db7f503d79c6761b7d10e5c054d9f3b148165171",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/reference_models/source_manifest.csv",
+    "source_id": "local_reference_versions/source_manifest.csv",
+    "source_sha256": "bcef0d33968615c5e9e93789bf8643a397da7eea6d6a07b671525af6a5be6746",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R101/verification.json",
+    "source_id": "artifacts/R101/verification.json",
+    "source_sha256": "cb93d64d8dcbe6d162315da25ef493142dffe58f0a00b29548db98da226ce854",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R120/metrics.json",
+    "source_id": "artifacts/R120/metrics.json",
+    "source_sha256": "15d2c38c93eef0db9dd1f04b4b59f7ed3ea0c2ef017a4207057a977ad2859311",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R107/verification.json",
+    "source_id": "artifacts/R107/verification.json",
+    "source_sha256": "8259e1ffe00581677ffad3ddcc4473cc42644e0bef70eff733447ae59fc1859d",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/migration_20261004/verification.json",
+    "source_id": "artifacts/migration_20261004/verification.json",
+    "source_sha256": "cf2fea2a8930455cc98ff0b30082f5357be5fb43c0cf142ca42b4d70475b99ea",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/reference_models/index.json",
+    "source_id": "local_reference_versions/index.json",
+    "source_sha256": "d8e11c36bd487c62e6374813db7f503d79c6761b7d10e5c054d9f3b148165171",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/reference_models/source_manifest.csv",
+    "source_id": "local_reference_versions/source_manifest.csv",
+    "source_sha256": "bcef0d33968615c5e9e93789bf8643a397da7eea6d6a07b671525af6a5be6746",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R101/verification.json",
+    "source_id": "artifacts/R101/verification.json",
+    "source_sha256": "cb93d64d8dcbe6d162315da25ef493142dffe58f0a00b29548db98da226ce854",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R120/metrics.json",
+    "source_id": "artifacts/R120/metrics.json",
+    "source_sha256": "15d2c38c93eef0db9dd1f04b4b59f7ed3ea0c2ef017a4207057a977ad2859311",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R107/verification.json",
+    "source_id": "artifacts/R107/verification.json",
+    "source_sha256": "8259e1ffe00581677ffad3ddcc4473cc42644e0bef70eff733447ae59fc1859d",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/migration_20261004/verification.json",
+    "source_id": "artifacts/migration_20261004/verification.json",
+    "source_sha256": "cf2fea2a8930455cc98ff0b30082f5357be5fb43c0cf142ca42b4d70475b99ea",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/migration_20261004/verification.json",
+    "source_id": "artifacts/migration_20261004/verification.json",
+    "source_sha256": "cf2fea2a8930455cc98ff0b30082f5357be5fb43c0cf142ca42b4d70475b99ea",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-3D-Thermo-Mechanical-Rotor/docs/verification/records/R126_tests.md",
+    "source_id": "artifacts/R126_tests.xml",
+    "source_sha256": "8f37905e44ebc27df727ad93c61b43f36464aca9cdf198404718e7f2d477317d",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  }
+]

@@ -1,0 +1,12 @@
+source: ../data/raw/comsol_annulus
+output: ../data/processed/annulus_polar_64.pt
+smoke_output: ../data/processed/annulus_polar_smoke.pt
+samples: 50
+q_min: 50000.0
+q_max: 500000.0
+length_unit: mm
+center: [0.0, 0.0]
+r_in: 0.05
+r_out: 0.147
+nr: 64
+ntheta: 64

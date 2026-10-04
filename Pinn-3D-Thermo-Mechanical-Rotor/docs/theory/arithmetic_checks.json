@@ -1,0 +1,14 @@
+{
+  "kind": "existing formula arithmetic audit; not new derivation",
+  "thermo_M0060_M0137": {
+    "Fo": 0.08693457232211997,
+    "U_m": 0.0008235,
+    "stress_Pa": 732000000.0,
+    "3lambda_2mu": 2.3813999999999997,
+    "beta": 2.381
+  },
+  "network_parameter_arithmetic": {
+    "thermal": 17089,
+    "mechanical": 66818
+  }
+}

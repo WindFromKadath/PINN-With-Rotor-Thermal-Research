@@ -1,0 +1,56 @@
+[
+  {
+    "summary": "Pinn-Inverse-Rotor-Thickness/docs/verification/records/V004_LEGACY_PORTABLE/metrics.json",
+    "source_id": "artifacts/V004_LEGACY_PORTABLE/metrics.json",
+    "source_sha256": "7e8a73adbdce51dd65c505b002b9eccecc3a1863942f276eeb5e142c2b37d9f2",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Inverse-Rotor-Thickness/docs/reference_models/index.csv",
+    "source_id": "local_reference_versions/index.csv",
+    "source_sha256": "118f0de88f9cf2ddd56f3a784e8fe53e743d115b67d81519667ce17395ed5902",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Inverse-Rotor-Thickness/docs/reference_models/fin_v3_1/profile.json",
+    "source_id": "local_reference_versions/fin_v3_1/profile.json",
+    "source_sha256": "377ba0e44ae535f9db0f012020adb85eb4c2ee57f0147a55abb30e2cbd8eef0b",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Inverse-Rotor-Thickness/docs/reference_models/fin_v3/profile.json",
+    "source_id": "local_reference_versions/fin_v3/profile.json",
+    "source_sha256": "b37eb2ae3093931de81b96ba1cf4a24a6fbab8bad102c2d1f721fd8e496601ff",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Inverse-Rotor-Thickness/docs/reference_models/fin_final/profile.json",
+    "source_id": "local_reference_versions/fin_final/profile.json",
+    "source_sha256": "a7e62291fe0cd389e4320d94f963ad47b14c48848e0279f7df88cff1a7629594",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Inverse-Rotor-Thickness/docs/verification/records/R006_VERSION_SELECTION/metrics.json",
+    "source_id": "artifacts/R006_VERSION_SELECTION/metrics.json",
+    "source_sha256": "59c2a64e32eb83243bb38a186c3e2497c30547f1dc98d6ab4bc7ae47e9c79753",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Inverse-Rotor-Thickness/docs/verification/records/V004_LEGACY_PORTABLE/metrics.json",
+    "source_id": "artifacts/V004_LEGACY_PORTABLE/metrics.json",
+    "source_sha256": "7e8a73adbdce51dd65c505b002b9eccecc3a1863942f276eeb5e142c2b37d9f2",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Inverse-Rotor-Thickness/docs/verification/records/V004_LEGACY_PORTABLE/metrics.json",
+    "source_id": "artifacts/V004_LEGACY_PORTABLE/metrics.json",
+    "source_sha256": "7e8a73adbdce51dd65c505b002b9eccecc3a1863942f276eeb5e142c2b37d9f2",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  },
+  {
+    "summary": "Pinn-Inverse-Rotor-Thickness/docs/verification/records/V004_LEGACY_PORTABLE/final_checks.json",
+    "source_id": "artifacts/V004_LEGACY_PORTABLE/final_checks.json",
+    "source_sha256": "26c2e96778de48697b403a7e3dc9f9c6a448b375b6fd0bf0cbb3a9879c7cd7cd",
+    "transformation": "metadata copy with machine paths removed; logs represented by summary"
+  }
+]

@@ -1,0 +1,4 @@
+rank,version_id,rmse_k,profile,verified
+1,fin_v3_1,5.308743584669984,fin_v3_1/profile.json,True
+2,fin_v3,5.483938106797461,fin_v3/profile.json,True
+3,fin_final,6.205266566205076,fin_final/profile.json,True

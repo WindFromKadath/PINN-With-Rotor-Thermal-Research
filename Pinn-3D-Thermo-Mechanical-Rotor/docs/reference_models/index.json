@@ -1,0 +1,66 @@
+[
+  {
+    "bundle_id": "little",
+    "path": "packages/little",
+    "selection": "matched source models; bounded COMSOL diagnostic",
+    "reference_frame": "raw",
+    "thermal_bridge": "thermal.pt",
+    "recommended": true
+  },
+  {
+    "bundle_id": "fxx",
+    "path": "packages/fxx",
+    "selection": "matched source models; bounded COMSOL diagnostic",
+    "reference_frame": "raw",
+    "thermal_bridge": "thermal.pt",
+    "recommended": false
+  },
+  {
+    "bundle_id": "fxx_ntk",
+    "path": "packages/fxx_ntk",
+    "selection": "diagnostic NTK contrast only; not a preferred version",
+    "reference_frame": "raw",
+    "thermal_bridge": "fxx/thermal.pt",
+    "recommended": false
+  },
+  {
+    "bundle_id": "mlp_1100",
+    "path": "packages/mlp_1100",
+    "selection": "matched source models; bounded COMSOL diagnostic",
+    "reference_frame": "raw",
+    "thermal_bridge": "little/thermal.pt",
+    "recommended": false
+  },
+  {
+    "bundle_id": "mlp_33k",
+    "path": "packages/mlp_33k",
+    "selection": "matched source models; bounded COMSOL diagnostic",
+    "reference_frame": "raw",
+    "thermal_bridge": "little/thermal.pt",
+    "recommended": true
+  },
+  {
+    "bundle_id": "iwg_constraint",
+    "path": "packages/iwg_constraint",
+    "selection": "matched source models; bounded COMSOL diagnostic",
+    "reference_frame": "original evaluation raw",
+    "thermal_bridge": "linear 400K to 300K",
+    "recommended": false
+  },
+  {
+    "bundle_id": "iwg_projection",
+    "path": "packages/iwg_projection",
+    "selection": "matched source models; bounded COMSOL diagnostic",
+    "reference_frame": "saved global shift",
+    "thermal_bridge": "linear 400K to 300K",
+    "recommended": false
+  },
+  {
+    "bundle_id": "iwg_fxx_constraint",
+    "path": "packages/iwg_fxx_constraint",
+    "recommended": true,
+    "selection": "preferred constraint candidate by bounded diagnostics",
+    "reference_frame": "saved original constraint anchor",
+    "thermal_bridge": "fxx/thermal.pt at physical t=200s"
+  }
+]
